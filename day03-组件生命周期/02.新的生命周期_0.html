@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生命周期_新</title>
+</head>
+
+<body>
+    <div id="test"></div>
+    <script type="text/javascript" src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+        /* 
+            新生命周期即将废弃三个钩子，新增两个钩子getDerivedStateFromProps、getSnapshotBeforeUpdate
+            1. componentWillMount
+            2. componentWillUpdate
+            3. componentWillReceiveProps
+            在新版本中将加上前缀UNSAFE_，不是因为存在安全性问题，是因为这几个钩子经常被误用、滥用，
+            新版本中预计会出现问题，所以加上前缀 -- 研究异步渲染的可能性
+            1. 初始化阶段: 由ReactDOM.render()触发---初次渲染
+                1.	constructor()
+                2.	getDerivedStateFromProps 
+                3.	render()
+                4.	componentDidMount()
+            2. 更新阶段: 由组件内部this.setSate()或父组件重新render触发
+                1.	getDerivedStateFromProps
+                2.	shouldComponentUpdate()
+                3.	render()
+                4.	getSnapshotBeforeUpdate
+                5.	componentDidUpdate()
+            3. 卸载组件: 由ReactDOM.unmountComponentAtNode()触发
+                1.	componentWillUnmount()
+
+        */
+        // 1. 创建组件
+        class Demo extends React.Component {
+            constructor(props) {
+                super(props)
+                this.state = { count: 0 }
+                console.log('constructor');
+            }
+            // // 初始化状态
+            // state = {
+            //     count: 0
+            // }
+            add = () => {
+                // 获取原纪录
+                const { count } = this.state
+                // 更新记录
+                this.setState({ count: count + 1 })
+            }
+            remove = () => {
+                // 卸载组件
+                ReactDOM.unmountComponentAtNode(document.getElementById('test'))
+            }
+            force = () => {
+                this.forceUpdate()
+            }
+            // 组件将要挂载钩子
+            UNSAFE_componentWillMount() {
+                console.log('componentWillMount');
+            }
+            // 组件挂载完毕钩子
+            componentDidMount() {
+                console.log('componentDidMount');
+            }
+            // 组件卸载之前
+            componentWillUnmount() {
+                console.log('componentWillUnmount');
+            }
+
+            // 组件是否更新钩子 -- setState()
+            // 默认返回值为true -- 控制组件更新阀门
+            shouldComponentUpdate() {
+                console.log('shouldComponentUpdate');
+                return true;
+                // return false;
+            }
+            // 组件将要更新钩子 -- forceUpdate() -- 强制更新，不经过阀门shouldComponentUpdate
+            UNSAFE_componentWillUpdate() {
+                console.log('componentWillUpdate');
+            }
+            // 组件更新完毕钩子
+            componentDidUpdate() {
+                console.log('componentDidUpdate');
+            }
+            // 回调函数，必须是函数，或者返回值是函数
+            render() {
+                console.log('render');
+                const { count } = this.state
+                return (
+                    <div>
+                        <h2>求佛: {count}</h2>
+                        <button onClick={this.add}>加一</button>
+                        <button onClick={this.remove}>卸载</button>
+                        <button onClick={this.force}>强制</button>
+                    </div>
+                )
+            }
+        }
+        // 父组件
+        class Demo_1 extends React.Component {
+            // 初始化状态
+            state = {
+                carName: "奥迪"
+            }
+            change = () => {
+                this.setState({ carName: "奥拓" })
+            }
+            render() {
+                return (
+                    <div>
+                        <div>组件_1</div>
+                        <button onClick={this.change}>change</button>
+                        <Demo_2 carName={this.state.carName} />
+                    </div>
+                )
+            }
+        }
+        // 子组件
+        class Demo_2 extends React.Component {
+            // componentWillReceiveNewProps, 第一次接受而数据不算！！！！
+            // 将要接收父组件属性（props）钩子
+            UNSAFE_componentWillReceiveProps(props) {
+                console.log('componentWillReceiveProps', props);
+            }
+            componentDidMount() {
+                console.log('componentDidMount');
+            }
+            // 控制组件更新的阀门
+            shouldComponentUpdate() {
+                console.log('shouldComponentUpdate');
+                return true;
+            }
+            // 组件将要更新
+            componentWillUpdate() {
+                console.log('componentWillUpdate');
+            }
+            // 组件已更新
+            componentDidUpdate() {
+                console.log('componentDidUpdate');
+            }
+            // 组件即将更新
+            componentWillUnmount() {
+                console.log('componentWillUnmount');
+            }
+            // componentDidUpdate(){
+            //     console.log('componentDidUpdate');
+            // }
+            render() {
+                console.log('render');
+                return (
+                    <div>组件_2,接受到的属性是{this.props.carName}</div>
+                )
+            }
+        }
+        // 2. 渲染组件到页面
+        ReactDOM.render(<Demo />, document.getElementById('test'))
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>props限制</title>
+</head>
+
+<body>
+    <div id="test"></div>
+    <div id="test1"></div>
+    <div id="test2"></div>
+    <!-- 核心库 -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <!-- dom支持 -->
+    <script type="text/javascript"
+        src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <!-- jsx转为js -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <!-- 引入prop-types, 用于对标签属性限制 -->
+    <script type="text/javascript" src="../js/prop-types.js"></script>
+
+    <script type="text/babel">
+        // 1. 创建组件 -- props是只读，不允许修改
+        class Person extends React.Component {
+            state = { name: 'tom' }
+            render() {
+                console.log(this);
+                const {name, sex, age} = this.props
+                // this.props.name = 'jack'  //此行代码报错，因为props不允许修改
+                return (
+                    <ul>
+                        <li>姓名：{name}</li>
+                        <li>性别：{sex}</li>
+                        <li>年龄：{age + 1}</li>
+                    </ul>
+                )
+            }
+        }
+        // 伪代码
+        // Person.属性规则 = {
+        //     name: "必填，字符串",
+        //     sex: "默认为，男"
+        // }
+        // 对标签属性进行类型、必要性限制
+        Person.propTypes = {
+            name: PropTypes.string.isRequired,
+            sex: PropTypes.string,
+            age: PropTypes.number,
+            speak: PropTypes.func,
+        }
+        // 对标签属性进行默认值限制
+        Person.defaultProps = {
+            sex: '男',
+            age: 18
+        }
+
+        // 2. 渲染组件到页面
+        ReactDOM.render(<Person name='tom' speak = {speak}/>, document.getElementById('test'))
+        ReactDOM.render(<Person name='hhy' sex='女' age={19} />, document.getElementById('test1'))
+        const p = { name: 'jerry', age: 19, sex: '女'  }
+        ReactDOM.render(<Person {...p} />, document.getElementById('test2'))
+        function speak(){
+            console.log('speaking____');
+        }
+    </script>
+
+</body>
+
+</html>

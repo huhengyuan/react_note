@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三大核心属性之props</title>
+</head>
+
+<body>
+    <div id="test"></div>
+    <div id="test1"></div>
+    <div id="test2"></div>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script type="text/babel">
+        // 1. 每个组件对象都会有props(properties的简写)属性 -- 标签属性
+        // 2. 组件标签的所有属性都保存在props中
+        // 3. 通过标签属性从组件外向组件内传递变化的数据
+        // 4. 注意: 组件内部不要修改props数据
+
+        // 1. 创建组件
+        class Person extends React.Component {
+            state = { name: 'tom' }
+            render() {
+                console.log(this);
+                return (
+                    <ul>
+                        <li>姓名：{this.props.name}</li>
+                        <li>性别：{this.props.sex}</li>
+                        <li>年龄：{this.props.age}</li>
+                    </ul>
+                )
+            }
+        }
+        // 2. 渲染组件到页面
+        ReactDOM.render(<Person name = 'hhy' sex='男' />, document.getElementById('test'))
+        ReactDOM.render(<Person name = 'hhy' sex='女' />, document.getElementById('test1'))
+        const p = { name: 'jerry', age: 19, sex: '男'}
+        ReactDOM.render(<Person {...p} />, document.getElementById('test2'))
+
+
+
+    </script>
+
+
+</body>
+
+</html>

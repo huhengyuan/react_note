@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生命周期</title>
+</head>
+
+<body>
+    <div id="test"></div>
+
+    <!-- 核心库 -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <!-- dom支持 -->
+    <script type="text/javascript"
+        src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <!-- jsx转为js -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <!-- 引入prop-types, 用于对标签属性限制 -->
+    <script type="text/javascript" src="../js/prop-types.js"></script>
+
+    <script type="text/babel">
+        /*
+            生命周期回调函数 <==> 生命周期钩子函数 <==> 生命周期函数 <==> 生命周期钩子
+        */
+        // 1. 创建组件
+        class Demo extends React.Component {
+            // 初始化状态
+            state = {
+                opacity: 1
+            }
+            death = () => {
+                // 清除定时器
+                clearInterval(this.timer)
+                // 卸载组件
+                ReactDOM.unmountComponentAtNode(document.getElementById('test'))
+            }
+
+            // 回调函数，必须是函数，或者返回值是函数
+            change = () => {
+                this.timer = setInterval(() => {
+                    // 获取原状态
+                    let { opacity } = this.state
+                    // 修改状态
+                    opacity -= 0.1
+                    // 判断状态
+                    if (opacity <= 0) opacity = 1
+                    // 设置状态 -- 新的透明度
+                    this.setState({ opacity })
+
+                }, 200)
+            }
+            // render 的兄弟，且在组件挂载完成后只调用一次
+            // componentDidMount调用时机：组件挂载完成后
+            componentDidMount() {
+                this.timer = setInterval(() => {
+                    // 获取原状态
+                    let { opacity } = this.state
+                    // 修改状态
+                    opacity -= 0.1
+                    // 判断状态
+                    if (opacity <= 0) opacity = 1
+                    // 设置状态 -- 新的透明度
+                    this.setState({ opacity })
+
+                }, 200)
+            }
+            // render 的兄弟，且在组件卸载之前（将要卸载）, 只调用一次
+            componentWillUnmount() {
+                clearInterval(this.timer)
+            }
+            // render调用时机：初始化渲染、状态更新之后
+            render() {
+                return (
+                    <div>
+                        <h3 style={{ opacity: this.state.opacity }}>芳草萋萋鹦鹉洲</h3>
+                        <button onClick={this.death}>淦-1</button>
+                        <button onClick={this.change}>淦-2</button>
+                    </div>
+                )
+            }
+        }
+        // 2. 渲染组件到页面 --mount 渲染
+        ReactDOM.render(<Demo />, document.getElementById('test'))
+
+    </script>
+
+</body>
+
+</html>

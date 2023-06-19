@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生命周期-01</title>
+</head>
+
+<body>
+    <div id="test"></div>
+
+    <!-- 核心库 -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <!-- dom支持 -->
+    <script type="text/javascript"
+        src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <!-- jsx转为js -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <!-- 引入prop-types, 用于对标签属性限制 -->
+    <script type="text/javascript" src="../js/prop-types.js"></script>
+
+    <script type="text/babel">
+        /*
+            高阶函数:如果一个函数符合下面2个规范中的任何一个，那该函数就是高阶函数。
+                1.若A函数，接收的参数是一个函数，那么A就可以称之为高阶函数。
+                2.若A函数，调用的返回值依然是一个函数，那么A就可以称之为高阶函数。
+                常见高阶函数： promise、setTimeot、数组常用方法
+            函数的柯里化:通过函数调用继续返回函数的方式，实现多次接收参数最后统一处理的函数编码形式。
+        */
+        // 1. 创建组件
+        class Demo extends React.Component {
+            constructor(props) {
+                super(props)
+                this.state = { count: 0 }
+                console.log('constructor');
+            }
+            // // 初始化状态
+            // state = {
+            //     count: 0
+            // }
+            add = () => {
+                // 获取原纪录
+                const { count } = this.state
+                // 更新记录
+                this.setState({ count: count + 1 })
+            }
+            remove = () => {
+                // 卸载组件
+                ReactDOM.unmountComponentAtNode(document.getElementById('test'))
+            }
+            force = () => {
+                this.forceUpdate()
+            }
+            // 组件将要挂载钩子
+            componentWillMount() {
+                console.log('componentWillMount');
+            }
+            // 组件挂载完毕钩子
+            componentDidMount() {
+                console.log('componentDidMount');
+            }
+            // 组件卸载之前
+            componentWillUnmount() {
+                console.log('componentWillUnmount');
+            }
+
+            // 组件是否更新钩子 -- setState()
+            // 默认返回值为true -- 控制组件更新阀门
+            shouldComponentUpdate() {
+                console.log('shouldComponentUpdate');
+                return true;
+                // return false;
+            }
+            // 组件将要更新钩子 -- forceUpdate() -- 强制更新，不经过阀门shouldComponentUpdate
+            componentWillUpdate() {
+                console.log('componentWillUpdate');
+            }
+            // 组件更新完毕钩子
+            componentDidUpdate() {
+                console.log('componentDidUpdate');
+            }
+            // 回调函数，必须是函数，或者返回值是函数
+            render() {
+                console.log('render');
+                const { count } = this.state
+                return (
+                    <div>
+                        <h2>求佛: {count}</h2>
+                        <button onClick={this.add}>加一</button>
+                        <button onClick={this.remove}>卸载</button>
+                        <button onClick={this.force}>强制</button>
+                    </div>
+                )
+            }
+        }
+
+        class Demo_1 extends React.Component {
+            // 初始化状态
+            state = {
+                carName: "奥迪"
+            }
+            change = () => {
+                this.setState({ carName: "奥拓" })
+            }
+            render() {
+                return (
+                    <div>
+                        <div>组件_1</div>
+                        <button onClick={this.change}>change</button>
+                        <Demo_2 carName={this.state.carName} />
+                    </div>
+                )
+            }
+        }
+        class Demo_2 extends React.Component {
+            // componentWillReceiveNewProps, 第一次接受而数据不算！！！！
+            // 将要接收父组件属性（props）钩子
+            componentWillReceiveProps(props) {
+                console.log('componentWillReceiveProps', props);
+            }
+            componentDidMount() {
+                console.log('componentDidMount');
+            }
+            // 控制组件更新的阀门
+            shouldComponentUpdate() {
+                console.log('shouldComponentUpdate');
+                return true;
+            }
+            // 组件将要更新
+            componentWillUpdate() {
+                console.log('componentWillUpdate');
+            }
+            // 组件已更新
+            componentDidUpdate() {
+                console.log('componentDidUpdate');
+            }
+            // 组件即将更新
+            componentWillUnmount(){ 
+                console.log('componentWillUnmount');
+            }
+        // componentDidUpdate(){
+        //     console.log('componentDidUpdate');
+        // }
+        render() {
+            console.log('render');
+            return (
+                <div>组件_2,接受到的属性是{this.props.carName}</div>
+            )
+        }
+        }
+        // 2. 渲染组件到页面
+        ReactDOM.render(<Demo_1 />, document.getElementById('test'))
+
+    </script>
+
+</body>
+
+</html>

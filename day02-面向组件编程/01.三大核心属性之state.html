@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三大核心属性之state-状态（组件有状态为复杂组件）</title>
+</head>
+
+<body>
+    <!-- 状态中存放着数据，数据的改变驱动页面的展示 -->
+    <div id="test"></div>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <script type="text/babel">
+        // 1)	state是组件对象最重要的属性, 值是对象(可以包含多个数据)
+        // 2)	组件被称为"状态机", 通过更新组件的state来更新对应的页面显示(重新渲染组件)
+        // 1. 创建组件
+        class Weather extends React.Component {
+            // 构造器调用几次？ - 调用一次
+            constructor(props) {
+                super(props)
+                // 初始化状态
+                this.state = {
+                    isHot: true,
+                };
+                // change中的this改为实例对象
+                // change调用几次？ - 点几次，调用几次
+                this.change = this.change.bind(this)
+            }
+            change() {
+                // SOS：state中的数据不可以进行直接的更改，需要借助内置api， setState()
+                const isHot = this.state.isHot
+                // this.state.isHot = !isHot  错误写法
+                // 状态必须根据setState进行更新，且更新是一种合并，不是替换
+                this.setState({ isHot: !isHot })
+                console.log(this.state.isHot);
+            }
+            // render调用几次？ - 1 + n次 ,1-初始化，n-更新状态次数
+            render() {
+                console.log(this);
+                // const { isHot } = this.state
+                // change作为onclick的回调，并不是实例调用，而是直接调用的。
+                // 类中的方法默认开启了局部严格模式，所以change中的this是undefined
+                return <h2 id='hot' onClick={this.change}>今天天气很{this.state.isHot ? "炎热" : "凉爽"}！</h2>
+            }
+        }
+        // 2. 渲染组件到页面
+        ReactDOM.render(<Weather />, document.getElementById('test'))
+        const hot = document.getElementById('hot')
+        // hot.addEventListener('click', () => {
+        //     alert('标题被点击了！')
+        // })
+        // hot.onclick = () => {
+        //     alert('标题被点击了！')
+        // }
+        // function change(){
+        //     console.log('此处修改ishot。')
+
+        // }
+
+    </script>
+
+</body>
+
+</html>

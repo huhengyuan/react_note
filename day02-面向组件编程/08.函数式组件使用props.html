@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>props限制简写</title>
+</head>
+
+<body>
+    <div id="test"></div>
+    <div id="test1"></div>
+    <div id="test2"></div>
+    <!-- 核心库 -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <!-- dom支持 -->
+    <script type="text/javascript"
+        src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <!-- jsx转为js -->
+    <script type="text/javascript" src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <!-- 引入prop-types, 用于对标签属性限制 -->
+    <script type="text/javascript" src="../js/prop-types.js"></script>
+
+    <script type="text/babel">
+        // 1. 创建组件 -- props是只读，不允许修改
+        class Person extends React.Component {
+            state = { name: 'tom' }
+            // 给类自身加上propTypes、defaultProps
+            static propTypes = {
+                name: PropTypes.string.isRequired,
+                sex: PropTypes.string,
+                age: PropTypes.number,
+            }
+            static defaultProps = {
+                sex: '男',
+                age: 18
+            }
+            // 构造器写不写。接不接props、传不传props影响不大，关键在于，在构造其中，是否需要使用到props
+            constructor(props) {
+                // 适用于： 
+                // 1- 通过this.state赋值对象初始化内部state
+                // 2- 为事件处理函数绑定实例
+                console.log(props);
+                super(props)
+                console.log(this.props);
+            }
+            render() {
+                // console.log(this);
+                const { name, sex, age } = this.props
+                // this.props.name = 'jack'  //此行代码报错，因为props不允许修改
+                return (
+                    <ul>
+                        <li>姓名：{name}</li>
+                        <li>性别：{sex}</li>
+                        <li>年龄：{age + 1}</li>
+                    </ul>
+                )
+            }
+        }
+        function Person_f(props) {
+            const { name, age, sex } = props
+            return (
+                <ul>
+                    <li>姓名：{name}</li>
+                    <li>性别：{sex}</li>
+                    <li>年龄：{age}</li>
+                </ul>
+            )
+        }
+        // 对标签属性进行类型、必要性限制
+        Person_f.propTypes = {
+            name: PropTypes.string.isRequired,
+            sex: PropTypes.string,
+            age: PropTypes.number,
+            speak: PropTypes.func,
+        }
+        // 对标签属性进行默认值限制
+        Person_f.defaultProps = {
+            sex: '男',
+            age: 18
+        }
+        // 2. 渲染组件到页面
+        ReactDOM.render(<Person name='tom' />, document.getElementById('test'))
+        ReactDOM.render(<Person_f name={100} />, document.getElementById('test1'))
+    </script>
+
+</body>
+
+</html>

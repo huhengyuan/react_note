@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>类中方法this的指向</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        class Person {
+            // 构造器方法
+            constructor(name, age) {
+                // this - 指的是类的实例对象
+                this.name = name
+                this.age = age
+
+            }
+            // 一般方法, 放在类的原型对象上，给实例对象使用
+            speck() {
+                // 通过person实例调用方法时，this - 指的是实例对象
+                // 其他方法可能会导致this指向更改，call、bind等的调用
+                console.log(this);
+                console.log(`${this.name}, 年龄是${this.age}`);
+            }
+
+        }
+        class Student extends Person {
+            constructor(name, age, grade) {
+                super(name, age)
+                this.grade = grade
+                // 禁止，必须放在前面！
+                // super(name, age)
+            }
+            // 重写speak方法
+            speck() {
+                console.log(`${this.name}, 年龄是${this.age}, 年纪是${this.grade}`);
+            }
+            study() {
+                console.log('我很努力想孙孙！');
+            }
+
+        }
+        const p1 = new Person('tom', 11)
+        p1.speck() // 通过实例调用方法， this指向person
+        const c = p1.speck()
+        c()
+
+    </script>
+</body>
+
+</html>

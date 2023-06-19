@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>虚拟dom</title>
+</head>
+
+<body>
+    <script>
+        /*
+            1. 虚拟don中key的作用
+                a：简单的说：key是虚拟dom对象的标识，在更新显示时key起着极其重要的作用；
+                b：详细的说：当state中的数据发生改变时，react会根据【新数据】生成【新的虚拟dom】，
+                    随后React进行【新虚拟dom】与【旧的虚拟dom】的diff比较，比较规则：
+                    1）旧虚拟dom中找到与新虚拟dom相同的key：
+                        （1）若是虚拟dom中内容没变，直接使用之前的真实dom
+                        （2）若是虚拟dom中的内容发生改变，则生成新的真实dom，随后替换页面之前的真实dom
+                    2）旧虚拟dom中未找到与新虚拟懂相同的key：根据数据创建真实dom，渲染到页面
+            2. 使用index作为key可能会引发的问题：
+                a：若是对数据进行逆序添加或者删除等破坏顺序操作，会产生一些没必要的真实dom的更新 -- > 界面没问题，但是影响效率
+                b：若是结构中包含输入类的dom：会产生错误的dom更新  -- > 界面有问题
+                c：注意: 若是不存在对数据进行逆序添加删除等操作，仅用于渲染列表用于展示，使用index作为key是可以的
+            3. 开发过程中如何选择key：
+                a: 使用每条数据的唯一标识作为key
+                b：如果确定只是简单的数据展示，可以使用index但是不建议
+
+        */
+    </script>
+
+
+</body>
+
+</html>
