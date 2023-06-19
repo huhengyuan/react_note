@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsx语法规则</title>
+</head>
+<script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+<script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+<script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+<body>
+    <!-- 准备好容器 -->
+    <div id="test">
+
+    </div>
+    <!--这里使用了js来创建虚拟DOM-->
+    <script type="text/babel">
+        const myId = "Title";
+        const myData = "hhy";
+        const VDOM = (
+            <div>
+                <h2 className='title' id={myId.toLowerCase()}>
+                    <span style = {{color: 'black', fontSize: '29px'}}>{myData.toUpperCase()}</span>
+                </h2>
+                <input type='text'/>
+            </div>
+        )
+        ReactDOM.render(VDOM, document.getElementById('test'))
+    </script>
+
+
+</body>
+
+</html>
