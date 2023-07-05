@@ -34,7 +34,7 @@
 
 [中文文档: ]https://ant.design/index-cn
 
-[<Menu/>、<Table/>、<Sider/>、<Layout/>、<Content/>、<TopHeader/>]等组件的使用
+`<Menu/>、<Table/>、<Sider/>、<Layout/>、<Content/>、<TopHeader/>等组件的使用`
 
 ### 引入antd
 安装antd：`npm i --save antd`
