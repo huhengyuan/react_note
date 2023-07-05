@@ -29,8 +29,9 @@
     在src下面添加文件setupProxy.js，并重启服务器加载配置文件！
 ### 系统路由
 ![系统路由](./img/router.png)
+
 安装路由：`npm i --save react-router-dom`
-[中文文档]https://ant.design/index-cn
+[中文文档: ]https://ant.design/index-cn
 <Menu/>、<Table/>、<Sider/>、<Layout/>、<Content/>、<TopHeader/>组件的使用
 
 ### 引入antd
