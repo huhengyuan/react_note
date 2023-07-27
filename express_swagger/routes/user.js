@@ -29,7 +29,7 @@ router.get('/users', (req, res) => {
  *       - in: path
  *         name: id
  *         required: true
- *         description: ID of the user
+ *         description: 用户编号
  *         schema:
  *           type: integer
  *     responses:
@@ -74,6 +74,46 @@ router.post('/login', (req, res) => {
     res.send('login OK')
 })
 
+
+
+// 注册新用户
+/**
+ * @swagger
+ * /register:
+ *   post:
+ *     tags: [Users]
+ *     summary: Create new users
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: array
+ *             items:
+ *               type: object
+ *               description: "用户对象属性"
+ *               properties:
+ *                 name:
+ *                   type: string
+ *                   description: "用户姓名"
+ *                 age:
+ *                   type: integer
+ *                   description: "用户年龄"
+ *             example:
+ *               - name: John
+ *                 age: 30
+ *               - name: Jane
+ *                 age: 25
+ *     responses:
+ *       '201':
+ *         description: Successfully created
+ */
+ router.post('/register', (req, res) => {
+    const usersArray = req.body;
+    // 处理包含多个用户信息的数组
+    res.status(201).json({ message: 'Successfully created' });
+  });
+  
 module.exports = router;
 
 
