@@ -1,0 +1,952 @@
+[
+  {
+    "orgId": "D001",
+    "orgName": "湖南人事行政部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D002",
+    "orgName": "安全管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D003",
+    "orgName": "体系办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D004",
+    "orgName": "人事部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D005",
+    "orgName": "资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D006",
+    "orgName": "生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D007",
+    "orgName": "总经办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D008",
+    "orgName": "设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D009",
+    "orgName": "研发部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D010",
+    "orgName": "湖南可靠性测试中心",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D011",
+    "orgName": "人事行政部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D012",
+    "orgName": "可靠性测试中心湖南",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D013",
+    "orgName": "湖南智能电子管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D014",
+    "orgName": "锂电人事行政部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D015",
+    "orgName": "锂电管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D016",
+    "orgName": "锂电PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D017",
+    "orgName": "锂电人事部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D018",
+    "orgName": "锂电资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D019",
+    "orgName": "湖南人事部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D020",
+    "orgName": "品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D021",
+    "orgName": "研发二部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D022",
+    "orgName": "湖南模型管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D023",
+    "orgName": "湖南资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D024",
+    "orgName": "湖南生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D025",
+    "orgName": "PACK管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D026",
+    "orgName": "电芯生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D027",
+    "orgName": "异形工程部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D028",
+    "orgName": "品质部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D029",
+    "orgName": "异形管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D030",
+    "orgName": "异形技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D031",
+    "orgName": "安全办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D032",
+    "orgName": "研发三部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D033",
+    "orgName": "IE部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D034",
+    "orgName": "资讯部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D036",
+    "orgName": "异形PMC部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D037",
+    "orgName": "异形项目部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D038",
+    "orgName": "生技部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D039",
+    "orgName": "采购部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D040",
+    "orgName": "生产二部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D041",
+    "orgName": "技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D042",
+    "orgName": "研发一部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D043",
+    "orgName": "客服部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D044",
+    "orgName": "生产办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D045",
+    "orgName": "项目办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D046",
+    "orgName": "工程部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D047",
+    "orgName": "PMC部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D048",
+    "orgName": "生产一部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D049",
+    "orgName": "郴州公司",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D050",
+    "orgName": "工艺部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D051",
+    "orgName": "PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D052",
+    "orgName": "PACK品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D053",
+    "orgName": "PACK技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D054",
+    "orgName": "异形品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D055",
+    "orgName": "市场部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D056",
+    "orgName": "湖南模型容检生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D057",
+    "orgName": "湖南锂电资材",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D058",
+    "orgName": "PACK资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D059",
+    "orgName": "湖南模型PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D060",
+    "orgName": "湖南锂电品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D061",
+    "orgName": "湖南锂电管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D062",
+    "orgName": "异形电芯生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D063",
+    "orgName": "湖南锂电生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D064",
+    "orgName": "异形资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D065",
+    "orgName": "PACK设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D066",
+    "orgName": "湖南锂电PIE部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D067",
+    "orgName": "财务部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D068",
+    "orgName": "智能电子生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D069",
+    "orgName": "异形PACK技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D070",
+    "orgName": "新产品项目部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D071",
+    "orgName": "湖南锂电技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D072",
+    "orgName": "湖南财务部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D073",
+    "orgName": "湖南安全管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D074",
+    "orgName": "智能电子办公室",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D075",
+    "orgName": "智能电子管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D076",
+    "orgName": "扣电事业部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D077",
+    "orgName": "智能电子品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D078",
+    "orgName": "湖南智能电子品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D079",
+    "orgName": "湖南采购部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D080",
+    "orgName": "电控电子事业部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D081",
+    "orgName": "研究院",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D082",
+    "orgName": "湖南锂电PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D083",
+    "orgName": "品管部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D084",
+    "orgName": "一车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D085",
+    "orgName": "二车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D086",
+    "orgName": "四车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D087",
+    "orgName": "三车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D088",
+    "orgName": "人事部/财务部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D089",
+    "orgName": "公共事务部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D090",
+    "orgName": "人事/采购/公共事务部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D091",
+    "orgName": "人事部/采购部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D092",
+    "orgName": "模型PACK管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D093",
+    "orgName": "产业发展部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D094",
+    "orgName": "镍氢资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D095",
+    "orgName": "镍氢四车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D096",
+    "orgName": "镍氢一车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D097",
+    "orgName": "湖南智能电子生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D098",
+    "orgName": "镍氢二车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D099",
+    "orgName": "镍氢三车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D100",
+    "orgName": "湖南智能电子工艺部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D101",
+    "orgName": "镍氢品管部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D103",
+    "orgName": "项目部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D104",
+    "orgName": "镍氢研发部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D105",
+    "orgName": "/",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D106",
+    "orgName": "智能装备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D107",
+    "orgName": "管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D108",
+    "orgName": "湖南锂电资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D109",
+    "orgName": "湖南智能电子PMC部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D110",
+    "orgName": "容检生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D111",
+    "orgName": "电芯品质部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D112",
+    "orgName": "PACK生产",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D113",
+    "orgName": "湖南锂电设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D114",
+    "orgName": "PMC",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D115",
+    "orgName": "模型PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D116",
+    "orgName": "PE工艺部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D117",
+    "orgName": "锂电资材",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D118",
+    "orgName": "智能电子可靠度中心",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D119",
+    "orgName": "异形设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D120",
+    "orgName": "异形生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D121",
+    "orgName": "市内销售部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D122",
+    "orgName": "项目组",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D123",
+    "orgName": "资源管理系统",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D124",
+    "orgName": "智能电子电源产品部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D125",
+    "orgName": "智能电子新品项目部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D126",
+    "orgName": "PACKPMC部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D127",
+    "orgName": "可靠性测试中心",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D128",
+    "orgName": "电池产品部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D129",
+    "orgName": "扣式生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D130",
+    "orgName": "项目管理部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D131",
+    "orgName": "智能电子BMS产品部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D132",
+    "orgName": "模型PACK资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D133",
+    "orgName": "电子产品部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D134",
+    "orgName": "湖南锂电工艺部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D135",
+    "orgName": "PACK工艺工程部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D136",
+    "orgName": "nps部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D137",
+    "orgName": "模型PACK技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D138",
+    "orgName": "异形PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D139",
+    "orgName": "电芯PMC部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D140",
+    "orgName": "动力PACK技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D141",
+    "orgName": "异形容检车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D142",
+    "orgName": "研发办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D143",
+    "orgName": "产品项目部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D144",
+    "orgName": "成本办",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D145",
+    "orgName": "异形品质部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D146",
+    "orgName": "湖南格瑞普",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D147",
+    "orgName": "湖南工艺部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D148",
+    "orgName": "客服组",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D149",
+    "orgName": "湖南模型技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D151",
+    "orgName": "模型PAKC中心",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D152",
+    "orgName": "工厂市场部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D153",
+    "orgName": "智能电子电池产品部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D154",
+    "orgName": "湖南PMC部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D155",
+    "orgName": "光明厂（用于采购申请）",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D156",
+    "orgName": "湖南锂电容检生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D157",
+    "orgName": "电芯资材部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D158",
+    "orgName": "动力PACK工艺部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D159",
+    "orgName": "电调事业部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D160",
+    "orgName": "新品项目部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D161",
+    "orgName": "智能电子品质部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D163",
+    "orgName": "品管部OQC",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D164",
+    "orgName": "品管部IQC",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D165",
+    "orgName": "锂电品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D166",
+    "orgName": "品保部（可靠性测试中心）",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D167",
+    "orgName": "二厂技术部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D169",
+    "orgName": "电芯设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D170",
+    "orgName": "模型PACK中心",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D171",
+    "orgName": "光明厂（采购）",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D172",
+    "orgName": "湖南镍氢设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D173",
+    "orgName": "锂电设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D174",
+    "orgName": "湖南品保部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D175",
+    "orgName": "PACK车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D176",
+    "orgName": "市内销售组",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D177",
+    "orgName": "美国组",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D178",
+    "orgName": "异形装配车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D179",
+    "orgName": "异形装配车间（）",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D180",
+    "orgName": "异形容检车间（）",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D181",
+    "orgName": "异形PACK车间",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D182",
+    "orgName": "异形PACK车间（）",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D183",
+    "orgName": "异形客服部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D184",
+    "orgName": "模型PACK设备部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D185",
+    "orgName": "锂电容检生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D186",
+    "orgName": "工厂",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D187",
+    "orgName": "湖南PACK生产部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D188",
+    "orgName": "异形研发部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D189",
+    "orgName": "资材二部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D190",
+    "orgName": "市场部美国组",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D191",
+    "orgName": "电子产品部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D192",
+    "orgName": "默认",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D193",
+    "orgName": "市场一部",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D194",
+    "orgName": "湖南锂电仓库",
+    "parentId": "1"
+  },
+  {
+    "orgId": "D195",
+    "orgName": "湖南锂电电芯生产部",
+    "parentId": "1"
+  }
+]

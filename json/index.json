@@ -1,0 +1,105 @@
+{
+    "code": "000",
+    "data": {
+        "publishRecipe": "2",
+        "className": "食谱测试班",
+        "mealMenuStart": 1694361600000,
+        "weeklyMealList": [
+            {
+                "modifyBy": "",
+                "attrSubjectId": "",
+                "dishesList": [
+                    {
+                        "nutritionalDietId": "8C0FAD47D69B41348EA3E314D5B41A5D",
+                        "weeklyMealId": "634a0972b52498649f56990316040910",
+                        "dishesName": "咕噜肉",
+                        "createBy": "81B31257996A48FDBB614219DAB3CC9D",
+                        "createTime": 1690265910000,
+                        "axmFoodIngredientList": [
+                            {
+                                "foodIngredientName": "花粉",
+                                "nutritionalDietId": "8C0FAD47D69B41348EA3E314D5B41A5D",
+                                "dishesId": "95bd861323315ba74458ea573602d830",
+                                "sysFoodId": "0a1331ed06f482e5efe63a72dbf0b49a",
+                                "id": "63d5783eebf1ef1a498945ecbe981ebf",
+                                "class": "com.excegroup.bean.AxmFoodIngredient",
+                                "quantity": 10.00,
+                                "createBy": "81B31257996A48FDBB614219DAB3CC9D",
+                                "createTime": 1690265910000,
+                                "status": "1"
+                            },
+                            {
+                                "foodIngredientName": "虾",
+                                "nutritionalDietId": "8C0FAD47D69B41348EA3E314D5B41A5D",
+                                "dishesId": "95bd861323315ba74458ea573602d830",
+                                "sysFoodId": "73bd1d69656a0bd37d004779df107508",
+                                "id": "c1a82e649f945eca002f5cc443c939e0",
+                                "class": "com.excegroup.bean.AxmFoodIngredient",
+                                "quantity": 10.00,
+                                "createBy": "81B31257996A48FDBB614219DAB3CC9D",
+                                "createTime": 1690265910000,
+                                "status": "1"
+                            }
+                        ],
+                        "id": "95bd861323315ba74458ea573602d830",
+                        "class": "com.excegroup.bean.AxmDishes",
+                        "status": "1"
+                    }
+                ],
+                "attrRegionId": "",
+                "nutritionalDietId": "8C0FAD47D69B41348EA3E314D5B41A5D",
+                "mealType": "1",
+                "timeType": "1",
+                "timeTypeName": "周一",
+                "attrOrgId": "",
+                "mealTypeName": "早餐",
+                "createBy": "81B31257996A48FDBB614219DAB3CC9D",
+                "allergyPeopleQuantity": 1,
+                "createTime": 1690265910000,
+                "id": "634a0972b52498649f56990316040910",
+                "recipeUrl2": "",
+                "allergyPeopleList": [
+                    {
+                        "allergyPeople": "时时",
+                        "allergyFoodName": "花粉",
+                        "allergyMealTypeName": "早餐",
+                        "allergyDishesName": "咕噜肉",
+                        "class": "com.excegroup.bean.AxmWeeklyMeal$AllergyPeople"
+                    },
+                    {
+                        "allergyPeople": "时时",
+                        "allergyFoodName": "虾",
+                        "allergyMealTypeName": "早餐",
+                        "allergyDishesName": "咕噜肉",
+                        "class": "com.excegroup.bean.AxmWeeklyMeal$AllergyPeople"
+                    }
+                ],
+                "class": "com.excegroup.bean.AxmWeeklyMeal",
+                "recipeUrl1": "https://o-oss.oss-cn-shenzhen.aliyuncs.com/O_PLUS/TEST/WeekDishes1/C20701/20230725/202307250218271926.png",
+                "status": "1",
+                "weeklyTime": 1694361600000,
+                "recipeUrl3": ""
+            }
+        ],
+        "id": "8C0FAD47D69B41348EA3E314D5B41A5D",
+        "class": "com.excegroup.bean.PubNutritionalDiet",
+        "mealMenuEnd": 1694880000000,
+        "classList": [
+            {
+                "classId": "c86283542d464a4ff5297a11430d3f0c",
+                "createBy": "81B31257996A48FDBB614219DAB3CC9D",
+                "dietId": "8C0FAD47D69B41348EA3E314D5B41A5D",
+                "createTime": 1690265910000,
+                "id": "E49318662A274079AEE22C272AC1E87C",
+                "class": "com.excegroup.bean.PubNutritionalDietContact",
+                "status": "1"
+            }
+        ],
+        "classIds": "c86283542d464a4ff5297a11430d3f0c",
+        "pictureUrl": "DF81A345428A4BCBB7741AB33FD7D3F8",
+        "publishRecipeName": "自定义上传",
+        "hasPDataRole": "N",
+        "imagrList": []
+    },
+    "describe": "操作成功!"
+}
