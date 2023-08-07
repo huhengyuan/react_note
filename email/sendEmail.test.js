@@ -2,12 +2,12 @@
 const sendEmail = require('./sendEmail')
 const dayjs = require('dayjs');
 async function test() {
-    const send_email_config = {
-        "host": "smtp.qq.com",
-        "port": 465,
-        "user": "1992395918@qq.com",
-        "pass": "jjzdbvveizulegfb"
-    }
+    // const send_email_config = {
+    //     "host": "smtp.qq.com",
+    //     "port": 465,
+    //     "user": "1992395918@qq.com",
+    //     "pass": "jjzdbvveizulegfb"
+    // }
     const receive_email = "hhydeyx@gmail.com"
     const topic = "asset_maintain"
     const dataArr = []
