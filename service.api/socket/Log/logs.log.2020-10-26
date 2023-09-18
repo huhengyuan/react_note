@@ -1,0 +1,986 @@
+[2020-10-26T09:46:56.415] [DEBUG] default - api/pda/login/request
+[2020-10-26T11:04:19.057] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:04:19.068] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:04:19.392] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:04:19.399] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:04:19.863] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:04:20.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:04:20.402] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:04:21.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:04:21.389] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:04:22.355] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:04:22.415] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:04:23.355] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:05:12.568] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:05:12.575] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:05:12.596] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:05:12.608] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:05:12.633] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:05:12.653] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:05:12.677] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: 'insert into tenant_bill_detail() values '
+}
+[2020-10-26T11:05:12.680] [DEBUG] default - db/rollbackTrans/request
+[2020-10-26T11:06:32.643] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:32.647] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:33.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:33.362] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:33.696] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:34.368] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:34.396] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:35.357] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:35.405] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:36.358] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:36.390] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:37.402] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:58.276] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:58.281] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:58.300] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:58.311] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:58.666] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:58.682] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:58.727] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:58.744] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:58.776] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:58.788] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:06:58.828] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:06:58.844] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:05.500] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:05.532] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:20.316] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:20.318] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:20.330] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:20.334] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:20.470] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:20.496] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:20.518] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:20.531] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:20.552] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:20.565] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:20.598] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:20.611] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:27.831] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:27.852] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:27.898] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:07:27.914] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:07:27.929] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:27.947] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:07:27.960] [ERROR] default - Error: ER_NO_DEFAULT_FOR_FIELD: Field 'billNo' doesn't have a default value
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'billNo' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "insert into tenant_bill_detail(tenantId,assetId) values ('supoin', 'ZC00100000001'), ('supoin', 'ZC00200000001'), ('supoin', 'ZC1603610034314')"
+}
+[2020-10-26T11:07:27.963] [DEBUG] default - db/rollbackTrans/request
+[2020-10-26T11:10:01.455] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:01.461] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:02.361] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:02.363] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:02.625] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:04.288] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:04.506] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:05.355] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:05.383] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:06.363] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:06.408] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:07.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:36.638] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:36.647] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:37.355] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:37.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:37.706] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:38.375] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:38.402] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:39.357] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:39.389] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:40.355] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:40.576] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:41.364] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:51.279] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:51.298] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:51.337] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:10:51.346] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:10:51.357] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:51.375] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:10:51.391] [ERROR] default - Error: ER_NO_DEFAULT_FOR_FIELD: Field 'billType' doesn't have a default value
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'billType' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "insert into tenant_bill_detail(tenantId,assetId,billNo) values ('supoin', 'ZC00100000001', 'PD1603681851247'), ('supoin', 'ZC00200000001', 'PD1603681851247'), ('supoin', 'ZC1603610034314', 'PD1603681851247')"
+}
+[2020-10-26T11:10:51.397] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:11:37.693] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:11:37.714] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:11:37.756] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:11:37.772] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:11:37.789] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:11:37.806] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:11:37.821] [ERROR] default - Error: ER_NO_DEFAULT_FOR_FIELD: Field 'billType' doesn't have a default value
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'billType' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "insert into tenant_bill_detail(tenantId,assetId,billNo) values ('supoin', 'ZC00100000001', 'PD1603681897626'), ('supoin', 'ZC00200000001', 'PD1603681897626'), ('supoin', 'ZC1603610034314', 'PD1603681897626')"
+}
+[2020-10-26T11:11:37.825] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:13:20.172] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:20.181] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:20.529] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:20.531] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:20.697] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:21.720] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:22.389] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:22.469] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:22.499] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:23.373] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:23.398] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:24.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:35.855] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:35.869] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:13:35.889] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:35.903] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:35.938] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:35.951] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:35.965] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:13:36.144] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:36.169] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:39.286] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:39.299] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:13:39.332] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:39.346] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:39.378] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:39.395] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:39.417] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:13:39.602] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:39.616] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:42.314] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:42.328] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:13:42.352] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:42.365] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:42.398] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:42.411] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:42.432] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:13:42.618] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:42.635] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:50.601] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:50.611] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:50.637] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:13:50.649] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:13:50.663] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:50.680] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:13:50.694] [ERROR] default - Error: ER_NO_DEFAULT_FOR_FIELD: Field 'pdPerson' doesn't have a default value
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'pdPerson' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "insert into tenant_inventory_detail(tenantId,assetId,billNo) values ('supoin', 'ZC00100000001', 'PD1603682030583'), ('supoin', 'ZC00200000001', 'PD1603682030583'), ('supoin', 'ZC1603610034314', 'PD1603682030583')"
+}
+[2020-10-26T11:13:50.695] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:14:06.552] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:06.568] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:06.614] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:06.626] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:14:06.643] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:06.675] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:06.689] [ERROR] default - Error: ER_NO_DEFAULT_FOR_FIELD: Field 'pdDate' doesn't have a default value
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'pdDate' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "insert into tenant_inventory_detail(tenantId,assetId,billNo) values ('supoin', 'ZC00100000001', 'PD1603682046494'), ('supoin', 'ZC00200000001', 'PD1603682046494'), ('supoin', 'ZC1603610034314', 'PD1603682046494')"
+}
+[2020-10-26T11:14:06.690] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:14:22.621] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:22.639] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:22.662] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:22.674] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:14:22.688] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:22.706] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:22.718] [ERROR] default - Error: ER_NO_DEFAULT_FOR_FIELD: Field 'pdaSn' doesn't have a default value
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sqlMessage: "Field 'pdaSn' doesn't have a default value",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "insert into tenant_inventory_detail(tenantId,assetId,billNo) values ('supoin', 'ZC00100000001', 'PD1603682062592'), ('supoin', 'ZC00200000001', 'PD1603682062592'), ('supoin', 'ZC1603610034314', 'PD1603682062592')"
+}
+[2020-10-26T11:14:22.722] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:14:35.674] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:35.686] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:35.707] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:35.719] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:14:35.736] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:35.753] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:35.770] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:14:36.119] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:36.134] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:51.275] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:51.279] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:51.289] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:51.293] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:51.486] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:51.501] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:51.528] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:51.537] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:51.559] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:51.573] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:51.596] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:51.609] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:58.711] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:58.722] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:14:58.742] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:58.756] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:58.792] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:58.804] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:14:58.821] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:14:58.995] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:14:59.017] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:01.708] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:01.724] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:15:01.788] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:01.802] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:01.841] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:01.854] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:01.899] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:15:02.121] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:02.139] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:05.129] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:05.145] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:15:05.173] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:05.189] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:05.219] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:05.234] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:05.251] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:15:05.415] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:05.436] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:08.649] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:08.664] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:15:08.690] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:08.712] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:08.752] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:08.766] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:08.795] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:15:09.016] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:09.035] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:16.775] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:16.788] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:16.809] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:16.817] [DEBUG] default - db/beginTrans/request
+[2020-10-26T11:15:16.830] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:16.843] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:16.863] [DEBUG] default - db/commitTrans/request
+[2020-10-26T11:15:17.196] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:17.213] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:22.502] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:22.505] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:22.517] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:22.519] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:22.642] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:22.655] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:22.679] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:22.688] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:22.705] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:22.716] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:15:22.736] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:15:22.750] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:17:33.125] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:17:33.126] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:17:33.439] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:17:33.440] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:17:33.455] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:17:34.781] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:17:34.824] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:17:35.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:17:35.388] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:17:36.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:17:36.382] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:17:37.358] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:34.585] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:34.590] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:35.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:35.357] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:35.549] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:36.380] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:36.415] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:38.395] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:38.470] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:38.482] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:38.507] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:38.520] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:41.724] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:18:41.736] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:18:41.746] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'checkStatus' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'checkStatus' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select checkStatus,pandStatus,assetId,assetName,pandPerson,checkPerson,checkTime from tenant_inventory_detail where 1=1  and billNo ='PD1603682116748' limit 1000000"
+}
+[2020-10-26T11:19:37.919] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:19:37.922] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:19:38.363] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:19:38.366] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:19:38.543] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:19:39.375] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:19:39.404] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:19:40.360] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:19:40.397] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:19:41.365] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:19:42.094] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:19:42.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:10.145] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:10.148] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:10.159] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:10.164] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:10.404] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:10.424] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:10.467] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:10.480] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:10.510] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:10.523] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:10.548] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:10.561] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:11.876] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:11.887] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:11.891] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:11.902] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:12.071] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:12.082] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:12.104] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:12.120] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:12.146] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:12.159] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:12.196] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:12.222] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:13.395] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:20:13.409] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:20:13.422] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'assetName' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'assetName' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select status,assetId,assetName,pandPerson,checkPerson,checkTime from tenant_inventory_detail where 1=1  and billNo ='PD1603682116748' limit 1000000"
+}
+[2020-10-26T11:23:59.686] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:23:59.692] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:00.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:00.362] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:00.578] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:01.365] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:01.397] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:02.543] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:02.989] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:03.374] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:03.421] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:04.363] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:26.128] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:26.132] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:26.550] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:26.551] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:26.721] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:28.909] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:28.947] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:29.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:29.396] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:30.360] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:30.384] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:31.363] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:38.208] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:38.211] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:38.224] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:38.226] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:38.415] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:38.426] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:38.457] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:38.469] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:38.494] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:38.507] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:38.533] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:38.544] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:40.812] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:40.822] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:40.830] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'assetName' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'assetName' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select status,assetId,assetName,pandPerson,checkPerson,checkTime from tenant_inventory_detail where 1=1  and tenantId ='supoin' and billNo ='PD1603682116748' limit 1000000"
+}
+[2020-10-26T11:24:58.846] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:58.852] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:58.868] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:58.875] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:59.042] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:59.060] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:59.104] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:59.124] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:59.151] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:59.166] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:24:59.192] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:24:59.206] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:00.500] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:00.515] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:00.527] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'pandPerson' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'pandPerson' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select status,assetId,assetName,pandPerson,checkPerson,checkTime from v_inventory_detail where 1=1  and tenantId ='supoin' and billNo ='PD1603682116748' limit 1000000"
+}
+[2020-10-26T11:25:35.097] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:35.104] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:35.557] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:35.559] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:35.774] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:36.386] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:36.486] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:37.363] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:37.385] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:38.356] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:25:38.388] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:25:39.358] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:52:02.677] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:52:02.751] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:52:09.243] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:52:09.272] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:54:44.307] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:54:44.364] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:54:44.402] [DEBUG] default - db/batchExecute/request
+[2020-10-26T11:54:44.522] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:54:44.535] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'billStatus' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'billStatus' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "update tenant_inventory set billStatus=2,updateTime='2020-10-26 11:54:44',updatePerson='1010' where 1=1  and tenantId ='supoin' and billNo ='PD1603682116748'"
+}
+[2020-10-26T11:55:25.458] [DEBUG] default - api/pda/login/request
+[2020-10-26T11:55:25.841] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:55:25.890] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:55:26.053] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:55:27.677] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:55:29.175] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:55:29.214] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:55:37.214] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:55:37.252] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:55:38.571] [DEBUG] default - db/batchExecute/request
+[2020-10-26T11:55:43.158] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:55:44.403] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:55:44.430] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:56:35.936] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:56:35.982] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:56:38.770] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:56:38.810] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:57:23.325] [DEBUG] default - api/pda/login/request
+[2020-10-26T11:57:23.680] [DEBUG] default - db/getConnection/request
+[2020-10-26T11:57:23.722] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:57:23.819] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T11:57:23.879] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:22:22.832] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:22:23.359] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:22:23.391] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:22:24.357] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:23:06.290] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:23:06.300] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:23:06.310] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'asssetId' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'asssetId' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select asssetId,assetName,placeName,useOrgName,epc,deviceId,collectTime from v_asset where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2020-10-26T16:23:25.601] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:23:25.610] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:23:25.618] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'asssetId' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'asssetId' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select asssetId,assetName,placeName,useOrgName,epc,deviceId,collectTime from v_asset where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2020-10-26T16:24:19.308] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:24:19.451] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:24:19.469] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:24:20.355] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:24:31.054] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:24:31.068] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:24:31.080] [ERROR] default - Error: ER_NO_SUCH_TABLE: Table 'iot.asset.v_asset_monitor' doesn't exist
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'iot.asset.v_asset_monitor' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "select asssetId,assetName,placeName,useOrgName,epc,deviceId,collectTime from v_asset_monitor where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2020-10-26T16:29:41.310] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:29:41.320] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:29:41.330] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'asssetId' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'asssetId' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select asssetId,assetName,placeName,useOrgName,epc,deviceId,collectTime from v_asset_monitor where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2020-10-26T16:30:17.688] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:30:17.697] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:30:17.723] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'asssetId' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'asssetId' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select asssetId,assetName,placeName,useOrgName,epc,deviceId,collectTime from v_asset_monitor where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2020-10-26T16:30:36.126] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:30:36.138] [DEBUG] default - db/executeObjWithCon/request
+[2020-10-26T16:30:36.147] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'useOrgName' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+    --------------------
+    at Protocol._enqueue (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\iot.asset\src\service.api\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot\iot.asset\src\service.api\db\db.mysql.js:45:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:42:12)
+    at Object.executeObjWithCon (D:\iot\iot.asset\src\service.api\db\db.mysql.js:154:12)
+    at Object.execute (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:87:38)
+    at Socket.<anonymous> (D:\iot\iot.asset\src\service.api\socket\server.db.socket.js:166:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'useOrgName' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "select assetId,assetName,placeName,useOrgName,epc,deviceId,collectTime from v_asset_monitor where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2020-10-26T16:30:58.812] [DEBUG] default - db/getConnection/request
+[2020-10-26T16:30:58.821] [DEBUG] default - db/executeObjWithCon/request

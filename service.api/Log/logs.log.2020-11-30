@@ -1,0 +1,2598 @@
+[2020-11-30T16:47:57.539] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:47:57.541] [DEBUG] default - {
+  signature: '6e3b42495b4ead7400c3a56bdfb40e09',
+  access_token: 'da26b20e604b3dd8b0b4f186d3aa7293',
+  userId: 'admin_bj',
+  body: { id: 'gnf8KT6v6hn6DLtlAAAA' }
+}
+[2020-11-30T16:47:57.932] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:47:57.932] [DEBUG] default - {
+  signature: 'd612fb94e74ac466e94e24d74a1050f1',
+  access_token: 'da26b20e604b3dd8b0b4f186d3aa7293',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'gnf8KT6v6hn6DLtlAAAA'
+  }
+}
+[2020-11-30T16:48:17.972] [DEBUG] default - api/pc/login/request
+[2020-11-30T16:48:17.972] [DEBUG] default - {
+  signature: '3945e2b3dfdca03281220c29e38c4be9',
+  body: { tenantId: 'uniontech', userId: 'admin_bj', pwd: '123456' }
+}
+[2020-11-30T16:48:19.176] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.176] [DEBUG] default - {
+  signature: '928578c9184425791403ce9714801cfe',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'wvgEhGn8Ka-ZhZ1IAAAH' }
+}
+[2020-11-30T16:48:19.181] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.181] [DEBUG] default - {
+  signature: 'e37ef4f9a35fb7d85d8aa797a837cd07',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: '54YoFSi1WPeA11yKAAAI' }
+}
+[2020-11-30T16:48:19.183] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.183] [DEBUG] default - {
+  signature: '2a5c2ca563371a9b0085ace8701c1312',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: '6zQYtBlBNXFNlfaeAAAJ' }
+}
+[2020-11-30T16:48:19.187] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.189] [DEBUG] default - {
+  signature: '29a8ee1e341f2b15f8245daccbc9c235',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'XcYf2bVAM8PqTfuvAAAK' }
+}
+[2020-11-30T16:48:19.192] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.193] [DEBUG] default - {
+  signature: '11e98519696687b60be86ee0d889bab4',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'z6AKU4unorUkyiWKAAAL' }
+}
+[2020-11-30T16:48:19.195] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.195] [DEBUG] default - {
+  signature: 'c02367fc4af5a12eb4f6b7946c24945d',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'yyZ8gH8GxWfdTG5CAAAM' }
+}
+[2020-11-30T16:48:19.197] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.198] [DEBUG] default - {
+  signature: '903d2d6748add37a9b537cf057219735',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'aqTE3_iTUikFEi0DAAAN' }
+}
+[2020-11-30T16:48:19.201] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.201] [DEBUG] default - {
+  signature: 'e7b24bfbb5740efa291b24c136acf4de',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'ApFVC47L2s8ot1nPAAAO' }
+}
+[2020-11-30T16:48:19.214] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.214] [DEBUG] default - {
+  signature: '7ad2f0b2f749dbea108ed24cb1fbdcc7',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'wvgEhGn8Ka-ZhZ1IAAAH'
+  }
+}
+[2020-11-30T16:48:19.218] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.218] [DEBUG] default - {
+  signature: '7fa857f3759e74940f1a5f4063b9a9d7',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: '54YoFSi1WPeA11yKAAAI'
+  }
+}
+[2020-11-30T16:48:19.227] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.227] [DEBUG] default - {
+  signature: 'ff7cbaacf7bbcaa9c28457d5a4d6a844',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: '6zQYtBlBNXFNlfaeAAAJ'
+  }
+}
+[2020-11-30T16:48:19.233] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.233] [DEBUG] default - {
+  signature: '721c29cd6a7c2eb216ee0846771842f5',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'XcYf2bVAM8PqTfuvAAAK'
+  }
+}
+[2020-11-30T16:48:19.247] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.247] [DEBUG] default - {
+  signature: '4f7c501065b3f3f9d342954a09f1deac',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'z6AKU4unorUkyiWKAAAL'
+  }
+}
+[2020-11-30T16:48:19.284] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.284] [DEBUG] default - {
+  signature: 'e9bd9c5de322f47f42474b5348369e6e',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'ApFVC47L2s8ot1nPAAAO'
+  }
+}
+[2020-11-30T16:48:19.290] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.290] [DEBUG] default - {
+  signature: '05700e1a042ea5f1badb86d47667450c',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'aqTE3_iTUikFEi0DAAAN'
+  }
+}
+[2020-11-30T16:48:19.293] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.293] [DEBUG] default - {
+  signature: 'e40418389036802d1a0ab7101630f7d4',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'yyZ8gH8GxWfdTG5CAAAM'
+  }
+}
+[2020-11-30T16:48:19.531] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.531] [DEBUG] default - {
+  signature: '875bf827b901557dbd0600a2377de852',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'JpVEskbb-faIR7gYAAAP' }
+}
+[2020-11-30T16:48:19.545] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:48:19.545] [DEBUG] default - {
+  signature: 'f94298acc5b447a0d403ed6887397fa3',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'JpVEskbb-faIR7gYAAAP'
+  }
+}
+[2020-11-30T16:48:19.584] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:48:19.584] [DEBUG] default - {
+  signature: 'c26f1e56cfbc86ae34031113ed44657a',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: '9HeUtHdPqmKc2E_OAAAQ' }
+}
+[2020-11-30T16:48:19.604] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:48:19.605] [DEBUG] default - {
+  signature: '7156aeb2360686ed3e2ee67678b2ce1b',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: '9HeUtHdPqmKc2E_OAAAQ'
+  }
+}
+[2020-11-30T16:52:15.878] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:15.878] [DEBUG] default - {
+  signature: 'e3220e5fc924513e6f7012e9bfb3f9f1',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'isP-T2GHg4v9jak6AAAR' }
+}
+[2020-11-30T16:52:15.882] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:15.883] [DEBUG] default - {
+  signature: '3f6dad627817e863db2e386607ca17f7',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'feFc2fr-4vXRDnY5AAAS' }
+}
+[2020-11-30T16:52:15.886] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:15.886] [DEBUG] default - {
+  signature: '59a50f1d6eca33d5533e5f97f3d9dd50',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'v67-WKkY1WZAnIqFAAAT' }
+}
+[2020-11-30T16:52:15.893] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:15.893] [DEBUG] default - {
+  signature: '022580e44b56434fc78eb690a212bfed',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: 'CXbd4t4z-bu2pvnkAAAU' }
+}
+[2020-11-30T16:52:15.896] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:15.896] [DEBUG] default - {
+  signature: '8f2d54ba7b1c7506ad0847bfe856770f',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: '_nidO14ZMi54CCVMAAAV' }
+}
+[2020-11-30T16:52:15.903] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:15.903] [DEBUG] default - {
+  signature: '144d61e8efe363bb1d6491b6537c1bc5',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: { id: '5tfU5JWKTEz2YhxqAAAW' }
+}
+[2020-11-30T16:52:15.973] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:15.973] [DEBUG] default - {
+  signature: '6900294b00599009505d00984f9bbc63',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'isP-T2GHg4v9jak6AAAR'
+  }
+}
+[2020-11-30T16:52:15.980] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:15.980] [DEBUG] default - {
+  signature: '0833f072e6ce31922e2e1f8796a61457',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'feFc2fr-4vXRDnY5AAAS'
+  }
+}
+[2020-11-30T16:52:15.985] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:15.985] [DEBUG] default - {
+  signature: '58a4065c14b46cab58a6c8693bb60973',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'v67-WKkY1WZAnIqFAAAT'
+  }
+}
+[2020-11-30T16:52:15.989] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:15.990] [DEBUG] default - {
+  signature: '78c4274a5a5476bc7d32d5547a259dc7',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'CXbd4t4z-bu2pvnkAAAU'
+  }
+}
+[2020-11-30T16:52:15.993] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:15.993] [DEBUG] default - {
+  signature: '0cc600e4dbc14afb91520f590b1bedae',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: '_nidO14ZMi54CCVMAAAV'
+  }
+}
+[2020-11-30T16:52:15.995] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:52:15.996] [DEBUG] default - {
+  signature: 'afcaa7ab9d57488f0244cf5dc703a0ae',
+  access_token: '04e68b157a51566dfc55df83314f5e13',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: '5tfU5JWKTEz2YhxqAAAW'
+  }
+}
+[2020-11-30T16:52:50.360] [DEBUG] default - api/pc/login/request
+[2020-11-30T16:52:50.360] [DEBUG] default - {
+  signature: 'fd5779fe5f82a3c8cde084071dd49934',
+  body: { tenantId: 'uniontech', userId: 'admin', pwd: '123456' }
+}
+[2020-11-30T16:52:51.746] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:51.746] [DEBUG] default - {
+  signature: '887b4e07264e307e2200abf91701987b',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: { id: 'bJFhO6rjNLt8OEiGAAAY' }
+}
+[2020-11-30T16:52:51.749] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:51.749] [DEBUG] default - {
+  signature: 'e1b85cf6bdbd73fcd5dcd33c0e4653a2',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: { id: 'WzFLTHlymXzroc9yAAAZ' }
+}
+[2020-11-30T16:52:51.753] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:51.753] [DEBUG] default - {
+  signature: '0072d9b9fb2481ca5c922283e6751c47',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: { id: '6bv3dHRhd8dJu1oxAAAa' }
+}
+[2020-11-30T16:52:51.755] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:51.755] [DEBUG] default - {
+  signature: 'f12b4b2b8f51ad0b6fcc859aa7fea65b',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: { id: 'ookJ15dhYOiQRMWBAAAb' }
+}
+[2020-11-30T16:52:51.758] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:51.758] [DEBUG] default - {
+  signature: '810edeb899bb6014c314099c900b8b62',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: { id: 'qSfKnlefQpMyLIxlAAAc' }
+}
+[2020-11-30T16:52:51.760] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:52:51.760] [DEBUG] default - {
+  signature: 'a23bffa3ba18a643b9fea92c77ddcf65',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: { id: '3gu4nnRfWFYv9xvYAAAd' }
+}
+[2020-11-30T16:52:51.783] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:51.784] [DEBUG] default - {
+  signature: '46b57d588cb590cf0772c18fd1f2fe53',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'bJFhO6rjNLt8OEiGAAAY'
+  }
+}
+[2020-11-30T16:52:51.796] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:51.796] [DEBUG] default - {
+  signature: '8b3925386b165bd0084f02e954d52f48',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: '6bv3dHRhd8dJu1oxAAAa'
+  }
+}
+[2020-11-30T16:52:51.801] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:51.801] [DEBUG] default - {
+  signature: '7bd730f623f99d7114c8050ffa8bcae2',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'WzFLTHlymXzroc9yAAAZ'
+  }
+}
+[2020-11-30T16:52:51.808] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:51.808] [DEBUG] default - {
+  signature: '5ad536f697209f25ddf3c499efd58248',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'ookJ15dhYOiQRMWBAAAb'
+  }
+}
+[2020-11-30T16:52:51.820] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:52:51.822] [DEBUG] default - {
+  signature: '40f07d51bd607eb58e9f886ae6d2aaa8',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'qSfKnlefQpMyLIxlAAAc'
+  }
+}
+[2020-11-30T16:52:51.839] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:52:51.839] [DEBUG] default - {
+  signature: 'b9a6f8ecfaf85570e32896fc5996eece',
+  access_token: 'ccd24e260bef84ffe7bcaf86dd23c986',
+  userId: 'admin',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin',
+      status: null,
+      useStatus: null
+    },
+    id: '3gu4nnRfWFYv9xvYAAAd'
+  }
+}
+[2020-11-30T16:53:06.085] [DEBUG] default - api/pc/login/request
+[2020-11-30T16:53:06.085] [DEBUG] default - {
+  signature: '3945e2b3dfdca03281220c29e38c4be9',
+  body: { tenantId: 'uniontech', userId: 'admin_bj', pwd: '123456' }
+}
+[2020-11-30T16:53:07.088] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:53:07.088] [DEBUG] default - {
+  signature: '5a97f70be015393b815bf04a3724ea3c',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: { id: 'VBFFrZpAOxogXbokAAAf' }
+}
+[2020-11-30T16:53:07.092] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:53:07.092] [DEBUG] default - {
+  signature: '2b6c40f48a352f8ec563a786a957cf7e',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: { id: 'JfjNGrGwpv2sNYpzAAAg' }
+}
+[2020-11-30T16:53:07.095] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:53:07.096] [DEBUG] default - {
+  signature: '565fc6c2ffe3a2b2b116fac0ff2fda51',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: { id: 'an6tpQ1zQ0DYrNjzAAAh' }
+}
+[2020-11-30T16:53:07.098] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:53:07.099] [DEBUG] default - {
+  signature: '8dd48df962d48e76eee96e6f27239e42',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: { id: 'k_3PSf3ETw_K7XPKAAAi' }
+}
+[2020-11-30T16:53:07.103] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:53:07.103] [DEBUG] default - {
+  signature: '33ac591b8c5a520fdda6618ead257e6f',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: { id: 'JktTE26ma_FcegOVAAAj' }
+}
+[2020-11-30T16:53:07.105] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:53:07.106] [DEBUG] default - {
+  signature: 'bf3d008f2be5ede40bf3e3f8e0a2a2a5',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: { id: 'hwfwYan8GQARRF8rAAAk' }
+}
+[2020-11-30T16:53:07.113] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:53:07.113] [DEBUG] default - {
+  signature: 'cf3192078f11c847dad49c01f7443dad',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'VBFFrZpAOxogXbokAAAf'
+  }
+}
+[2020-11-30T16:53:07.120] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:53:07.120] [DEBUG] default - {
+  signature: 'b157dd38ec748abda888d4f76c414907',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'JfjNGrGwpv2sNYpzAAAg'
+  }
+}
+[2020-11-30T16:53:07.123] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:53:07.123] [DEBUG] default - {
+  signature: 'cb475de4c42441bb8db4f641dd9998af',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'k_3PSf3ETw_K7XPKAAAi'
+  }
+}
+[2020-11-30T16:53:07.126] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:53:07.126] [DEBUG] default - {
+  signature: '8e5658732f5d17e905d38d3bb42bcf95',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'an6tpQ1zQ0DYrNjzAAAh'
+  }
+}
+[2020-11-30T16:53:07.131] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:53:07.131] [DEBUG] default - {
+  signature: '9e9f345e870f999c6feb0bbcae4ec74c',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'hwfwYan8GQARRF8rAAAk'
+  }
+}
+[2020-11-30T16:53:07.139] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:53:07.139] [DEBUG] default - {
+  signature: '0519f767bd30bc1471f012655a2e4231',
+  access_token: '67471b46ddda5fe4298ac6b6a920138f',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'JktTE26ma_FcegOVAAAj'
+  }
+}
+[2020-11-30T16:54:06.288] [DEBUG] default - api/pc/login/request
+[2020-11-30T16:54:06.290] [DEBUG] default - {
+  signature: '3945e2b3dfdca03281220c29e38c4be9',
+  body: { tenantId: 'uniontech', userId: 'admin_bj', pwd: '123456' }
+}
+[2020-11-30T16:54:08.145] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:08.145] [DEBUG] default - {
+  signature: '861b92e75cd6e306411386053491935a',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'poHCEi7Gdw1ByB1rAAAG' }
+}
+[2020-11-30T16:54:08.148] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:08.149] [DEBUG] default - {
+  signature: '54b303e9e96daaf33455edec66883eff',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'M3bvBrrWWNgXoMVFAAAH' }
+}
+[2020-11-30T16:54:08.151] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:08.151] [DEBUG] default - {
+  signature: 'dd96f1e646f4450e965a48ea73553f62',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'ZWZehhsygBLEUbo5AAAI' }
+}
+[2020-11-30T16:54:08.154] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:08.154] [DEBUG] default - {
+  signature: '6c5a63ff96e2e7e2a1370f6d91934009',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'WvlGI0k5Qv0laeb5AAAJ' }
+}
+[2020-11-30T16:54:08.157] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:08.157] [DEBUG] default - {
+  signature: '88864b7e9aea3c034882332dd39adf12',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'W4YhvH4fF6DuOAk5AAAK' }
+}
+[2020-11-30T16:54:08.160] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:08.160] [DEBUG] default - {
+  signature: 'c0a030d45de3ce4d1a56a068f88c959e',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'cn8ShKHwXl1qC6XHAAAL' }
+}
+[2020-11-30T16:54:08.169] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:54:08.169] [DEBUG] default - {
+  signature: '6473d5d261b26a135acd4eaecdb0c066',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'poHCEi7Gdw1ByB1rAAAG'
+  }
+}
+[2020-11-30T16:54:08.198] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:54:08.199] [DEBUG] default - {
+  signature: '3205700c201a329bed2a687e2cb31959',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'M3bvBrrWWNgXoMVFAAAH'
+  }
+}
+[2020-11-30T16:54:08.203] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:54:08.203] [DEBUG] default - {
+  signature: '51e27b58bb42e1d1142f1c25a907e893',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'ZWZehhsygBLEUbo5AAAI'
+  }
+}
+[2020-11-30T16:54:08.219] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:54:08.219] [DEBUG] default - {
+  signature: '974182b057f3d699437e0d312be80a20',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'cn8ShKHwXl1qC6XHAAAL'
+  }
+}
+[2020-11-30T16:54:08.276] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:54:08.276] [DEBUG] default - {
+  signature: 'f253b66c09bb131d29e359182a2ccfe6',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'W4YhvH4fF6DuOAk5AAAK'
+  }
+}
+[2020-11-30T16:54:08.285] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:54:08.285] [DEBUG] default - {
+  signature: '376020a530eafc32ff7fd3617e50a10c',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'WvlGI0k5Qv0laeb5AAAJ'
+  }
+}
+[2020-11-30T16:54:15.400] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:54:15.400] [DEBUG] default - {
+  signature: 'f3ad6541ee3d9afacb44b78c4ec22eed',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: '5IpHDuZtIdPPzOVtAAAM' }
+}
+[2020-11-30T16:54:15.422] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:54:15.422] [DEBUG] default - {
+  signature: '3594bf46734733be0a29d1f0ff856203',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_user',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      userId: 1,
+      employeeName: 1,
+      orgName: 1,
+      manage_orgName: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: '5IpHDuZtIdPPzOVtAAAM'
+  }
+}
+[2020-11-30T16:55:59.458] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:55:59.458] [DEBUG] default - {
+  signature: '2e3350484d7edddb373723162350432f',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: '-bFPMnn-F1OAxCQbAAAN' }
+}
+[2020-11-30T16:55:59.462] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:55:59.462] [DEBUG] default - {
+  signature: '964c042f14ee6981b14db5d145b1057d',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'wPaYCz7xZZWIb7BgAAAO' }
+}
+[2020-11-30T16:55:59.474] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:55:59.474] [DEBUG] default - {
+  signature: '16271b125ff3a6dcd060e53ef21b782d',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '-bFPMnn-F1OAxCQbAAAN'
+  }
+}
+[2020-11-30T16:55:59.480] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:55:59.480] [DEBUG] default - {
+  signature: '89d883234d1b203dc47c14e98f1a5314',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'wPaYCz7xZZWIb7BgAAAO'
+  }
+}
+[2020-11-30T16:56:06.254] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:56:06.254] [DEBUG] default - {
+  signature: 'ede0c7a7d7c0d0919242892e6ff1c26b',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'lT7VVF5BmghYB3IWAAAP' }
+}
+[2020-11-30T16:56:06.294] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:56:06.294] [DEBUG] default - {
+  signature: '0c13a9325455058393008c9d2983a8e7',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_user',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      userId: 1,
+      employeeName: 1,
+      orgName: 1,
+      manage_orgName: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'lT7VVF5BmghYB3IWAAAP'
+  }
+}
+[2020-11-30T16:57:02.827] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:57:02.827] [DEBUG] default - {
+  signature: '9831083eb4aa90aa84a402dccc7ce8fe',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: 'Y0aDkAEOTXMcKrSrAAAQ' }
+}
+[2020-11-30T16:57:02.858] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:57:02.858] [DEBUG] default - {
+  signature: '9f362b2852ae942ecf2b41ccb51eab85',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_user_permission',
+    query: { userId: 'admin_bj', tenantId: 'uniontech' },
+    dataContent: null,
+    id: 'Y0aDkAEOTXMcKrSrAAAQ'
+  }
+}
+[2020-11-30T16:57:59.476] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:57:59.476] [DEBUG] default - {
+  signature: 'fcc38642ab17bbb43424b8d62e775831',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: '-VqcWM9topYZP8dDAAAR' }
+}
+[2020-11-30T16:57:59.497] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:57:59.497] [DEBUG] default - {
+  signature: '47564a23df5b5d28dd110c012da5b850',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_user_permission',
+    query: { userId: 'admin_bj', tenantId: 'uniontech' },
+    dataContent: null,
+    id: '-VqcWM9topYZP8dDAAAR'
+  }
+}
+[2020-11-30T16:57:59.557] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:57:59.557] [DEBUG] default - {
+  signature: 'a28b50be249147a503b1a7ec012200e9',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: '_9shfnmraQX8EXPQAAAS' }
+}
+[2020-11-30T16:57:59.574] [DEBUG] default - db/beginTrans/request
+[2020-11-30T16:57:59.574] [DEBUG] default - {
+  signature: 'a28b50be249147a503b1a7ec012200e9',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: '_9shfnmraQX8EXPQAAAS' }
+}
+[2020-11-30T16:57:59.591] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:57:59.591] [DEBUG] default - {
+  signature: 'eb12afe37058a6f6a61016ccea99ad0b',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_user_permission_page',
+    query: { userId: 'admin_bj', tenantId: 'uniontech' },
+    fields: null,
+    dataContent: null,
+    id: '_9shfnmraQX8EXPQAAAS'
+  }
+}
+[2020-11-30T16:57:59.627] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:57:59.627] [DEBUG] default - {
+  signature: '89f2ba585aeda5a5d5e3660567bbffdb',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: {
+    operate: 'insertMany',
+    tableName: 'tenant_user_permission_page',
+    query: { tenantId: 'uniontech' },
+    fields: null,
+    dataContent: [
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object], [Object]
+    ],
+    id: '_9shfnmraQX8EXPQAAAS'
+  }
+}
+[2020-11-30T16:57:59.684] [DEBUG] default - db/commitTrans/request
+[2020-11-30T16:57:59.684] [DEBUG] default - {
+  signature: 'a28b50be249147a503b1a7ec012200e9',
+  access_token: '5a7ea95b0140cd818fde6a4b86c3af9b',
+  userId: 'admin_bj',
+  body: { id: '_9shfnmraQX8EXPQAAAS' }
+}
+[2020-11-30T16:58:13.668] [DEBUG] default - api/pc/login/request
+[2020-11-30T16:58:13.668] [DEBUG] default - {
+  signature: '3945e2b3dfdca03281220c29e38c4be9',
+  body: { tenantId: 'uniontech', userId: 'admin_bj', pwd: '123456' }
+}
+[2020-11-30T16:58:14.438] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:14.439] [DEBUG] default - {
+  signature: '90c8278b4a0963b42a868e7e81d9b9e0',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'fBTFNBx2bts9teopAAAU' }
+}
+[2020-11-30T16:58:14.441] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:14.441] [DEBUG] default - {
+  signature: 'e12775255a79b0f5c4ea7741970fc48b',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'rS2FCflFaZClR6hsAAAV' }
+}
+[2020-11-30T16:58:14.444] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:14.444] [DEBUG] default - {
+  signature: '3615c72a31e522f3257dc2182e45bcba',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'VFosXkZXdxE7GcRVAAAW' }
+}
+[2020-11-30T16:58:14.449] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:14.449] [DEBUG] default - {
+  signature: '930c57149436ece1c89aba47c59cefc3',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'rHEilal5QokPMp2qAAAX' }
+}
+[2020-11-30T16:58:14.454] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:14.454] [DEBUG] default - {
+  signature: '5142fd1fb362fa0918fb6e8f1a317ee2',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '5ecOmKnru4coS9nwAAAY' }
+}
+[2020-11-30T16:58:14.463] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:14.464] [DEBUG] default - {
+  signature: '717c58dac20bd612aa37395d2175e673',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '3jW2vnhQ0Y81H4gnAAAZ' }
+}
+[2020-11-30T16:58:14.468] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:14.468] [DEBUG] default - {
+  signature: 'c3d3c4912ee57dcd4f1e45191fc6d3ef',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'fBTFNBx2bts9teopAAAU'
+  }
+}
+[2020-11-30T16:58:14.476] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:14.476] [DEBUG] default - {
+  signature: '1b53c92356aed7efce6648a11fa8dba4',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'rS2FCflFaZClR6hsAAAV'
+  }
+}
+[2020-11-30T16:58:14.482] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:14.482] [DEBUG] default - {
+  signature: '467cca1b12b96d8a9c6f31e5e4dabe19',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'VFosXkZXdxE7GcRVAAAW'
+  }
+}
+[2020-11-30T16:58:14.485] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:14.486] [DEBUG] default - {
+  signature: '23560521444d477dce2716a78b4b2e73',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: '5ecOmKnru4coS9nwAAAY'
+  }
+}
+[2020-11-30T16:58:14.503] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:14.503] [DEBUG] default - {
+  signature: '4afc3a9f5e756db76a87f2b2c6c7ef1e',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'rHEilal5QokPMp2qAAAX'
+  }
+}
+[2020-11-30T16:58:14.515] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:58:14.515] [DEBUG] default - {
+  signature: '0434d8b9aac85f915665844eb8942619',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: '3jW2vnhQ0Y81H4gnAAAZ'
+  }
+}
+[2020-11-30T16:58:20.583] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:20.583] [DEBUG] default - {
+  signature: '7ab84312c7a40c526c90ebe2dba3e954',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'k0WK0f_pIpemxTigAAAa' }
+}
+[2020-11-30T16:58:20.585] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:20.585] [DEBUG] default - {
+  signature: 'd87678898178a59e0f169fc08ca013dc',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'i0ylWcnvmSj5iU3dAAAb' }
+}
+[2020-11-30T16:58:20.604] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:20.604] [DEBUG] default - {
+  signature: 'fa63198fee86fd78982d38fe24e068fe',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'i0ylWcnvmSj5iU3dAAAb'
+  }
+}
+[2020-11-30T16:58:20.611] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:20.611] [DEBUG] default - {
+  signature: '4a73d52ae532853139442fe1af7b7794',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'k0WK0f_pIpemxTigAAAa'
+  }
+}
+[2020-11-30T16:58:55.894] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:55.895] [DEBUG] default - {
+  signature: '03a3858504c2c41f8a1f3b84000d7cdc',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'j7q906Xs-AA9Y3wNAAAc' }
+}
+[2020-11-30T16:58:55.898] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:55.898] [DEBUG] default - {
+  signature: 'b4b7e49500a14f5e665d98d4b444797e',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '7dMkNyJk3LvzYLKJAAAd' }
+}
+[2020-11-30T16:58:55.910] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:55.910] [DEBUG] default - {
+  signature: 'b4708eb8b013988801579d8cd6ac719c',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset_alarm',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      id: 1,
+      status: 1,
+      assetId: 1,
+      assetName: 1,
+      placeName: 1,
+      useOrgName: 1,
+      deviceId: 1,
+      alarmTime: 1,
+      epc: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'j7q906Xs-AA9Y3wNAAAc'
+  }
+}
+[2020-11-30T16:58:55.943] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:55.943] [DEBUG] default - {
+  signature: '7ff452d21813288e0c6ca027bca29bd5',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset_alarm',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      id: 1,
+      status: 1,
+      assetId: 1,
+      assetName: 1,
+      placeName: 1,
+      useOrgName: 1,
+      deviceId: 1,
+      alarmTime: 1,
+      epc: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: '7dMkNyJk3LvzYLKJAAAd'
+  }
+}
+[2020-11-30T16:58:57.853] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:57.853] [DEBUG] default - {
+  signature: 'a06f0971a0e2c0479b6d77c0db789ba4',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'NEf0kkow3Fjtcj54AAAe' }
+}
+[2020-11-30T16:58:57.855] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:58:57.856] [DEBUG] default - {
+  signature: 'fdb2fed494cdcb7e8c11a954b449f8c9',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'Whh3pPOw3731zBaCAAAf' }
+}
+[2020-11-30T16:58:57.867] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:57.867] [DEBUG] default - {
+  signature: 'aa5472334772ca39b8bc723cf9768f3a',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset_monitor',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      id: 1,
+      assetId: 1,
+      assetName: 1,
+      placeName: 1,
+      useOrgName: 1,
+      epc: 1,
+      deviceId: 1,
+      collectTime: 1
+    },
+    dataContent: null,
+    pageNum: 1,
+    pageSize: 1000,
+    id: 'NEf0kkow3Fjtcj54AAAe'
+  }
+}
+[2020-11-30T16:58:57.874] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:58:57.875] [DEBUG] default - {
+  signature: 'ad5ebce5a8f8e5bc43a01fe54ad16812',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset_monitor',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      id: 1,
+      assetId: 1,
+      assetName: 1,
+      placeName: 1,
+      useOrgName: 1,
+      epc: 1,
+      deviceId: 1,
+      collectTime: 1
+    },
+    dataContent: null,
+    pageNum: 1,
+    pageSize: 1000,
+    id: 'Whh3pPOw3731zBaCAAAf'
+  }
+}
+[2020-11-30T16:59:02.973] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:59:02.973] [DEBUG] default - {
+  signature: '88868ebc402ca512ff8a811d4cfc7c39',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'iJjwq1zToTdvOhoSAAAg' }
+}
+[2020-11-30T16:59:02.988] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:59:02.989] [DEBUG] default - {
+  signature: 'f58288ee38ee69ffbb10eaa262d9dbf8',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'iJjwq1zToTdvOhoSAAAg'
+  }
+}
+[2020-11-30T16:59:14.077] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:59:14.077] [DEBUG] default - {
+  signature: '9d9476806602ecc2fccc638a684408df',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'EtZBJhW4qFWaPovnAAAh' }
+}
+[2020-11-30T16:59:14.092] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:59:14.092] [DEBUG] default - {
+  signature: '785f1e6615cfa4abf2ccc92641111a26',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'EtZBJhW4qFWaPovnAAAh'
+  }
+}
+[2020-11-30T16:59:15.628] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:59:15.628] [DEBUG] default - {
+  signature: '8fb1d0e2d5b3decba82b07213fc2fc29',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'f4vmh46L-g2cjfppAAAi' }
+}
+[2020-11-30T16:59:15.642] [DEBUG] default - db/executeProc/request
+[2020-11-30T16:59:15.643] [DEBUG] default - {
+  signature: 'e0759953fbe12cf3fa0e48ab83a5e746',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'f4vmh46L-g2cjfppAAAi'
+  }
+}
+[2020-11-30T16:59:19.636] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:59:19.637] [DEBUG] default - {
+  signature: '737a275139749a18becfa3c0d130a9cd',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'GwhqoR_6IjKH9Qz-AAAj' }
+}
+[2020-11-30T16:59:19.658] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:59:19.658] [DEBUG] default - {
+  signature: '28cfd732f2fcf5115e7a8141961ead9b',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'GwhqoR_6IjKH9Qz-AAAj'
+  }
+}
+[2020-11-30T16:59:46.601] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:59:46.601] [DEBUG] default - {
+  signature: 'a76b1c62af4256f17b5aa0919eae7e3d',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'VvWUVCjjD_wJhXDSAAAk' }
+}
+[2020-11-30T16:59:46.603] [DEBUG] default - db/getConnection/request
+[2020-11-30T16:59:46.603] [DEBUG] default - {
+  signature: '8277a838380246046ba884a114f9c15f',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'Jqa9I8oBYZ1_5z_XAAAl' }
+}
+[2020-11-30T16:59:46.626] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:59:46.626] [DEBUG] default - {
+  signature: '422d7bea5d5efe38facfaca2260b1547',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'VvWUVCjjD_wJhXDSAAAk'
+  }
+}
+[2020-11-30T16:59:46.631] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T16:59:46.631] [DEBUG] default - {
+  signature: '5833620856aed902eda4863505a886a1',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'Jqa9I8oBYZ1_5z_XAAAl'
+  }
+}
+[2020-11-30T17:02:00.334] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:00.335] [DEBUG] default - {
+  signature: '6e9b84dafc4f486833503a5c2e0c90ad',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'u5fgFpuubl8-U6pEAAAm' }
+}
+[2020-11-30T17:02:00.339] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:00.340] [DEBUG] default - {
+  signature: '768cfb17e1a0c62148aade00780c4d4e',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'EkwM6JS8SRh5FSt9AAAn' }
+}
+[2020-11-30T17:02:00.354] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:02:00.355] [DEBUG] default - {
+  signature: '4ccaa12d86914cd5547bf905c8d51bfc',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'u5fgFpuubl8-U6pEAAAm'
+  }
+}
+[2020-11-30T17:02:00.396] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:02:00.396] [DEBUG] default - {
+  signature: 'd22d94105c4562b3543d1bccaf6e7b19',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_device',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      deviceId: 1,
+      deviceName: 1,
+      placeName: 1,
+      deviceType: 1,
+      groupName: 1,
+      ownOrgName: 1,
+      model: 1,
+      version: 1,
+      remarks: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'EkwM6JS8SRh5FSt9AAAn'
+  }
+}
+[2020-11-30T17:02:03.213] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:03.213] [DEBUG] default - {
+  signature: '239bcf85024d9d9003663d533ecbd682',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'THCv9WzoJzv3MONFAAAo' }
+}
+[2020-11-30T17:02:03.216] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:03.216] [DEBUG] default - {
+  signature: '9d78b3a895587a017c6cff030a9fb441',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '3XcL8X9P1IiIhy_NAAAp' }
+}
+[2020-11-30T17:02:03.224] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:02:03.224] [DEBUG] default - {
+  signature: '4f8777a59500f18271103bced0e1c82c',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'THCv9WzoJzv3MONFAAAo'
+  }
+}
+[2020-11-30T17:02:03.239] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:02:03.240] [DEBUG] default - {
+  signature: '67452c255a46937d7a83e0989bdddfa1',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: '3XcL8X9P1IiIhy_NAAAp'
+  }
+}
+[2020-11-30T17:02:18.904] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:18.904] [DEBUG] default - {
+  signature: '944598aa03e2ddc32a09830235c969bb',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'N8ZFWMxupWcGLDxWAAAq' }
+}
+[2020-11-30T17:02:18.925] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:02:18.925] [DEBUG] default - {
+  signature: '3e4fcc19a8c2c176146e1f63d686ace0',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_inventory',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      billNo: 1,
+      billName: 1,
+      pdPersonName: 1,
+      checkPersonName: 1,
+      createPersonName: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    sortFields: { createTime: 0 },
+    id: 'N8ZFWMxupWcGLDxWAAAq'
+  }
+}
+[2020-11-30T17:02:28.640] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:28.640] [DEBUG] default - {
+  signature: 'd435591bee08954b7f63efa698508d0a',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'ikGytlBLDuhw7M94AAAr' }
+}
+[2020-11-30T17:02:28.655] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:02:28.655] [DEBUG] default - {
+  signature: '649589ab39bacd02a64aea9ad6c4d98f',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'ikGytlBLDuhw7M94AAAr'
+  }
+}
+[2020-11-30T17:02:41.036] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:41.036] [DEBUG] default - {
+  signature: '8e3a7897f4023f3f68710fa98dcd4527',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'oQS-EeZo72SfpORGAAAs' }
+}
+[2020-11-30T17:02:41.060] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:02:41.060] [DEBUG] default - {
+  signature: '1cfada3529199ac5d895b586c4bd6042',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'oQS-EeZo72SfpORGAAAs'
+  }
+}
+[2020-11-30T17:02:50.029] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:50.029] [DEBUG] default - {
+  signature: '086ecd3fc306073f6def267fb283b53b',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '2fySuFDATd04k_x8AAAt' }
+}
+[2020-11-30T17:02:50.054] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:02:50.055] [DEBUG] default - {
+  signature: 'abb69ca13283ae2c968c9ceac2911981',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: '2fySuFDATd04k_x8AAAt'
+  }
+}
+[2020-11-30T17:02:58.078] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:02:58.078] [DEBUG] default - {
+  signature: 'c9c6e8453f09eaae40bfca7903789434',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'PWJEW2tmJeA3rBnDAAAu' }
+}
+[2020-11-30T17:02:58.096] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:02:58.096] [DEBUG] default - {
+  signature: '8657e046c3e4e078ddb9a64595864915',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'PWJEW2tmJeA3rBnDAAAu'
+  }
+}
+[2020-11-30T17:03:57.606] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.606] [DEBUG] default - {
+  signature: '87fd49d2e81853e58316cffb4e632e27',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'aW_XvY47WBFzBVGrAAAv' }
+}
+[2020-11-30T17:03:57.609] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.609] [DEBUG] default - {
+  signature: '0f40f49f79e479165045475deff1c587',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'ItLH-o7z1jBzXhmFAAAw' }
+}
+[2020-11-30T17:03:57.610] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.610] [DEBUG] default - {
+  signature: 'edad4964432557b06601358a9d2bc209',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'Qwi1jutUDqVQshcRAAAx' }
+}
+[2020-11-30T17:03:57.612] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.613] [DEBUG] default - {
+  signature: '8574b92bdf2390c79531133c6b8de061',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'LoCkmrvLAeH5249cAAAy' }
+}
+[2020-11-30T17:03:57.615] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.616] [DEBUG] default - {
+  signature: '5d68b1d2e39e45c9468c3a1c65ae61e6',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'liHiwNkAiZCntvowAAAz' }
+}
+[2020-11-30T17:03:57.619] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.619] [DEBUG] default - {
+  signature: '5cdff6335fbf79cd91f95864321ef037',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '0kkqdoCh5FgLxXncAAA0' }
+}
+[2020-11-30T17:03:57.621] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.621] [DEBUG] default - {
+  signature: '09f96421675a505f0ee2f641b0ea0432',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'tE1hVRFWycJAj0tJAAA1' }
+}
+[2020-11-30T17:03:57.624] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.624] [DEBUG] default - {
+  signature: 'e658f1963ebc66802960022a33f8d072',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'qiv6mY05CFP8Q9g-AAA2' }
+}
+[2020-11-30T17:03:57.628] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.628] [DEBUG] default - {
+  signature: '05d44ece4523f72ebb5f054d15996d8e',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'ItLH-o7z1jBzXhmFAAAw'
+  }
+}
+[2020-11-30T17:03:57.635] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.635] [DEBUG] default - {
+  signature: 'd3aaaca9492f74c3d61c5e61879c35cf',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'aW_XvY47WBFzBVGrAAAv'
+  }
+}
+[2020-11-30T17:03:57.638] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.638] [DEBUG] default - {
+  signature: '6be74d64d7d4d5a32a488709fc2ed105',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'Qwi1jutUDqVQshcRAAAx'
+  }
+}
+[2020-11-30T17:03:57.641] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.641] [DEBUG] default - {
+  signature: 'f2963fd0bd36687dd96bfe5f4ac8f5fd',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'LoCkmrvLAeH5249cAAAy'
+  }
+}
+[2020-11-30T17:03:57.644] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.644] [DEBUG] default - {
+  signature: 'c3a010ae763e708a1c3efbeb7897b560',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'liHiwNkAiZCntvowAAAz'
+  }
+}
+[2020-11-30T17:03:57.650] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.651] [DEBUG] default - {
+  signature: 'e0c4f8bd611777519f5b007727b888c8',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: '0kkqdoCh5FgLxXncAAA0'
+  }
+}
+[2020-11-30T17:03:57.655] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.655] [DEBUG] default - {
+  signature: '21856d98fe128f03353757cfd85c1727',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'tE1hVRFWycJAj0tJAAA1'
+  }
+}
+[2020-11-30T17:03:57.690] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.690] [DEBUG] default - {
+  signature: '2ce126f8f6cb6a59908c7dc42f2900f2',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'qiv6mY05CFP8Q9g-AAA2'
+  }
+}
+[2020-11-30T17:03:57.795] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.795] [DEBUG] default - {
+  signature: 'ad028b73b964085d34472df8c8f9dcdf',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'lr06J164OcGS0CCzAAA3' }
+}
+[2020-11-30T17:03:57.805] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:03:57.805] [DEBUG] default - {
+  signature: 'a795ec8ced4116b584ff1e582798b0f6',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'lr06J164OcGS0CCzAAA3'
+  }
+}
+[2020-11-30T17:03:57.830] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:03:57.830] [DEBUG] default - {
+  signature: '3fdb634366782118c7bc57621e1e963d',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'PtE_9DcGYCq7JQLCAAA4' }
+}
+[2020-11-30T17:03:57.841] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:03:57.841] [DEBUG] default - {
+  signature: '5312c1b6af596f6cc2e2845ff73f74df',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'PtE_9DcGYCq7JQLCAAA4'
+  }
+}
+[2020-11-30T17:04:07.214] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:07.214] [DEBUG] default - {
+  signature: 'e9c39a0b9318e1cea738933bbd036846',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'Rce5_Su1BdV1VHHdAAA5' }
+}
+[2020-11-30T17:04:07.250] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:04:07.250] [DEBUG] default - {
+  signature: 'f5a735aefd4a78e248f7e3fa146f0d8b',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: 'Rce5_Su1BdV1VHHdAAA5'
+  }
+}
+[2020-11-30T17:04:21.515] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:21.515] [DEBUG] default - {
+  signature: '150637a42f53a395e314da066601d865',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'QPtGnPGjagRF7lEFAAA6' }
+}
+[2020-11-30T17:04:21.517] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:21.518] [DEBUG] default - {
+  signature: '6903cbd645fe8fe09e89fe2507699511',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'No0gZgEWtaVtdTpHAAA7' }
+}
+[2020-11-30T17:04:21.520] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:21.520] [DEBUG] default - {
+  signature: 'e7a2f93f7e16000040a386f45f3605c7',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'y-qc816n9phuVXMHAAA8' }
+}
+[2020-11-30T17:04:21.523] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:21.523] [DEBUG] default - {
+  signature: 'e61fef5a9eadcee6bc44860526d3d9c2',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'OfWl_5vaEqguUJpVAAA9' }
+}
+[2020-11-30T17:04:21.525] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:21.525] [DEBUG] default - {
+  signature: '258475493f0ad5f930cbd724684d9a94',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'YC5OqT2JV8bJ80aFAAA-' }
+}
+[2020-11-30T17:04:21.529] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:21.529] [DEBUG] default - {
+  signature: '541f955e7621a698b770406a9fc8ef86',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '9-Ew9CjbuXkSbrTAAAA_' }
+}
+[2020-11-30T17:04:22.169] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:22.169] [DEBUG] default - {
+  signature: 'b52c37e3bcb0f6010d9903ef23ca4689',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'QPtGnPGjagRF7lEFAAA6'
+  }
+}
+[2020-11-30T17:04:22.174] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:22.174] [DEBUG] default - {
+  signature: 'e6aad5258d62296a2c98ed5805e78fbb',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'No0gZgEWtaVtdTpHAAA7'
+  }
+}
+[2020-11-30T17:04:22.178] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:22.178] [DEBUG] default - {
+  signature: '593e6801265903acfa60810dfa56d164',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'y-qc816n9phuVXMHAAA8'
+  }
+}
+[2020-11-30T17:04:22.181] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:22.181] [DEBUG] default - {
+  signature: 'cafebef8053b27a14169339e7ae42ad4',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'OfWl_5vaEqguUJpVAAA9'
+  }
+}
+[2020-11-30T17:04:22.184] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:22.184] [DEBUG] default - {
+  signature: 'b230eec2f3c906c8f68281844437677d',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'YC5OqT2JV8bJ80aFAAA-'
+  }
+}
+[2020-11-30T17:04:22.188] [DEBUG] default - db/executeProc/request
+[2020-11-30T17:04:22.188] [DEBUG] default - {
+  signature: '2d67a2b4bb81a0eb1909ab49a5f96b1a',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    procName: 'p_asset_queryByUser',
+    paramContent: {
+      tenantId: 'uniontech',
+      userId: 'admin_bj',
+      status: null,
+      useStatus: null
+    },
+    id: '9-Ew9CjbuXkSbrTAAAA_'
+  }
+}
+[2020-11-30T17:04:33.296] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:33.296] [DEBUG] default - {
+  signature: '2d2e4299f275ab0cc0d8e4e4b1d9d377',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'QkTQkO0NhqJRW1HRAABA' }
+}
+[2020-11-30T17:04:33.306] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:33.306] [DEBUG] default - {
+  signature: '6cea4d2ec4e3f99565d222576a39deb6',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'GOcDLrj2VYojKsOqAABB' }
+}
+[2020-11-30T17:04:33.310] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:33.310] [DEBUG] default - {
+  signature: 'cf2a3309fffbc769cdf88d6e939c3be9',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'dL1o4Hil-PNrGlKBAABC' }
+}
+[2020-11-30T17:04:33.313] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:33.313] [DEBUG] default - {
+  signature: 'deb557936647c7f54e0ce08a3ba596e1',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'Ahw3YEzJ9tHJaa56AABD' }
+}
+[2020-11-30T17:04:33.316] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:04:33.316] [DEBUG] default - {
+  signature: '82298972a1b112d8f80bb4672e1b07dc',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'Haf-viuu-hXwy2FXAABE' }
+}
+[2020-11-30T17:04:33.932] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:33.932] [DEBUG] default - {
+  signature: '06b9a9a8de3f6681e846b2df384eacb0',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'QkTQkO0NhqJRW1HRAABA'
+  }
+}
+[2020-11-30T17:04:33.940] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:33.940] [DEBUG] default - {
+  signature: '7074f9735c9c263344d7dc2ea54c3914',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'GOcDLrj2VYojKsOqAABB'
+  }
+}
+[2020-11-30T17:04:33.945] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:33.945] [DEBUG] default - {
+  signature: 'ef0d25f575c6b3382eee6909d73934d1',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'dL1o4Hil-PNrGlKBAABC'
+  }
+}
+[2020-11-30T17:04:33.950] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:33.950] [DEBUG] default - {
+  signature: '524d90e9acb77f855fbc9d472e5e8910',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'Ahw3YEzJ9tHJaa56AABD'
+  }
+}
+[2020-11-30T17:04:33.955] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:04:33.955] [DEBUG] default - {
+  signature: '5ded64cfb56d6d0319e51c61ddc42e13',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'Haf-viuu-hXwy2FXAABE'
+  }
+}
+[2020-11-30T17:05:02.347] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.347] [DEBUG] default - {
+  signature: 'd00b18e16d02269aa76a63859b8608d0',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '4m6uEyeKfmym9zEFAABL' }
+}
+[2020-11-30T17:05:02.355] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.355] [DEBUG] default - {
+  signature: '02ce4d786d8e06e3e86a1c5dc49d4be7',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'ogWMXkrxuqS7LTy-AABM' }
+}
+[2020-11-30T17:05:02.364] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.364] [DEBUG] default - {
+  signature: '50b630909c576059e728693a173a420d',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'ukhwqlFMnTM-n43BAABN' }
+}
+[2020-11-30T17:05:02.379] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.380] [DEBUG] default - {
+  signature: 'df7d348e7f2c629638c370fd9a0ab084',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 't--gdcWh4l2qhXxMAABO' }
+}
+[2020-11-30T17:05:02.389] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.389] [DEBUG] default - {
+  signature: '9be17bfcc8abb06f82961407fec36dc0',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'SO8CBa4L8RU8Cf4GAABP' }
+}
+[2020-11-30T17:05:02.400] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.400] [DEBUG] default - {
+  signature: '97c1aee997463143a3e2bddd16c30541',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '5nlj6bns8joDKSfBAABQ' }
+}
+[2020-11-30T17:05:02.411] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.411] [DEBUG] default - {
+  signature: '650082872a6cf775d7088190a4c4de1f',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'D0psS6w9n0YhXQysAABR' }
+}
+[2020-11-30T17:05:02.416] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:02.416] [DEBUG] default - {
+  signature: 'f4db0bb445f14b6c6b2aaade73be355f',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'qlzDNgQdZcptW4BaAABS' }
+}
+[2020-11-30T17:05:02.442] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.442] [DEBUG] default - {
+  signature: '0a5165e94da4b4ee3dcf786e4268661b',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'uniontech' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: '4m6uEyeKfmym9zEFAABL'
+  }
+}
+[2020-11-30T17:05:02.485] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.485] [DEBUG] default - {
+  signature: '4cc54b5e755161c2b79b6c10d5b100e0',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'ogWMXkrxuqS7LTy-AABM'
+  }
+}
+[2020-11-30T17:05:02.492] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.492] [DEBUG] default - {
+  signature: '840cc2e50e07dddf1370f666d21b0b58',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      orgId: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1
+    },
+    dataContent: null,
+    id: 'ukhwqlFMnTM-n43BAABN'
+  }
+}
+[2020-11-30T17:05:02.500] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.500] [DEBUG] default - {
+  signature: '7286c379c4c06ec4f45f63e9d1476ec7',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 't--gdcWh4l2qhXxMAABO'
+  }
+}
+[2020-11-30T17:05:02.515] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.515] [DEBUG] default - {
+  signature: '5f793ef5471908e227dfccf8bb83543c',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'SO8CBa4L8RU8Cf4GAABP'
+  }
+}
+[2020-11-30T17:05:02.518] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.518] [DEBUG] default - {
+  signature: '96ad48243c3183577488df08ef1bf737',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'uniontech' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: '5nlj6bns8joDKSfBAABQ'
+  }
+}
+[2020-11-30T17:05:02.570] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.570] [DEBUG] default - {
+  signature: '429c2bcd16e03f80e2f2ffec64f237b9',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'D0psS6w9n0YhXQysAABR'
+  }
+}
+[2020-11-30T17:05:02.600] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:02.600] [DEBUG] default - {
+  signature: 'd50cf04a78b2defc3bf2ef33ee2b4c87',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'uniontech' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'qlzDNgQdZcptW4BaAABS'
+  }
+}
+[2020-11-30T17:05:03.247] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:03.248] [DEBUG] default - {
+  signature: '406bc5e0f42945ad10883f2f71f3b5be',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'HuObheQZUoldVkdiAABT' }
+}
+[2020-11-30T17:05:03.284] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:03.284] [DEBUG] default - {
+  signature: 'ce10a7d6a62ecd7c790217601d68e842',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'uniontech' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'HuObheQZUoldVkdiAABT'
+  }
+}
+[2020-11-30T17:05:03.365] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:03.365] [DEBUG] default - {
+  signature: 'fe23e5d3e7f0c31a5888dce599c6bb15',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'oezdiUdj3zdtPrTLAABU' }
+}
+[2020-11-30T17:05:03.382] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:03.382] [DEBUG] default - {
+  signature: 'a5abb15ced1ea42769228672908abeed',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      assetId: 1,
+      assetName: 1,
+      useEmployeeName: 1,
+      epc: 1,
+      barcode: 1,
+      className: 1,
+      brand: 1,
+      model: 1,
+      spec: 1,
+      ownOrgName: 1,
+      useOrgName: 1,
+      useDate: 1,
+      purchaseType: 1,
+      purchaseDate: 1,
+      managerName: 1,
+      placeName: 1,
+      serviceLife: 1,
+      amount: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'oezdiUdj3zdtPrTLAABU'
+  }
+}
+[2020-11-30T17:05:12.524] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:12.524] [DEBUG] default - {
+  signature: '91653d3973bb3310e46161f292474996',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'MJFGWIT3IXFTgCI5AABV' }
+}
+[2020-11-30T17:05:12.552] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:12.553] [DEBUG] default - {
+  signature: 'a921ca8f1d153947221099b88f6cb2eb',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset',
+    query: { assetId: 'PECI513', tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      assetId: 1,
+      assetName: 1,
+      useEmployeeName: 1,
+      epc: 1,
+      barcode: 1,
+      className: 1,
+      brand: 1,
+      model: 1,
+      spec: 1,
+      ownOrgName: 1,
+      useOrgName: 1,
+      useDate: 1,
+      purchaseType: 1,
+      purchaseDate: 1,
+      managerName: 1,
+      placeName: 1,
+      serviceLife: 1,
+      amount: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'MJFGWIT3IXFTgCI5AABV'
+  }
+}
+[2020-11-30T17:05:21.029] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:21.030] [DEBUG] default - {
+  signature: '66a232818d1981b09ae4fbfe0045ac59',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: 'ybMITwTvoe2G4CGlAABW' }
+}
+[2020-11-30T17:05:21.041] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:21.041] [DEBUG] default - {
+  signature: 'f746e4d46e00685dc01239193f4fc4e8',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset',
+    query: { tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      assetId: 1,
+      assetName: 1,
+      useEmployeeName: 1,
+      epc: 1,
+      barcode: 1,
+      className: 1,
+      brand: 1,
+      model: 1,
+      spec: 1,
+      ownOrgName: 1,
+      useOrgName: 1,
+      useDate: 1,
+      purchaseType: 1,
+      purchaseDate: 1,
+      managerName: 1,
+      placeName: 1,
+      serviceLife: 1,
+      amount: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: 'ybMITwTvoe2G4CGlAABW'
+  }
+}
+[2020-11-30T17:05:27.509] [DEBUG] default - db/getConnection/request
+[2020-11-30T17:05:27.509] [DEBUG] default - {
+  signature: '97cb52d323ae0c530a927962ed5a0c3f',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: { id: '0RV3FPVxftIziVyoAABX' }
+}
+[2020-11-30T17:05:27.559] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-30T17:05:27.559] [DEBUG] default - {
+  signature: '3e2e26738d0049c05178a7c08d6e6d69',
+  access_token: 'e3931a7e4eb62edc505a1b76b7b65dd7',
+  userId: 'admin_bj',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset',
+    query: { assetId: 'PECI513', tenantId: 'uniontech' },
+    fields: {
+      status: 1,
+      assetId: 1,
+      assetName: 1,
+      useEmployeeName: 1,
+      epc: 1,
+      barcode: 1,
+      className: 1,
+      brand: 1,
+      model: 1,
+      spec: 1,
+      ownOrgName: 1,
+      useOrgName: 1,
+      useDate: 1,
+      purchaseType: 1,
+      purchaseDate: 1,
+      managerName: 1,
+      placeName: 1,
+      serviceLife: 1,
+      amount: 1,
+      createPerson: 1,
+      createTime: 1,
+      updatePerson: 1,
+      updateTime: 1
+    },
+    dataContent: null,
+    id: '0RV3FPVxftIziVyoAABX'
+  }
+}

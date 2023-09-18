@@ -12,8 +12,8 @@ async function test() {
     const topic = "asset_maintain"
     const dataArr = []
     let dataItem = {
-        name: "XXXX打印机", id: "GRP_10101001", ownOrgName:"Tom",
-        applyPerson:"Jerry", maintainContent:"AABBCCDDEEFFF", spec: "1台",
+        name: "XXXX打印机", id: "GRP_10101001", ownOrgName: "Tom",
+        applyPerson: "Jerry", maintainContent: "AABBCCDDEEFFF", spec: "1台",
         expirationDate: "2023-7-31",
     }
     dataArr.push(dataItem)

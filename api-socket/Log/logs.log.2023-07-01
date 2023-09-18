@@ -1,0 +1,75 @@
+[2023-07-01T14:58:24.726] [DEBUG] default - api/pc/login/request
+[2023-07-01T14:58:24.726] [DEBUG] default - {
+  signature: '818b6203f91e73107c972aa96d1be053',
+  body: { tenantId: 'supoin', userId: 'admin', pwd: '123456' }
+}
+[2023-07-01T14:58:25.621] [DEBUG] default - db/getConnection/request
+[2023-07-01T14:58:25.621] [DEBUG] default - {
+  signature: '98c458c857f37f9f7c6a638c852c431c',
+  access_token: '66f00157ab77b3983424363a0dc89511',
+  userId: 'admin',
+  body: { id: '85mIafikhMhMvYg3AK3a' }
+}
+[2023-07-01T14:58:25.681] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-01T14:58:25.681] [DEBUG] default - {
+  signature: 'c9f50d570caaf65bedb7eecaec991c38',
+  access_token: '66f00157ab77b3983424363a0dc89511',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant',
+    query: { tenantId: 'supdatas01' },
+    dataContent: null,
+    id: '85mIafikhMhMvYg3AK3a'
+  }
+}
+[2023-07-01T14:58:42.779] [DEBUG] default - api/pc/login/request
+[2023-07-01T14:58:42.780] [DEBUG] default - {
+  signature: '818b6203f91e73107c972aa96d1be053',
+  body: { tenantId: 'supoin', userId: 'admin', pwd: '123456' }
+}
+[2023-07-01T14:58:44.529] [DEBUG] default - db/getConnection/request
+[2023-07-01T14:58:44.530] [DEBUG] default - {
+  signature: '99c5cbe50a6530bebc282c21849cd25d',
+  access_token: '66f00157ab77b3983424363a0dc89511',
+  userId: 'admin',
+  body: { id: 'JO2bNUFX9eTWEHh2AK3c' }
+}
+[2023-07-01T14:58:45.235] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-01T14:58:45.236] [DEBUG] default - {
+  signature: '4e1c3da1dbe93c19481e0d076c43a1f0',
+  access_token: '66f00157ab77b3983424363a0dc89511',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant',
+    query: { tenantId: 'supdatas01' },
+    dataContent: null,
+    id: 'JO2bNUFX9eTWEHh2AK3c'
+  }
+}
+[2023-07-01T14:58:54.918] [DEBUG] default - api/pc/login/request
+[2023-07-01T14:58:54.918] [DEBUG] default - {
+  signature: '818b6203f91e73107c972aa96d1be053',
+  body: { tenantId: 'supoin', userId: 'admin', pwd: '123456' }
+}
+[2023-07-01T14:58:56.437] [DEBUG] default - db/getConnection/request
+[2023-07-01T14:58:56.437] [DEBUG] default - {
+  signature: '81205bb1a32a42dc911e903b0aed7ea7',
+  access_token: '66f00157ab77b3983424363a0dc89511',
+  userId: 'admin',
+  body: { id: 'xTecx-oTCZO49JFOAK3e' }
+}
+[2023-07-01T14:58:57.671] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-01T14:58:57.671] [DEBUG] default - {
+  signature: '07a6f753b6b026ce693e937468342d57',
+  access_token: '66f00157ab77b3983424363a0dc89511',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant',
+    query: { tenantId: 'supdatas01' },
+    dataContent: null,
+    id: 'xTecx-oTCZO49JFOAK3e'
+  }
+}

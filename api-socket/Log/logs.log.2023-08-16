@@ -1,0 +1,606 @@
+[2023-08-16T14:17:34.278] [DEBUG] default - api/pc/login/request
+[2023-08-16T14:17:34.280] [DEBUG] default - {
+  signature: '9aedab4dc7406d0c5302a304cc759c45',
+  body: { tenantId: 'supdatas01', userId: 'admin', pwd: '123456' }
+}
+[2023-08-16T14:17:34.504] [DEBUG] default - db/getConnection/request
+[2023-08-16T14:17:34.504] [DEBUG] default - {
+  signature: '951688ccbc4431838c9f9ea87f025b10',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'x1QUNUty7w0DjbsYAAAB' }
+}
+[2023-08-16T14:17:34.557] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T14:17:34.557] [DEBUG] default - {
+  signature: '9cd44cb214d8739fe25bedae534cabe2',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_sys_log',
+    query: { tenantId: 'supdatas01' },
+    fields: null,
+    dataContent: {
+      opUserId: 'admin',
+      opTarget: 'login',
+      opType: 'login',
+      opContent: 'login',
+      opTime: '2023-08-16 14:17:34',
+      tenantId: 'supdatas01',
+      createPerson: 'em_001',
+      createTime: '2023-08-16 14:17:34'
+    },
+    id: 'x1QUNUty7w0DjbsYAAAB'
+  }
+}
+[2023-08-16T14:17:35.372] [DEBUG] default - db/getConnection/request
+[2023-08-16T14:17:35.372] [DEBUG] default - {
+  signature: '285587fc3a14aeb499babbcae40e6745',
+  access_token: '5a7e88c6abb6f6b0041c0c68b0c8354c',
+  userId: 'admin',
+  body: { id: 'D1oId5POEQJtO47NAAAC' }
+}
+[2023-08-16T14:17:35.424] [DEBUG] default - db/executeProc/request
+[2023-08-16T14:17:35.424] [DEBUG] default - {
+  signature: 'fd59ee0e41d56a82701fa7b2ad274483',
+  access_token: '5a7e88c6abb6f6b0041c0c68b0c8354c',
+  userId: 'admin',
+  body: {
+    procName: 'p_dashboard',
+    paramContent: { tenantId: 'supdatas01', p_manage_orgId: 1 },
+    id: 'D1oId5POEQJtO47NAAAC'
+  }
+}
+[2023-08-16T14:32:40.311] [DEBUG] default - api/pc/login/request
+[2023-08-16T14:32:40.311] [DEBUG] default - {
+  signature: '4e2de19dc1b7e964e34621467ca9f691',
+  body: { tenantId: 'h3c', userId: 'admin', pwd: '123456' }
+}
+[2023-08-16T14:32:46.289] [DEBUG] default - api/pc/login/request
+[2023-08-16T14:32:46.289] [DEBUG] default - {
+  signature: '9aedab4dc7406d0c5302a304cc759c45',
+  body: { tenantId: 'supdatas01', userId: 'admin', pwd: '123456' }
+}
+[2023-08-16T14:32:46.523] [DEBUG] default - db/getConnection/request
+[2023-08-16T14:32:46.524] [DEBUG] default - {
+  signature: '3928f3de5c93e374e6b4a47042c73c86',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'SmbJroYISsnOdKAXAAAF' }
+}
+[2023-08-16T14:32:46.579] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T14:32:46.579] [DEBUG] default - {
+  signature: '6a00192fd55e324fe8c2d49d027bd6ab',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_sys_log',
+    query: { tenantId: 'supdatas01' },
+    fields: null,
+    dataContent: {
+      opUserId: 'admin',
+      opTarget: 'login',
+      opType: 'login',
+      opContent: 'login',
+      opTime: '2023-08-16 14:32:46',
+      tenantId: 'supdatas01',
+      createPerson: 'em_001',
+      createTime: '2023-08-16 14:32:46'
+    },
+    id: 'SmbJroYISsnOdKAXAAAF'
+  }
+}
+[2023-08-16T14:32:47.252] [DEBUG] default - db/getConnection/request
+[2023-08-16T14:32:47.252] [DEBUG] default - {
+  signature: '403dc7c198c33da4cb0802e8518fc6b2',
+  access_token: '54d3c0db38769a6548d77bc4a0540033',
+  userId: 'admin',
+  body: { id: 'nuEcGfjYjwdpugUuAAAG' }
+}
+[2023-08-16T14:32:47.307] [DEBUG] default - db/executeProc/request
+[2023-08-16T14:32:47.307] [DEBUG] default - {
+  signature: '370299774ec273e71005077292c3ae51',
+  access_token: '54d3c0db38769a6548d77bc4a0540033',
+  userId: 'admin',
+  body: {
+    procName: 'p_dashboard',
+    paramContent: { tenantId: 'supdatas01', p_manage_orgId: 1 },
+    id: 'nuEcGfjYjwdpugUuAAAG'
+  }
+}
+[2023-08-16T16:06:27.025] [DEBUG] default - api/pc/login/request
+[2023-08-16T16:06:27.025] [DEBUG] default - {
+  signature: '9aedab4dc7406d0c5302a304cc759c45',
+  body: { tenantId: 'supdatas01', userId: 'admin', pwd: '123456' }
+}
+[2023-08-16T16:06:27.236] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:27.237] [DEBUG] default - {
+  signature: '9cd3ef830711c04860cf9257d6b40dbc',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'yBgf6rUW58SWHxWoAAAI' }
+}
+[2023-08-16T16:06:27.291] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:27.291] [DEBUG] default - {
+  signature: '247c6d4c1f37612edea77653fcce0f9f',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_sys_log',
+    query: { tenantId: 'supdatas01' },
+    fields: null,
+    dataContent: {
+      opUserId: 'admin',
+      opTarget: 'login',
+      opType: 'login',
+      opContent: 'login',
+      opTime: '2023-08-16 16:06:27',
+      tenantId: 'supdatas01',
+      createPerson: 'em_001',
+      createTime: '2023-08-16 16:06:27'
+    },
+    id: 'yBgf6rUW58SWHxWoAAAI'
+  }
+}
+[2023-08-16T16:06:28.183] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:28.183] [DEBUG] default - {
+  signature: 'fc4597d5d54a718ddfe61517537ab407',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'dsqxC1XwaD2N_xFgAAAJ' }
+}
+[2023-08-16T16:06:28.236] [DEBUG] default - db/executeProc/request
+[2023-08-16T16:06:28.236] [DEBUG] default - {
+  signature: '538e675c512e8a85b626a2923806efe5',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    procName: 'p_dashboard',
+    paramContent: { tenantId: 'supdatas01', p_manage_orgId: 1 },
+    id: 'dsqxC1XwaD2N_xFgAAAJ'
+  }
+}
+[2023-08-16T16:06:32.381] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:32.381] [DEBUG] default - {
+  signature: '6c74b7d48ee5a7250550405ed29e001a',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'mJDFnVXYb3co_Qn4AAAK' }
+}
+[2023-08-16T16:06:32.433] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:32.433] [DEBUG] default - {
+  signature: '1b71df6d78b6ddd19d4abc624e8c2ee7',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_bill_chuzhi_org',
+    query: { billType: 32, p_orgId: '1', tenantId: 'supdatas01' },
+    fields: {
+      status: 1,
+      billNo: 1,
+      disposedType: 1,
+      assetNum: 1,
+      checkPersonName: 1,
+      checkTime: 1,
+      finishDate: 1,
+      remarks: 1,
+      operatePerson: 1,
+      disposedPerson: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    sortFields: { createTime: 0 },
+    id: 'mJDFnVXYb3co_Qn4AAAK'
+  }
+}
+[2023-08-16T16:06:32.596] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:32.596] [DEBUG] default - {
+  signature: '5265e75bf2edafa2c674c4d347ed98a4',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'KM4OvDex0cEgkx48AAAL' }
+}
+[2023-08-16T16:06:32.646] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:32.646] [DEBUG] default - {
+  signature: '5bb7d90a8ffa93104037cf9cad7843ad',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'supdatas01' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'KM4OvDex0cEgkx48AAAL'
+  }
+}
+[2023-08-16T16:06:35.619] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:35.619] [DEBUG] default - {
+  signature: 'b9ea529eb4930eb76f0fbcc81fd59d32',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'ViueOF-lRE-92I6sAAAM' }
+}
+[2023-08-16T16:06:35.670] [DEBUG] default - db/executeProc/request
+[2023-08-16T16:06:35.670] [DEBUG] default - {
+  signature: 'a7932540883c9b94702f0f875b68447d',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    procName: 'p_dashboard',
+    paramContent: { tenantId: 'supdatas01', p_manage_orgId: 1 },
+    id: 'ViueOF-lRE-92I6sAAAM'
+  }
+}
+[2023-08-16T16:06:37.289] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:37.289] [DEBUG] default - {
+  signature: '0eb8c5663aa4c91d715bdcbe6240a055',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'rNoNu02y_Hnt3tEtAAAN' }
+}
+[2023-08-16T16:06:37.347] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:37.347] [DEBUG] default - {
+  signature: 'f03c772fa27e1f39ef4cdea488ff6c0b',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_bill_jiechu_org',
+    query: { billType: 12, p_orgId: '1', tenantId: 'supdatas01' },
+    fields: {
+      status: 1,
+      billNo: 1,
+      returnDiff: 1,
+      checkPersonName: 1,
+      checkTime: 1,
+      borrowDate: 1,
+      employeeName: 1,
+      operatePersonName: 1,
+      placeName: 1,
+      borrowNum: 1,
+      returnNum: 1,
+      remainDay: 1,
+      returnDate: 1,
+      createTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    sortFields: { createTime: 0 },
+    id: 'rNoNu02y_Hnt3tEtAAAN'
+  }
+}
+[2023-08-16T16:06:37.500] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:37.500] [DEBUG] default - {
+  signature: '63f3c0bffd0d51f38796b63098c385c8',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'iVPfdFo6XsR3MyntAAAO' }
+}
+[2023-08-16T16:06:37.549] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:37.550] [DEBUG] default - {
+  signature: 'd497aec52434caa1b30a1338e07705f7',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'supdatas01' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'iVPfdFo6XsR3MyntAAAO'
+  }
+}
+[2023-08-16T16:06:40.911] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:40.911] [DEBUG] default - {
+  signature: '154742981c6258f26f4e72c79bfea8db',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'hlcKHvMGvO0_gWhFAAAP' }
+}
+[2023-08-16T16:06:40.961] [DEBUG] default - db/executeProc/request
+[2023-08-16T16:06:40.961] [DEBUG] default - {
+  signature: '8a21db1855238afc35af76bac2e1a8ee',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    procName: 'p_dashboard',
+    paramContent: { tenantId: 'supdatas01', p_manage_orgId: 1 },
+    id: 'hlcKHvMGvO0_gWhFAAAP'
+  }
+}
+[2023-08-16T16:06:54.960] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:54.960] [DEBUG] default - {
+  signature: 'dab9f73dd6fc02e2998b292b5c7efafb',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'kQQMR-1nkqcDFZyiAAAQ' }
+}
+[2023-08-16T16:06:55.019] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.019] [DEBUG] default - {
+  signature: 'b2f9796b30a26fd9a4bbfd35bd9d3b9c',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_brand',
+    query: { tenantId: 'supdatas01' },
+    fields: { value: 1, text: 1 },
+    dataContent: null,
+    id: 'kQQMR-1nkqcDFZyiAAAQ'
+  }
+}
+[2023-08-16T16:06:55.064] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.064] [DEBUG] default - {
+  signature: '8ff73e32959452aa024d37e0754b7e3b',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: '_GPRDlNUhHr03yHhAAAR' }
+}
+[2023-08-16T16:06:55.119] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.120] [DEBUG] default - {
+  signature: '8c80f1250065426cf2945dc44a66aa48',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'supdatas01' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: '_GPRDlNUhHr03yHhAAAR'
+  }
+}
+[2023-08-16T16:06:55.160] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.160] [DEBUG] default - {
+  signature: '963a1641fedd2ff5a5da504bd697214f',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'GJUoKWNAC84plR0FAAAS' }
+}
+[2023-08-16T16:06:55.211] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.211] [DEBUG] default - {
+  signature: '6835068a2e2536bedd9335bf6ee2f5e2',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_employee',
+    query: { tenantId: 'supdatas01' },
+    fields: {
+      orgId: 1,
+      orgName: 1,
+      employeeId: 1,
+      employeeName: 1,
+      status: 1,
+      telNo: 1,
+      email: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'GJUoKWNAC84plR0FAAAS'
+  }
+}
+[2023-08-16T16:06:55.262] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.262] [DEBUG] default - {
+  signature: '2eb49390b31e8eef25a525db59868301',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: '3ABPVQB__y1fRuDuAAAT' }
+}
+[2023-08-16T16:06:55.312] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.313] [DEBUG] default - {
+  signature: '0acb996b33c67d11b15301f05faefa54',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'supdatas01' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: '3ABPVQB__y1fRuDuAAAT'
+  }
+}
+[2023-08-16T16:06:55.362] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.362] [DEBUG] default - {
+  signature: '4845765e7b746fff425466ca736382a5',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'pO8D8AvCt9yjPG1NAAAU' }
+}
+[2023-08-16T16:06:55.413] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.413] [DEBUG] default - {
+  signature: 'a123f1f18f761f2486283da8f2cd3312',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_place',
+    query: { tenantId: 'supdatas01' },
+    fields: { placeId: 1, placeName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'pO8D8AvCt9yjPG1NAAAU'
+  }
+}
+[2023-08-16T16:06:55.467] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.467] [DEBUG] default - {
+  signature: 'e145dd4c326a5ef8d97f69ac53c504ad',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'RmLHVcASfJC-rfLKAAAV' }
+}
+[2023-08-16T16:06:55.519] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.519] [DEBUG] default - {
+  signature: 'fc2f32ab58cf20f79a51342b42e7f0a6',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset_class',
+    query: { tenantId: 'supdatas01' },
+    fields: { classId: 1, className: 1, parentId: 1 },
+    dataContent: null,
+    id: 'RmLHVcASfJC-rfLKAAAV'
+  }
+}
+[2023-08-16T16:06:55.573] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.573] [DEBUG] default - {
+  signature: 'aad4241e216357eb283e411892181313',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'C--O2MbldTNKPIayAAAW' }
+}
+[2023-08-16T16:06:55.626] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.626] [DEBUG] default - {
+  signature: 'f89ba0724a7b62bab1de7804200e7bc7',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'supdatas01' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'C--O2MbldTNKPIayAAAW'
+  }
+}
+[2023-08-16T16:06:55.674] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.674] [DEBUG] default - {
+  signature: '3c7670f374b5063b083a4d9116ddeb4b',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'jxd8GeUi-fr7ZOiNAAAX' }
+}
+[2023-08-16T16:06:55.727] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.727] [DEBUG] default - {
+  signature: 'a1499c42ebf61aabf4ea46f8551d052f',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_org',
+    query: { tenantId: 'supdatas01' },
+    fields: { orgId: 1, orgName: 1, parentId: 1 },
+    dataContent: null,
+    id: 'jxd8GeUi-fr7ZOiNAAAX'
+  }
+}
+[2023-08-16T16:06:55.781] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.782] [DEBUG] default - {
+  signature: 'd5363889b3055dafacebfa88d3392a57',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'fYwOo2WBDtHRBqHzAAAY' }
+}
+[2023-08-16T16:06:55.836] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.836] [DEBUG] default - {
+  signature: '4322cba654edf8c9bf9fd41a5116ec0d',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_asset_org_new',
+    query: { p_orgId: '1', tenantId: 'supdatas01' },
+    fields: {
+      status: 1,
+      tagType: 1,
+      assetId: 1,
+      assetName: 1,
+      reqBillNo: 1,
+      reqPurpose: 1,
+      factory: 1,
+      className: 1,
+      ownOrgName: 1,
+      useOrgName: 1,
+      purchaseDate: 1,
+      managerName: 1,
+      placeName: 1,
+      supplierName: 1,
+      serviceLife: 1,
+      materialCode: 1,
+      useEmployeeName: 1,
+      usePurpose: 1,
+      planLife: 1,
+      realLife: 1,
+      acceptanceBillNo: 1,
+      acceptanceDate: 1,
+      destroyBillNo: 1,
+      destroyDate: 1,
+      applyOrgName: 1,
+      reqEmployeeName: 1,
+      receiveEmployeeName: 1,
+      lastTime: 1,
+      count: 1,
+      expense: 1,
+      epc: 1,
+      brand: 1,
+      model: 1,
+      spec: 1,
+      isHosted: 1,
+      isMonitor: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    sortFields: { createTime: 0 },
+    id: 'fYwOo2WBDtHRBqHzAAAY'
+  }
+}
+[2023-08-16T16:06:55.882] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:55.882] [DEBUG] default - {
+  signature: '93d19a9b8e9b7a23e3ed7ade6b0c2164',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: 'BrY7TymqfpuK4UPeAAAZ' }
+}
+[2023-08-16T16:06:55.931] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:55.931] [DEBUG] default - {
+  signature: 'd484b88e4e1ec79077dd0396cd0d35be',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_supplier',
+    query: { isDelete: 0, tenantId: 'supdatas01' },
+    dataContent: null,
+    id: 'BrY7TymqfpuK4UPeAAAZ'
+  }
+}
+[2023-08-16T16:06:56.002] [DEBUG] default - db/getConnection/request
+[2023-08-16T16:06:56.002] [DEBUG] default - {
+  signature: 'eb96a1fe88621d2acbad40ecc7c1ff75',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: { id: '2Rtc0lF4xm947yCWAAAa' }
+}
+[2023-08-16T16:06:56.056] [DEBUG] default - db/executeObjWithCon/request
+[2023-08-16T16:06:56.056] [DEBUG] default - {
+  signature: 'f6a9688a6e9ea7af246a51cc6f51c011',
+  access_token: '85094294b44276d6a8f15e51ddfce46c',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_supplier',
+    query: { isDelete: 0, tenantId: 'supdatas01' },
+    dataContent: null,
+    id: '2Rtc0lF4xm947yCWAAAa'
+  }
+}

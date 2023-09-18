@@ -1,0 +1,146 @@
+[2020-11-15T14:27:14.987] [DEBUG] default - api/pc/login/request
+[2020-11-15T14:27:14.989] [DEBUG] default - {
+  signature: '5a0f53bdc511551e6c5f9b528eac6297',
+  body: { tenantId: 'CMBC_GZ', userId: 'admin', pwd: '123456' }
+}
+[2020-11-15T14:27:28.064] [DEBUG] default - api/pc/login/request
+[2020-11-15T14:27:28.064] [DEBUG] default - {
+  signature: '26bb7df6f8a17852edd01ca2d4b92dd1',
+  body: { tenantId: 'supoin', userId: 'admin1', pwd: '123456' }
+}
+[2020-11-15T14:27:28.195] [DEBUG] default - db/getConnection/request
+[2020-11-15T14:27:28.196] [DEBUG] default - {
+  signature: '708f472543f13ec7b99fd09bc9d54ff9',
+  access_token: '41168bf571458545e1e3ac27bccdc80c',
+  userId: 'admin1',
+  body: { id: 'fa827563-2c00-4d2a-acc4-b4b760d9c5f8' }
+}
+[2020-11-15T14:27:28.211] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-15T14:27:28.211] [DEBUG] default - {
+  signature: '7f0283a9213a8b4475331419e09c0fe7',
+  access_token: '41168bf571458545e1e3ac27bccdc80c',
+  userId: 'admin1',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset',
+    query: { tenantId: 'supoin' },
+    fields: null,
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    id: 'LUYGIsvaqsOL7IjLAAAC'
+  }
+}
+[2020-11-15T14:28:33.802] [DEBUG] default - api/pc/login/request
+[2020-11-15T14:28:33.802] [DEBUG] default - {
+  signature: '26bb7df6f8a17852edd01ca2d4b92dd1',
+  body: { tenantId: 'supoin', userId: 'admin1', pwd: '123456' }
+}
+[2020-11-15T14:28:33.916] [DEBUG] default - db/getConnection/request
+[2020-11-15T14:28:33.916] [DEBUG] default - {
+  signature: '19fbe1b4b23c00675c1cdf30a9466649',
+  access_token: '272b70bd3d83e37eec4a0968ae907a1a',
+  userId: 'admin1',
+  body: { id: '1030b36f-d569-422f-ba3c-93b0365b5b68' }
+}
+[2020-11-15T14:28:33.931] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-15T14:28:33.931] [DEBUG] default - {
+  signature: 'd1e645d1e4a8a0f3b413a5eb8be6826d',
+  access_token: '272b70bd3d83e37eec4a0968ae907a1a',
+  userId: 'admin1',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset',
+    query: { tenantId: 'supoin' },
+    fields: { assetId: 1, useEmployeeId: 1 },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    id: '_9Yg01iZtDYFpBwyAAAE'
+  }
+}
+[2020-11-15T14:30:10.129] [DEBUG] default - api/pc/login/request
+[2020-11-15T14:30:10.129] [DEBUG] default - {
+  signature: '26bb7df6f8a17852edd01ca2d4b92dd1',
+  body: { tenantId: 'supoin', userId: 'admin1', pwd: '123456' }
+}
+[2020-11-15T14:30:10.211] [DEBUG] default - db/getConnection/request
+[2020-11-15T14:30:10.211] [DEBUG] default - {
+  signature: 'e7970ef78e8b0c7c84d8b82ca4558459',
+  access_token: '8ef2e30f57532d5557c8818ac46aa0ab',
+  userId: 'admin1',
+  body: { id: 'e4a620cc-1cc7-4185-93c9-0a2ef2b122df' }
+}
+[2020-11-15T14:30:10.222] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-15T14:30:10.222] [DEBUG] default - {
+  signature: 'b7c2b7ae87498ca716aa38128c212f0f',
+  access_token: '8ef2e30f57532d5557c8818ac46aa0ab',
+  userId: 'admin1',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset',
+    query: { tenantId: 'supoin' },
+    fields: { assetId: 1, useEmployeeId: 1 },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    id: 'iQ94j5FffRKBGxsWAAAG'
+  }
+}
+[2020-11-15T14:30:21.554] [DEBUG] default - api/pc/login/request
+[2020-11-15T14:30:21.555] [DEBUG] default - {
+  signature: '26bb7df6f8a17852edd01ca2d4b92dd1',
+  body: { tenantId: 'supoin', userId: 'admin1', pwd: '123456' }
+}
+[2020-11-15T14:30:21.677] [DEBUG] default - db/getConnection/request
+[2020-11-15T14:30:21.677] [DEBUG] default - {
+  signature: '24b7641d2ed2de2dabbe5c5379eb5f15',
+  access_token: '8ba0c5b0a102a3f0ba82661fdc600303',
+  userId: 'admin1',
+  body: { id: 'b4ef6851-060e-4f1c-94de-36773b4732a9' }
+}
+[2020-11-15T14:30:21.688] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-15T14:30:21.688] [DEBUG] default - {
+  signature: '893398b795c33c8e9a960d5b16c81163',
+  access_token: '8ba0c5b0a102a3f0ba82661fdc600303',
+  userId: 'admin1',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset',
+    query: { tenantId: 'supoin' },
+    fields: { assetId: 1, useEmployeeId: 1 },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    id: 'o0ZctZzEoiD9ssDeAAAB'
+  }
+}
+[2020-11-15T14:31:49.356] [DEBUG] default - api/pc/login/request
+[2020-11-15T14:31:49.357] [DEBUG] default - {
+  signature: '26bb7df6f8a17852edd01ca2d4b92dd1',
+  body: { tenantId: 'supoin', userId: 'admin1', pwd: '123456' }
+}
+[2020-11-15T14:31:49.524] [DEBUG] default - db/getConnection/request
+[2020-11-15T14:31:49.524] [DEBUG] default - {
+  signature: '226a3c7357b61d9c904893c60c2465b7',
+  access_token: 'dc162668991c52eea85458120baf1b00',
+  userId: 'admin1',
+  body: { id: '3253e55e-2221-4153-a697-b2e1f51b1007' }
+}
+[2020-11-15T14:31:49.538] [DEBUG] default - db/executeObjWithCon/request
+[2020-11-15T14:31:49.538] [DEBUG] default - {
+  signature: '09258b4090462b66100ee12392f5c487',
+  access_token: 'dc162668991c52eea85458120baf1b00',
+  userId: 'admin1',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_asset',
+    query: { tenantId: 'supoin' },
+    fields: { assetId: 1, useEmployeeId: 1 },
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    sortFields: { useEmployeeId: 1, placeId: 1 },
+    id: '0DEZYM4EbKZ1pGrPAAAB'
+  }
+}

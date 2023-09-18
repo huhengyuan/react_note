@@ -1,0 +1,388 @@
+[2023-07-24T17:15:11.303] [DEBUG] default - api/pc/login/request
+[2023-07-24T17:15:11.304] [DEBUG] default - {
+  signature: '673838d3fa67f895e739c1bd26bc4c76',
+  body: { tenantId: 'supoin', userId: 'admin', pwd: '123456' }
+}
+[2023-07-24T17:15:11.743] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:11.743] [DEBUG] default - {
+  signature: '36a9b259765106597412067af8cb4526',
+  access_token: 'b42feeefd0a8aeaf8fde3b7641a6dbeb',
+  userId: 'admin',
+  body: { id: '-aARsG0HPpLAb_CtALGd' }
+}
+[2023-07-24T17:15:11.804] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:11.804] [DEBUG] default - {
+  signature: 'dc82cdd74b76dc1e6fb58bd89d87631d',
+  access_token: 'b42feeefd0a8aeaf8fde3b7641a6dbeb',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant',
+    query: { tenantId: 'supoin' },
+    dataContent: null,
+    id: '-aARsG0HPpLAb_CtALGd'
+  }
+}
+[2023-07-24T17:15:12.010] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:12.010] [DEBUG] default - {
+  signature: '31de96fc14f0e1e1019258b20271ea0f',
+  access_token: 'b42feeefd0a8aeaf8fde3b7641a6dbeb',
+  userId: 'admin',
+  body: { id: 'TtGRio9jsPrdXDciALGe' }
+}
+[2023-07-24T17:15:12.061] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:12.062] [DEBUG] default - {
+  signature: '33b04fe717ff5be1468d358d5dd0a371',
+  access_token: 'b42feeefd0a8aeaf8fde3b7641a6dbeb',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_sys_log',
+    query: { tenantId: 'supoin' },
+    fields: null,
+    dataContent: {
+      opUserId: 'admin',
+      opTarget: 'login',
+      opType: 'login',
+      opContent: 'login',
+      opTime: '2023-07-24 17:15:11',
+      tenantId: 'supoin',
+      createPerson: 'YG-002',
+      createTime: '2023-07-24 17:15:11'
+    },
+    id: 'TtGRio9jsPrdXDciALGe'
+  }
+}
+[2023-07-24T17:15:12.121] [ERROR] default - Error: ER_NO_SUCH_TABLE: Table 'iot.goods.tenant_sys_log' doesn't exist
+    at Query.Sequence._packetToError (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot.goods\dev\api-socket\node_modules\mysql\lib\Connection.js:198:25)
+    at D:\iot.goods\dev\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot.goods\dev\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot.goods\dev\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot.goods\dev\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot.goods\dev\api-socket\index.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'iot.goods.tenant_sys_log' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "insert into tenant_sys_log set`opUserId` = 'admin', `opTarget` = 'login', `opType` = 'login', `opContent` = 'login', `opTime` = '2023-07-24 17:15:11', `tenantId` = 'supoin', `createPerson` = 'YG-002', `createTime` = '2023-07-24 17:15:11'"
+}
+[2023-07-24T17:15:13.694] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:13.694] [DEBUG] default - {
+  signature: '797d7b0ec66f79c5c6e7424a0b3e8c31',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'nke1tbuLFMHWcpWFALGf' }
+}
+[2023-07-24T17:15:13.746] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:13.746] [DEBUG] default - {
+  signature: '7de10d766631160cab91ddd1651b26c1',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place_sub',
+    query: { tenantId: 'supoin', placeId: '1' },
+    dataContent: null,
+    id: 'nke1tbuLFMHWcpWFALGf'
+  }
+}
+[2023-07-24T17:15:13.944] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:13.944] [DEBUG] default - {
+  signature: '6ecb22d1dd0bd4074726d2c816216dfa',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'UVqO8vb5NvZwXTcGALGg' }
+}
+[2023-07-24T17:15:13.995] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:13.995] [DEBUG] default - {
+  signature: '069718b4be1e7ace0ccfb2457bab372e',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_bill',
+    query: { tenantId: 'supoin', status: 1 },
+    dataContent: null,
+    id: 'UVqO8vb5NvZwXTcGALGg'
+  }
+}
+[2023-07-24T17:15:14.244] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:14.244] [DEBUG] default - {
+  signature: 'fa0553f7c3d0f8ec0e621efe6d394072',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'q42md5Iih6JNkgBDALGh' }
+}
+[2023-07-24T17:15:14.294] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:14.295] [DEBUG] default - {
+  signature: 'a80d72146410034614dd8f04ce0f14e8',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_report_goods_storage',
+    query: { tenantId: 'supoin' },
+    dataContent: null,
+    id: 'q42md5Iih6JNkgBDALGh'
+  }
+}
+[2023-07-24T17:15:14.490] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:14.490] [DEBUG] default - {
+  signature: 'c5746896ecec4c862a4159708967f721',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'aBd0dLSqbLU9bFUDALGi' }
+}
+[2023-07-24T17:15:14.541] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:14.541] [DEBUG] default - {
+  signature: '4c13726a19f3ab3f1adfd1f832e7297c',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place',
+    query: { tenantId: 'supoin', placeId: '1' },
+    dataContent: null,
+    id: 'aBd0dLSqbLU9bFUDALGi'
+  }
+}
+[2023-07-24T17:15:14.699] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:14.699] [DEBUG] default - {
+  signature: 'd70eb558974d02da8e798bed1d6bb131',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: '1DUMpmqV6_ySuAKLALGj' }
+}
+[2023-07-24T17:15:14.753] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:14.753] [DEBUG] default - {
+  signature: '379d2742fa482ac5a26d2c73b74f30fa',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place',
+    query: { tenantId: 'supoin', parentId: '1' },
+    dataContent: null,
+    id: '1DUMpmqV6_ySuAKLALGj'
+  }
+}
+[2023-07-24T17:15:14.917] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:14.917] [DEBUG] default - {
+  signature: '6a553c293e52161fa41b86cdb9e82dc7',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'p_cri3IjnMfCb7bpALGk' }
+}
+[2023-07-24T17:15:14.969] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:14.969] [DEBUG] default - {
+  signature: '7d97acbcd0a9913bc806c9f778a29638',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place_sub',
+    query: { tenantId: 'supoin', placeId: 'CK-01' },
+    dataContent: null,
+    id: 'p_cri3IjnMfCb7bpALGk'
+  }
+}
+[2023-07-24T17:15:15.128] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:15.128] [DEBUG] default - {
+  signature: 'a029da64908e68553e8292da21fe7749',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'MzZiqeA0xLgGVRDnALGl' }
+}
+[2023-07-24T17:15:15.180] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:15.181] [DEBUG] default - {
+  signature: '615e0909d62d0b733b4adfaeecee25f2',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place_sub',
+    query: { tenantId: 'supoin', placeId: 'CK-02' },
+    dataContent: null,
+    id: 'MzZiqeA0xLgGVRDnALGl'
+  }
+}
+[2023-07-24T17:15:15.357] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:15.357] [DEBUG] default - {
+  signature: '4ed9b9a335ff3da48af6efb8e77c0dd4',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'b4kfKCD2R6r5ZMFSALGm' }
+}
+[2023-07-24T17:15:15.408] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:15.408] [DEBUG] default - {
+  signature: '9d6ee76f7b6dfc1143e6dba93a143051',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place_sub',
+    query: { tenantId: 'supoin', placeId: 'CK-03' },
+    dataContent: null,
+    id: 'b4kfKCD2R6r5ZMFSALGm'
+  }
+}
+[2023-07-24T17:15:15.572] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:15.572] [DEBUG] default - {
+  signature: '4dfd41aebf1aa1859e57943871142a7f',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'NUwiBDkr8f920xrQALGn' }
+}
+[2023-07-24T17:15:15.625] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:15.625] [DEBUG] default - {
+  signature: '82dbb9c0cde578b1fdc694c1c12fcaa8',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place_sub',
+    query: { tenantId: 'supoin', placeId: 'CK-04' },
+    dataContent: null,
+    id: 'NUwiBDkr8f920xrQALGn'
+  }
+}
+[2023-07-24T17:15:15.786] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:15.786] [DEBUG] default - {
+  signature: 'e874defc67e37bff19275900a9ea19ba',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: '1V7OSuolTHYmRrynALGo' }
+}
+[2023-07-24T17:15:15.847] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:15.847] [DEBUG] default - {
+  signature: '86010ead1ceb9ae655a9760cc258eb44',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_report_goods',
+    query: { type: 'caigou', tenantId: 'supoin' },
+    dataContent: null,
+    id: '1V7OSuolTHYmRrynALGo'
+  }
+}
+[2023-07-24T17:15:16.047] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:16.048] [DEBUG] default - {
+  signature: '67a0248fb009d18f17126968dc0200cc',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'lHAz6gJvmP_nUPZxALGp' }
+}
+[2023-07-24T17:15:16.098] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:16.098] [DEBUG] default - {
+  signature: 'bd57a06d748b1fff7ea4348fc106453f',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_report_goods',
+    query: { type: 'bill_out_chuzhi', tenantId: 'supoin' },
+    dataContent: null,
+    id: 'lHAz6gJvmP_nUPZxALGp'
+  }
+}
+[2023-07-24T17:15:18.445] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:18.446] [DEBUG] default - {
+  signature: '35f034f0c6e3795c82ccaf84f41b12f6',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: '6s_6Iz1MOuZahRmaALGq' }
+}
+[2023-07-24T17:15:18.496] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:18.496] [DEBUG] default - {
+  signature: '32b17b3672d459cfa0e82e9f98cd5c8e',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_place_sub',
+    query: { placeId: '1', tenantId: 'supoin' },
+    dataContent: null,
+    id: '6s_6Iz1MOuZahRmaALGq'
+  }
+}
+[2023-07-24T17:15:18.659] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:18.659] [DEBUG] default - {
+  signature: 'd8a45879a5e20fb60e1c3a5891c68957',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'VPQkT_juUfrX_XOeALGr' }
+}
+[2023-07-24T17:15:18.710] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:18.710] [DEBUG] default - {
+  signature: '662ffd0d6a2d589f18952673f5be1695',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_employee',
+    query: { tenantId: 'supoin' },
+    dataContent: null,
+    id: 'VPQkT_juUfrX_XOeALGr'
+  }
+}
+[2023-07-24T17:15:18.868] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:18.868] [DEBUG] default - {
+  signature: '9bef795bbbf115af450a9d819f3eea7c',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'p64FgheL0wuU1j5bALGs' }
+}
+[2023-07-24T17:15:18.919] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:18.919] [DEBUG] default - {
+  signature: 'b83814ae79963b1aaf2008c59bb1ad54',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_bill_diaobo',
+    query: { billType: 'bill_in_diaobo', tenantId: 'supoin' },
+    dataContent: null,
+    id: 'p64FgheL0wuU1j5bALGs'
+  }
+}
+[2023-07-24T17:15:19.271] [DEBUG] default - db/getConnection/request
+[2023-07-24T17:15:19.271] [DEBUG] default - {
+  signature: 'd17cd3bc16b7c0281830d3ff669edc21',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: { id: 'dLui22tvgb4tj8u9ALGt' }
+}
+[2023-07-24T17:15:19.322] [DEBUG] default - db/executeObjWithCon/request
+[2023-07-24T17:15:19.322] [DEBUG] default - {
+  signature: '858780d52be47caaeb07f1a1065629a8',
+  access_token: 'fbf50a4280e029d31f6cba7e28281b5a',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_bill_diaobo',
+    query: { billType: 'bill_in_diaobo', tenantId: 'supoin' },
+    fields: null,
+    dataContent: null,
+    pageNum: null,
+    pageSize: null,
+    sortFields: { updateTime: 0 },
+    id: 'dLui22tvgb4tj8u9ALGt'
+  }
+}

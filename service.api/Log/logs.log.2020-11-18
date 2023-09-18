@@ -1,0 +1,48 @@
+[2020-11-18T09:39:41.834] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:39:41.836] [DEBUG] default - {
+  userId: '374sU6XXFM8210XEIDC480J3720300',
+  signature: 'a9bdd46b0a45ebee11c8c0fa10a1f9aa',
+  body: { sn: '374sU6XXFM8210XEIDC480J3720300' }
+}
+[2020-11-18T09:40:37.147] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:40:37.148] [DEBUG] default - {
+  userId: '374sU6XXFM8210XEIDC480J3720300',
+  signature: 'a9bdd46b0a45ebee11c8c0fa10a1f9aa',
+  body: { sn: '374sU6XXFM8210XEIDC480J3720300' }
+}
+[2020-11-18T09:41:41.452] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:41:41.452] [DEBUG] default - {
+  userId: '374sU5Xa3K2110XXiXA720H3702117',
+  signature: '6540a687ad66e9b70ed00d22b961f7dd',
+  body: { sn: '374sU5Xa3K2110XXiXA720H3702117' }
+}
+[2020-11-18T09:42:34.733] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:42:34.734] [DEBUG] default - {
+  userId: '374sU5Xa3K2110XXiXA720H3702117',
+  signature: '6540a687ad66e9b70ed00d22b961f7dd',
+  body: { sn: '374sU5Xa3K2110XXiXA720H3702117' }
+}
+[2020-11-18T09:43:26.206] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:43:26.208] [DEBUG] default - {
+  userId: '374sU5Xa3K2110XXiXA720H3702117',
+  signature: '6540a687ad66e9b70ed00d22b961f7dd',
+  body: { sn: '374sU5Xa3K2110XXiXA720H3702117' }
+}
+[2020-11-18T09:44:44.224] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:44:44.224] [DEBUG] default - {
+  userId: '374sU5Xa3K2110XXiXA720H3702117',
+  signature: '3c98192c7a740a2eeb49deda902e8d49',
+  body: { userId: '374sU5Xa3K2110XXiXA720H3702117' }
+}
+[2020-11-18T09:44:56.474] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:44:56.474] [DEBUG] default - {
+  userId: '374sU5Xa3K2110XXiXA720H370211',
+  signature: 'df602f1a8b0ee65f3d3d1dc077888052',
+  body: { userId: '374sU5Xa3K2110XXiXA720H370211' }
+}
+[2020-11-18T09:46:50.487] [DEBUG] default - api/pda/login/request
+[2020-11-18T09:46:50.489] [DEBUG] default - {
+  userId: '364WLsGXFK2101XXIXX890H3616837',
+  signature: '4cfdef7005428c1bcd86cc263290ee5f',
+  body: { userId: '364WLsGXFK2101XXIXX890H3616837' }
+}

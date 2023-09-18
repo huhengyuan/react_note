@@ -1,0 +1,2632 @@
+[2022-07-14T10:47:16.723] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:47:16.724] [DEBUG] default - {
+  signature: '1c78f6f40a78803d9be822314ed1d0e4',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'dM6KEYilxwEExmdLAAAB' }
+}
+[2022-07-14T10:47:16.872] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:47:16.873] [DEBUG] default - {
+  signature: 'bd4b7d77b137fd85d72035b8ed661211',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'dM6KEYilxwEExmdLAAAB'
+  }
+}
+[2022-07-14T10:47:16.946] [ERROR] default - Error: ER_NO_SUCH_TABLE: Table 'seal.iot.dev.tenant_client_app' doesn't exist
+    at Query.Sequence._packetToError (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:156:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'seal.iot.dev.tenant_client_app' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "select appId,appName,appKey,appSecret,status,createTime,updateTime,remarks from tenant_client_app where 1=1  and tenantId ='supoin' limit 1000000"
+}
+[2022-07-14T10:47:46.939] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:47:46.940] [DEBUG] default - {
+  signature: '49fd9d160b95a6873007650bfa9e3c2a',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Ac8-wNmP_LOP_AhRAAAA' }
+}
+[2022-07-14T10:47:47.089] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:47:47.090] [DEBUG] default - {
+  signature: '2a9d7518deb55934bdc5dd5dc4f2b023',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'Ac8-wNmP_LOP_AhRAAAA'
+  }
+}
+[2022-07-14T10:49:27.566] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:49:27.567] [DEBUG] default - {
+  signature: '9601f9b05fcd2fa6543db5539bb73492',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'mFHGCtaBCh4bkcdEAAAB' }
+}
+[2022-07-14T10:49:27.729] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:49:27.731] [DEBUG] default - {
+  signature: 'f4c8867cacee3ace1a027d719c154ff0',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'mFHGCtaBCh4bkcdEAAAB'
+  }
+}
+[2022-07-14T10:50:15.656] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:50:15.657] [DEBUG] default - {
+  signature: '75a2e049fd3b30fec486e2c44b0a4afa',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'cvQxqZL0aNhbpAutAAAC' }
+}
+[2022-07-14T10:50:15.808] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:50:15.809] [DEBUG] default - {
+  signature: 'eb7ba12abcbba5e61d1e925bcc0fb7bd',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_app',
+    query: {},
+    fields: null,
+    dataContent: {
+      appName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      projectId: '1001',
+      appId: 'b05603d0-031f-11ed-9ec8-8dfec0ec95e1',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'cvQxqZL0aNhbpAutAAAC'
+  }
+}
+[2022-07-14T10:50:15.897] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'projectId' in 'field list'
+    at Query.Sequence._packetToError (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:156:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'projectId' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: "insert into tenant_client_app set`appName` = '资产管理', `appKey` = 'zc001', `appSecret` = '1000121', `projectId` = '1001', `appId` = 'b05603d0-031f-11ed-9ec8-8dfec0ec95e1', `tenantId` = 'supoin', `createPerson` = 'admin'"
+}
+[2022-07-14T10:50:15.921] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:50:15.921] [DEBUG] default - {
+  signature: 'c61dd20e4f4b75e932368ccd7d8581ca',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'kBsiSf5UfWFLq1FKAAAD' }
+}
+[2022-07-14T10:50:15.969] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:50:15.969] [DEBUG] default - {
+  signature: '7f2bf05db6388ce835438b5a6486466a',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'kBsiSf5UfWFLq1FKAAAD'
+  }
+}
+[2022-07-14T10:52:36.280] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:52:36.280] [DEBUG] default - {
+  signature: '16dcec3e5c2b29046d4f06f9b4c83c17',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'fc5ZoZq72BDx8YTVAAAE' }
+}
+[2022-07-14T10:52:36.425] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:52:36.425] [DEBUG] default - {
+  signature: '60d36d2486c20e61a62a8839047336f6',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_app',
+    query: {},
+    fields: null,
+    dataContent: {
+      appName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      appId: '042dca60-0320-11ed-abef-698b15b9c4be',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'fc5ZoZq72BDx8YTVAAAE'
+  }
+}
+[2022-07-14T10:52:36.491] [ERROR] default - Error: ER_DATA_TOO_LONG: Data too long for column 'appId' at row 1
+    at Query.Sequence._packetToError (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:156:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_DATA_TOO_LONG',
+  errno: 1406,
+  sqlMessage: "Data too long for column 'appId' at row 1",
+  sqlState: '22001',
+  index: 0,
+  sql: "insert into tenant_client_app set`appName` = '资产管理', `appKey` = 'zc001', `appSecret` = '1000121', `appId` = '042dca60-0320-11ed-abef-698b15b9c4be', `tenantId` = 'supoin', `createPerson` = 'admin'"
+}
+[2022-07-14T10:52:36.507] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:52:36.507] [DEBUG] default - {
+  signature: 'fd254484a5d1b87debe73f715fd10525',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '2aAds2vL0CW6OKtvAAAF' }
+}
+[2022-07-14T10:52:36.558] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:52:36.559] [DEBUG] default - {
+  signature: 'ce8916c29a734f634c81a9b64ea2b18f',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: '2aAds2vL0CW6OKtvAAAF'
+  }
+}
+[2022-07-14T10:53:30.960] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:53:30.960] [DEBUG] default - {
+  signature: '9b7019452385bbb56eb1334a32654b04',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Zmlt5sDdy4ktDc_1AAAG' }
+}
+[2022-07-14T10:53:31.147] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:53:31.147] [DEBUG] default - {
+  signature: 'd55c9a8f927aa4e0663157a840c2cac7',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_app',
+    query: {},
+    fields: null,
+    dataContent: {
+      appName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'Zmlt5sDdy4ktDc_1AAAG'
+  }
+}
+[2022-07-14T10:53:31.248] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:53:31.248] [DEBUG] default - {
+  signature: 'de0e05fda5bf58a0ef2d0c789c50beaa',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '0uOAy7kp89yjRDX4AAAH' }
+}
+[2022-07-14T10:53:31.296] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:53:31.296] [DEBUG] default - {
+  signature: '7e874423b88da47bd0b859e4d24a8b47',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: '0uOAy7kp89yjRDX4AAAH'
+  }
+}
+[2022-07-14T10:55:00.175] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:55:00.175] [DEBUG] default - {
+  signature: '5da2d5cfa8f0bbaf0a7bd325df605d12',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'InzPAH-QmgyfqpYIAAAI' }
+}
+[2022-07-14T10:55:00.312] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:55:00.313] [DEBUG] default - {
+  signature: 'da30a884bb4b59aeaab7e0e2233cd780',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_app',
+    query: {},
+    fields: null,
+    dataContent: {
+      appName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      appId: '59f1f7a0-0320-11ed-8b6c-4134bc8bfee5',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'InzPAH-QmgyfqpYIAAAI'
+  }
+}
+[2022-07-14T10:55:00.397] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:55:00.397] [DEBUG] default - {
+  signature: '86f4c9002906a72e902684c4aa4875cc',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'bYb6tWzc6TJh81K4AAAJ' }
+}
+[2022-07-14T10:55:00.443] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:55:00.443] [DEBUG] default - {
+  signature: 'f1c9bacc671b260500b157099386705b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'bYb6tWzc6TJh81K4AAAJ'
+  }
+}
+[2022-07-14T10:55:00.498] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:55:00.498] [DEBUG] default - {
+  signature: '33abce9610c02ab7c2ad167af031d68e',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'kipKui_6I-NmTWj7AAAK' }
+}
+[2022-07-14T10:55:00.543] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:55:00.544] [DEBUG] default - {
+  signature: 'fc4b738f25397cf496497bb361139c66',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      appName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:55:00'
+    },
+    id: 'kipKui_6I-NmTWj7AAAK'
+  }
+}
+[2022-07-14T10:55:22.502] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:55:22.502] [DEBUG] default - {
+  signature: 'aff847dd5f404d1d6ee3f6c45d28d532',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'X-YXoaCHtomEyzpOAAAL' }
+}
+[2022-07-14T10:55:22.549] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:55:22.549] [DEBUG] default - {
+  signature: 'db0cda472c607e8d61f266b9966a3e23',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_app',
+    query: {},
+    fields: null,
+    dataContent: {
+      appName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      appId: '6738b5c0-0320-11ed-b03b-2d0a6695d5d3',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'X-YXoaCHtomEyzpOAAAL'
+  }
+}
+[2022-07-14T10:55:23.538] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:55:23.539] [DEBUG] default - {
+  signature: '995a36b39027b5871eb7fd2797936706',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Nen3M_kYIw7_ilFEAAAM' }
+}
+[2022-07-14T10:55:23.584] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:55:23.584] [DEBUG] default - {
+  signature: 'e457fa8c9bde89b36131f5eab32a8fe0',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      appName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:55:23'
+    },
+    id: 'Nen3M_kYIw7_ilFEAAAM'
+  }
+}
+[2022-07-14T10:55:23.643] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:55:23.643] [DEBUG] default - {
+  signature: '80108d5ed09ce770ffc37343e056ee29',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'hHRvp2T1t10--lxkAAAN' }
+}
+[2022-07-14T10:55:23.689] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:55:23.689] [DEBUG] default - {
+  signature: '36e15fd269bca4df5bc5b2c08f719092',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'hHRvp2T1t10--lxkAAAN'
+  }
+}
+[2022-07-14T10:57:48.216] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:57:48.216] [DEBUG] default - {
+  signature: '048c9755148624fdd55cb413645130d7',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'TKI9rzPJqRjClf48AAAO' }
+}
+[2022-07-14T10:57:48.362] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:57:48.363] [DEBUG] default - {
+  signature: 'abc22c50a4623a51a065e5ba96bf98e2',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      appName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:57:48'
+    },
+    id: 'TKI9rzPJqRjClf48AAAO'
+  }
+}
+[2022-07-14T10:57:48.466] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:57:48.466] [DEBUG] default - {
+  signature: '981d1785c7bbc0e7ca0d0cf79133d4e1',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'hqOxrzCdgEM4oVVLAAAP' }
+}
+[2022-07-14T10:57:48.514] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:57:48.514] [DEBUG] default - {
+  signature: 'e5dab7c9b47e2a902c800d9dd26266a9',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '6738b5c0-0320-11ed-b03b-2d0a6695d5d3',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: null,
+    id: 'hqOxrzCdgEM4oVVLAAAP'
+  }
+}
+[2022-07-14T10:57:48.589] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:57:48.589] [DEBUG] default - {
+  signature: '42af31895d1683d09e7fd9489063dda9',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '44y0lcVMAqCsOFiXAAAQ' }
+}
+[2022-07-14T10:57:48.643] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:57:48.644] [DEBUG] default - {
+  signature: 'e73fe3643a05e4150998575c231a717c',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: '44y0lcVMAqCsOFiXAAAQ'
+  }
+}
+[2022-07-14T10:58:01.770] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:58:01.770] [DEBUG] default - {
+  signature: 'afb2dd0a4515507da302ec148dfdc38e',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Bk9OemNUsIXz-A2cAAAR' }
+}
+[2022-07-14T10:58:01.821] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:58:01.822] [DEBUG] default - {
+  signature: '4fe19b72227cbe2ba04d00d3d259bf85',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      appName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:58:01'
+    },
+    id: 'Bk9OemNUsIXz-A2cAAAR'
+  }
+}
+[2022-07-14T10:58:01.892] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:58:01.892] [DEBUG] default - {
+  signature: '2583c1867756965a5753bf44d45f068f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'edikZvtmNWrepg3vAAAS' }
+}
+[2022-07-14T10:58:01.939] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:58:01.939] [DEBUG] default - {
+  signature: 'e14f4f61228726c8dcfc1da2b8699177',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '59f1f7a0-0320-11ed-8b6c-4134bc8bfee5',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: null,
+    id: 'edikZvtmNWrepg3vAAAS'
+  }
+}
+[2022-07-14T10:58:02.010] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:58:02.010] [DEBUG] default - {
+  signature: '569b480bdfe8002986eb94175d4fbdf1',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'ZBsNaYKb27MWF_gAAAAT' }
+}
+[2022-07-14T10:58:02.056] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:58:02.056] [DEBUG] default - {
+  signature: 'f04cf43d8143e6d219ef91ab340a0e12',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'ZBsNaYKb27MWF_gAAAAT'
+  }
+}
+[2022-07-14T10:59:06.775] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:06.775] [DEBUG] default - {
+  signature: '2f0b788fd1d90b5e13639e4dcd58bda0',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'UsiUgPFmYyBG8HKhAAAU' }
+}
+[2022-07-14T10:59:06.931] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:06.931] [DEBUG] default - {
+  signature: '9707399d1a29184b82dadb546b4b956a',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      appName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:59:06'
+    },
+    id: 'UsiUgPFmYyBG8HKhAAAU'
+  }
+}
+[2022-07-14T10:59:07.000] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:07.000] [DEBUG] default - {
+  signature: 'a1d15e2768b9d7068a9a54fe6ccf853d',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'x_YGK0GxVNl-w7GkAAAV' }
+}
+[2022-07-14T10:59:07.048] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:07.048] [DEBUG] default - {
+  signature: '666f0f58f9cdfbbb2505e604d3b743be',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      status: 'FROZEN',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:59:06'
+    },
+    id: 'x_YGK0GxVNl-w7GkAAAV'
+  }
+}
+[2022-07-14T10:59:07.106] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:07.106] [DEBUG] default - {
+  signature: 'a49deba13b9a75fb4ca82e835a1b738a',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'VcHiaFe9OmLP2FBWAAAW' }
+}
+[2022-07-14T10:59:07.155] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:07.155] [DEBUG] default - {
+  signature: '2329204697d41717592bb39ca22ef9c4',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'VcHiaFe9OmLP2FBWAAAW'
+  }
+}
+[2022-07-14T10:59:22.871] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:22.871] [DEBUG] default - {
+  signature: '7d955db1f9d225bbecdad9c4d0a0517f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Nd0plB-cc37t4t7tAAAX' }
+}
+[2022-07-14T10:59:22.920] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:22.920] [DEBUG] default - {
+  signature: 'cbca0449c1cd8715583843bafd58cd2a',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      appName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:59:22'
+    },
+    id: 'Nd0plB-cc37t4t7tAAAX'
+  }
+}
+[2022-07-14T10:59:22.999] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:23.000] [DEBUG] default - {
+  signature: '5f057cbcb73268c33df612b619645c12',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'TB9rkX6et7-MfWa0AAAY' }
+}
+[2022-07-14T10:59:23.049] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:23.049] [DEBUG] default - {
+  signature: '11ac03a9d7741dad3e5eaecdf731f23d',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      status: 'FROZEN',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:59:22'
+    },
+    id: 'TB9rkX6et7-MfWa0AAAY'
+  }
+}
+[2022-07-14T10:59:23.110] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:23.110] [DEBUG] default - {
+  signature: '21e7f176abcd005d77c513c10997bf30',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'ParN-piJ_GRtIcNcAAAZ' }
+}
+[2022-07-14T10:59:23.161] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:23.161] [DEBUG] default - {
+  signature: '9180ce6e2df6524037f61d8f83e5d746',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_app',
+    query: {
+      appId: '24c32900-0320-11ed-a414-27b1294b3c8a',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      status: 'NORMAL',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 10:59:23'
+    },
+    id: 'ParN-piJ_GRtIcNcAAAZ'
+  }
+}
+[2022-07-14T10:59:23.237] [DEBUG] default - db/getConnection/request
+[2022-07-14T10:59:23.237] [DEBUG] default - {
+  signature: 'c4c5ccb15bb9b9e8ca70e1259d97132a',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Z_-fX8wZ6Vgv3sTPAAAa' }
+}
+[2022-07-14T10:59:23.288] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T10:59:23.288] [DEBUG] default - {
+  signature: '9d99f7a13be1d26078cbc35ee05fa14b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'Z_-fX8wZ6Vgv3sTPAAAa'
+  }
+}
+[2022-07-14T11:02:01.825] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:02:01.825] [DEBUG] default - {
+  signature: '0625a6af8b093f712ab9cb13df0ad1ae',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'PrO0VXMTOEe8mey3AAAb' }
+}
+[2022-07-14T11:02:02.361] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:02:02.362] [DEBUG] default - {
+  signature: '13e818836d7d2d6efa9c60c221eb3656',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'PrO0VXMTOEe8mey3AAAb'
+  }
+}
+[2022-07-14T11:03:54.697] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:03:54.697] [DEBUG] default - {
+  signature: '2daecd1a41b6cdf52ad77a79215ca7aa',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'H7Mi3vQ5sVcl1xoUAAAc' }
+}
+[2022-07-14T11:03:54.834] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:03:54.834] [DEBUG] default - {
+  signature: '65fd777a93c11f4d37c852c322bc02e7',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'H7Mi3vQ5sVcl1xoUAAAc'
+  }
+}
+[2022-07-14T11:04:23.660] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:04:23.660] [DEBUG] default - {
+  signature: '6380bbcb4bde485f2e9c1e0a1e0cee0d',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'y8dis8nGf7J45_eeAAAd' }
+}
+[2022-07-14T11:04:23.708] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:04:23.708] [DEBUG] default - {
+  signature: '78d2db030c89d76ae6bb360202b9c697',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_mqtt',
+    query: {},
+    fields: null,
+    dataContent: {
+      clientName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      clientId: 'a9cf4290-0321-11ed-b4e6-bbb16981f360',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'y8dis8nGf7J45_eeAAAd'
+  }
+}
+[2022-07-14T11:04:23.758] [ERROR] default - Error: ER_DATA_TOO_LONG: Data too long for column 'clientId' at row 1
+    at Query.Sequence._packetToError (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:156:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_DATA_TOO_LONG',
+  errno: 1406,
+  sqlMessage: "Data too long for column 'clientId' at row 1",
+  sqlState: '22001',
+  index: 0,
+  sql: "insert into tenant_client_mqtt set`clientName` = '资产管理', `appKey` = 'zc001', `appSecret` = '1000121', `clientId` = 'a9cf4290-0321-11ed-b4e6-bbb16981f360', `tenantId` = 'supoin', `createPerson` = 'admin'"
+}
+[2022-07-14T11:04:23.777] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:04:23.777] [DEBUG] default - {
+  signature: 'ed234582249faee03a5d20179836822b',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'VFvd1DYmYYE3LLreAAAe' }
+}
+[2022-07-14T11:04:23.825] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:04:23.825] [DEBUG] default - {
+  signature: '3c153d337abc96b16d327ce2e25f9104',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'VFvd1DYmYYE3LLreAAAe'
+  }
+}
+[2022-07-14T11:05:01.641] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:01.641] [DEBUG] default - {
+  signature: '3d82e6956a0a63df5c5abd28aa56ccbc',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'bZY2K3YRBYdTw3qwAAAf' }
+}
+[2022-07-14T11:05:01.780] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:01.780] [DEBUG] default - {
+  signature: '4d287829c91827510f3bcea07a6d6e22',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_mqtt',
+    query: {},
+    fields: null,
+    dataContent: {
+      clientName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'bZY2K3YRBYdTw3qwAAAf'
+  }
+}
+[2022-07-14T11:05:01.851] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:01.851] [DEBUG] default - {
+  signature: 'fa23f73bb2a7ee556c4b82ae81139f9b',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'YOY7RW4KfvhZ02whAAAg' }
+}
+[2022-07-14T11:05:01.900] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:01.900] [DEBUG] default - {
+  signature: 'f1f81cc405e5ce0d3c7495b9bc595bad',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'YOY7RW4KfvhZ02whAAAg'
+  }
+}
+[2022-07-14T11:05:21.182] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:21.182] [DEBUG] default - {
+  signature: '8b6abbb4911b67b97859eb56f0adb984',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'xFXDDSXIySTX24bjAAAh' }
+}
+[2022-07-14T11:05:21.232] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:21.232] [DEBUG] default - {
+  signature: 'ad6830f84bf51c7b07a01ed2c0e5cb99',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      clientName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:05:21'
+    },
+    id: 'xFXDDSXIySTX24bjAAAh'
+  }
+}
+[2022-07-14T11:05:21.306] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:21.306] [DEBUG] default - {
+  signature: '3b91eff52865cb819c288dfd5fb2786e',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '5xfIOj6cCN7owDk1AAAi' }
+}
+[2022-07-14T11:05:21.353] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:21.353] [DEBUG] default - {
+  signature: 'd2046a9f84fc4d7652f4f1d7da67e944',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: '5xfIOj6cCN7owDk1AAAi'
+  }
+}
+[2022-07-14T11:05:49.992] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:49.993] [DEBUG] default - {
+  signature: 'a4f124c4f146d2d40879130c3f628551',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'jjbh7H-yhKLSnL3PAAAj' }
+}
+[2022-07-14T11:05:50.039] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:50.039] [DEBUG] default - {
+  signature: 'a33bf4d6ef1142f704877118937e4dc6',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      clientName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:05:49'
+    },
+    id: 'jjbh7H-yhKLSnL3PAAAj'
+  }
+}
+[2022-07-14T11:05:50.121] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:50.121] [DEBUG] default - {
+  signature: 'd9af1abac2f8981756ddefb37b1c2a4a',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'd79l9lfRbsCcQBNYAAAk' }
+}
+[2022-07-14T11:05:50.168] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:50.168] [DEBUG] default - {
+  signature: '94a7a05b4c9c5cfd4af7bd1c46178b64',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      status: 'FROZEN',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:05:50'
+    },
+    id: 'd79l9lfRbsCcQBNYAAAk'
+  }
+}
+[2022-07-14T11:05:50.224] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:05:50.224] [DEBUG] default - {
+  signature: '96b667bddf6d38feefd0fc3bb659b2fd',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'RIfPUeIoSGtK8fbdAAAl' }
+}
+[2022-07-14T11:05:50.270] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:05:50.270] [DEBUG] default - {
+  signature: '632721241c09eb6e042216fbeb7d9c18',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'RIfPUeIoSGtK8fbdAAAl'
+  }
+}
+[2022-07-14T11:06:00.293] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:00.293] [DEBUG] default - {
+  signature: '32527c06cba1d0a4327be6ef45a4ec36',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'oecNjrvi2agqaxUfAAAm' }
+}
+[2022-07-14T11:06:00.342] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:00.342] [DEBUG] default - {
+  signature: '8115fabc65deb4496205ad40bd6fe890',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      clientName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:06:00'
+    },
+    id: 'oecNjrvi2agqaxUfAAAm'
+  }
+}
+[2022-07-14T11:06:00.408] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:00.408] [DEBUG] default - {
+  signature: 'f275e364a125cf2c47855aaea94d5fba',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'qx28nYaIHXfSebPpAAAn' }
+}
+[2022-07-14T11:06:00.454] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:00.454] [DEBUG] default - {
+  signature: 'b56f2779666db024e6303bb6259e33c0',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      status: 'FROZEN',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:06:00'
+    },
+    id: 'qx28nYaIHXfSebPpAAAn'
+  }
+}
+[2022-07-14T11:06:00.511] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:00.511] [DEBUG] default - {
+  signature: '9f1961263341756881540f05cd809577',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'H6p5KsAB84pYarnJAAAo' }
+}
+[2022-07-14T11:06:00.558] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:00.558] [DEBUG] default - {
+  signature: 'ebfeb5fb01b0273d7945e3422f3f10a7',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      status: 'NORMAL',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:06:00'
+    },
+    id: 'H6p5KsAB84pYarnJAAAo'
+  }
+}
+[2022-07-14T11:06:00.617] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:00.617] [DEBUG] default - {
+  signature: '14d2cd29a6d1e416f8306b1aaf5f2b88',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '6ktFYFfaQkgoWaRxAAAp' }
+}
+[2022-07-14T11:06:00.665] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:00.665] [DEBUG] default - {
+  signature: 'dcd4dbc113c60754a486c6d05c85a217',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: '6ktFYFfaQkgoWaRxAAAp'
+  }
+}
+[2022-07-14T11:06:10.172] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:10.172] [DEBUG] default - {
+  signature: 'cca1d44623fe7ad2aa875876500bc542',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'YOFdnsAlUd3fZdEPAAAq' }
+}
+[2022-07-14T11:06:10.220] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:10.220] [DEBUG] default - {
+  signature: 'df57143132d3046ac7dec6e44d489d2f',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      clientName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:06:10'
+    },
+    id: 'YOFdnsAlUd3fZdEPAAAq'
+  }
+}
+[2022-07-14T11:06:20.247] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:20.248] [DEBUG] default - {
+  signature: '2d9639f1e5e674ec9c70f7d90f9d2a83',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'k-lay19wL0zkNIe3AAAr' }
+}
+[2022-07-14T11:06:20.295] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:20.296] [DEBUG] default - {
+  signature: '0bf4d66d044879842f1daf0ede02758b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      clientName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:06:20'
+    },
+    id: 'k-lay19wL0zkNIe3AAAr'
+  }
+}
+[2022-07-14T11:06:20.375] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:20.375] [DEBUG] default - {
+  signature: '29f64058c35d301e02df6550535c8b28',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '2FfBXkszNLqJ91gjAAAs' }
+}
+[2022-07-14T11:06:20.421] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:20.421] [DEBUG] default - {
+  signature: '473830c5d2ec49ecabe86f086769078a',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: '5c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: null,
+    id: '2FfBXkszNLqJ91gjAAAs'
+  }
+}
+[2022-07-14T11:06:20.476] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:06:20.476] [DEBUG] default - {
+  signature: 'be4d49f99a48fe6ef57e77d43e4bea56',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'ayrfqNKy03-X9TnIAAAt' }
+}
+[2022-07-14T11:06:20.526] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:06:20.527] [DEBUG] default - {
+  signature: '066e9e793e0bf2f576197b6df1a58885',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'ayrfqNKy03-X9TnIAAAt'
+  }
+}
+[2022-07-14T11:07:11.336] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:11.337] [DEBUG] default - {
+  signature: 'e751a6fbbe816fa0620ee189eb16a842',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'F-tkwAW6JzfjOqQtAAAu' }
+}
+[2022-07-14T11:07:11.477] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:11.477] [DEBUG] default - {
+  signature: 'b8dca519d5de8ff2346f02269da7d9e8',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'update',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: {
+      clientName: 'test',
+      updatePerson: 'admin',
+      updateTime: '2022-07-14 11:07:11'
+    },
+    id: 'F-tkwAW6JzfjOqQtAAAu'
+  }
+}
+[2022-07-14T11:07:11.579] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:11.579] [DEBUG] default - {
+  signature: 'e86e5f386237a4b8a44c082cc9d99ed9',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'VqFEr4mN5d3Yj6GSAAAv' }
+}
+[2022-07-14T11:07:11.626] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:11.626] [DEBUG] default - {
+  signature: '03bedfa486ff37faff2b37a059b5c7d7',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: '5c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: null,
+    id: 'VqFEr4mN5d3Yj6GSAAAv'
+  }
+}
+[2022-07-14T11:07:11.687] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:11.687] [DEBUG] default - {
+  signature: '103eb445cea5b57ad8babac2989528c5',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'uaqUhIPZyynILZTeAAAw' }
+}
+[2022-07-14T11:07:11.751] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:11.751] [DEBUG] default - {
+  signature: 'b4cbd2fbfb2aa6722eaf2d264459cad2',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'uaqUhIPZyynILZTeAAAw'
+  }
+}
+[2022-07-14T11:07:31.721] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:31.722] [DEBUG] default - {
+  signature: '2cb1ebbc1743078013a82e9c9bd982d1',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'NSCHAhzD1zgODOrCAAAx' }
+}
+[2022-07-14T11:07:31.767] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:31.767] [DEBUG] default - {
+  signature: '9f3d62519695e3481c3053cb8bcccaee',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: '5c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: null,
+    id: 'NSCHAhzD1zgODOrCAAAx'
+  }
+}
+[2022-07-14T11:07:31.839] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:31.839] [DEBUG] default - {
+  signature: 'e77d79f8f3e617e2a7e7c0a64104944d',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'zRaJ6feIgsQ79UTPAAAy' }
+}
+[2022-07-14T11:07:31.884] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:31.884] [DEBUG] default - {
+  signature: '378786fe6607a36d6f7cf3cb032619de',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'zRaJ6feIgsQ79UTPAAAy'
+  }
+}
+[2022-07-14T11:07:57.778] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:57.778] [DEBUG] default - {
+  signature: '762d8ee8a91761dc9edeb3d8344f6545',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'fr05Ajo4D2Cdm73xAAAz' }
+}
+[2022-07-14T11:07:57.826] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:57.826] [DEBUG] default - {
+  signature: '6202b1824d9f9420bf77b9d47540ae43',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'delete',
+    tableName: 'tenant_client_mqtt',
+    query: {
+      clientId: 'c06f09e0-0321-11ed-b047-3fbe53aa6f17',
+      tenantId: 'supoin'
+    },
+    fields: null,
+    dataContent: null,
+    id: 'fr05Ajo4D2Cdm73xAAAz'
+  }
+}
+[2022-07-14T11:07:57.889] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:07:57.889] [DEBUG] default - {
+  signature: '0fcde96a30c3fc0c3c6bdf5199d38e2e',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'PqRsCMc9xLvEwepXAAA0' }
+}
+[2022-07-14T11:07:57.939] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:07:57.939] [DEBUG] default - {
+  signature: '6a35dbf049bb1459e2cde83662fd3ac4',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_mqtt',
+    query: { tenantId: 'supoin' },
+    fields: {
+      clientId: 1,
+      clientName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'PqRsCMc9xLvEwepXAAA0'
+  }
+}
+[2022-07-14T11:17:37.430] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:17:37.430] [DEBUG] default - {
+  signature: '9696a509610037d3a54c8d517c3eec68',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'QzR9gjsk8JyE7wOiAAA1' }
+}
+[2022-07-14T11:17:37.603] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:17:37.603] [DEBUG] default - {
+  signature: 'cdd133d68f2c996c10bd7c3a3da34c98',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'insert',
+    tableName: 'tenant_client_app',
+    query: {},
+    fields: null,
+    dataContent: {
+      appName: '资产管理',
+      appKey: 'zc001',
+      appSecret: '1000121',
+      appId: '82eca940-0323-11ed-a8a6-ef38f60f649e',
+      tenantId: 'supoin',
+      createPerson: 'admin'
+    },
+    id: 'QzR9gjsk8JyE7wOiAAA1'
+  }
+}
+[2022-07-14T11:17:37.670] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:17:37.670] [DEBUG] default - {
+  signature: '84fb1963b4e91b57b6fad798246b7f13',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'cU77dSe3gaSLWxApAAA2' }
+}
+[2022-07-14T11:17:37.715] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:17:37.715] [DEBUG] default - {
+  signature: 'f65d3d2b5beb3aa2f6532c0c4d4d8b8e',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'cU77dSe3gaSLWxApAAA2'
+  }
+}
+[2022-07-14T11:19:58.087] [DEBUG] default - db/getConnection/request
+[2022-07-14T11:19:58.087] [DEBUG] default - {
+  signature: 'cbcfa98494a80d9286141473e5c85237',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'z6egXOOXmPcHX6_VAAA3' }
+}
+[2022-07-14T11:19:58.236] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T11:19:58.236] [DEBUG] default - {
+  signature: '00e95c2266120d0bd45ebc506e9ae5e8',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'z6egXOOXmPcHX6_VAAA3'
+  }
+}
+[2022-07-14T15:35:30.110] [DEBUG] default - db/getConnection/request
+[2022-07-14T15:35:30.110] [DEBUG] default - {
+  signature: '52c4115354baad32072bc1ba1410fbe4',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'XTH_PjCuzqiy0lp1AAA4' }
+}
+[2022-07-14T15:35:30.248] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T15:35:30.248] [DEBUG] default - {
+  signature: '1c84ad2c1f68b771f3d755d683b997f1',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'tenant_client_app',
+    query: { tenantId: 'supoin' },
+    fields: {
+      appId: 1,
+      appName: 1,
+      appKey: 1,
+      appSecret: 1,
+      status: 1,
+      createTime: 1,
+      updateTime: 1,
+      remarks: 1
+    },
+    dataContent: null,
+    id: 'XTH_PjCuzqiy0lp1AAA4'
+  }
+}
+[2022-07-14T16:48:20.963] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:48:20.964] [DEBUG] default - {
+  signature: 'e2c9103a2c8fa3feab9e2b44e0d406e3',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'BWtO3VI7cFtyLJfEAAA5' }
+}
+[2022-07-14T16:48:21.107] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:48:21.108] [DEBUG] default - {
+  signature: 'fee8919dead5bd31171a662c29ec9403',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'BWtO3VI7cFtyLJfEAAA5'
+  }
+}
+[2022-07-14T16:48:42.803] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:48:42.804] [DEBUG] default - {
+  signature: '2d7e4533a5cba6e42eacf215c69a36f0',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'hLIs7KC3934DCHt5AAA6' }
+}
+[2022-07-14T16:48:42.855] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:48:42.855] [DEBUG] default - {
+  signature: '615dd2f999f505f7544d8aed44b0a70c',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'hLIs7KC3934DCHt5AAA6'
+  }
+}
+[2022-07-14T16:48:42.963] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:48:42.963] [DEBUG] default - {
+  signature: '8a1a4f32a24b1ad0fcd13deae8624ed5',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'k1o6b3hqEzER6jAXAAA7' }
+}
+[2022-07-14T16:48:43.017] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:48:43.017] [DEBUG] default - {
+  signature: '6c93eadce497a3c5fee38d90c496b7e4',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'k1o6b3hqEzER6jAXAAA7'
+  }
+}
+[2022-07-14T16:48:43.081] [ERROR] default - Error: ER_NO_SUCH_TABLE: Table 'seal.iot.local.v_log_httpclient' doesn't exist
+    at Query.Sequence._packetToError (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:156:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlMessage: "Table 'seal.iot.local.v_log_httpclient' doesn't exist",
+  sqlState: '42S02',
+  index: 0,
+  sql: "select  *  from v_log_httpClient where 1=1  and createTime >='1900-01-01 00:00:00' and tenantId ='supoin' limit 1000000"
+}
+[2022-07-14T16:49:45.907] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:49:45.907] [DEBUG] default - {
+  signature: '5818eb655243bd0eab1a8547d448d1fe',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'cDaH3cNWdmJwvyC-AAA8' }
+}
+[2022-07-14T16:49:46.045] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:49:46.045] [DEBUG] default - {
+  signature: '5fe057470f85bc968227b0b179b5d574',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'cDaH3cNWdmJwvyC-AAA8'
+  }
+}
+[2022-07-14T16:49:46.119] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:49:46.119] [DEBUG] default - {
+  signature: '450e3794e21d19113a6029b62f5c944f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'QVtVGyNtf7-d-_dqAAA9' }
+}
+[2022-07-14T16:49:46.165] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:49:46.165] [DEBUG] default - {
+  signature: '43ae7c84c801b6c8f097fbb7c1afa9d7',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'QVtVGyNtf7-d-_dqAAA9'
+  }
+}
+[2022-07-14T16:53:28.879] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:53:28.879] [DEBUG] default - {
+  signature: 'b5e1224583361445801f9e2074ebddf6',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'OyiQNR9G8MHU3vqQAAA-' }
+}
+[2022-07-14T16:53:29.021] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:53:29.021] [DEBUG] default - {
+  signature: '87a8785c4de6354216efe4acf8edd3d8',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'OyiQNR9G8MHU3vqQAAA-'
+  }
+}
+[2022-07-14T16:53:29.095] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:53:29.095] [DEBUG] default - {
+  signature: 'cc20ad5d3c388007d1b24c10e643e53d',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'NXew5lyxRxxnBIvvAAA_' }
+}
+[2022-07-14T16:53:29.145] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:53:29.145] [DEBUG] default - {
+  signature: 'e85c906f0ed92d28c9a4f3c3d2e30641',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'NXew5lyxRxxnBIvvAAA_'
+  }
+}
+[2022-07-14T16:53:29.210] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:53:29.210] [DEBUG] default - {
+  signature: '00ba239b0ee992c695a60a8d9eb37c13',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'WaT0Z8IP3W2z0xBLAABA' }
+}
+[2022-07-14T16:53:29.264] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:53:29.264] [DEBUG] default - {
+  signature: '9ab4628f08377b957f128dc06254ea5b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'WaT0Z8IP3W2z0xBLAABA'
+  }
+}
+[2022-07-14T16:53:29.334] [DEBUG] default - db/getConnection/request
+[2022-07-14T16:53:29.334] [DEBUG] default - {
+  signature: '9a33d7cf4e2a957fd639c04ca62865b0',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'i-080HsimMm8nZdcAABB' }
+}
+[2022-07-14T16:53:29.383] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T16:53:29.383] [DEBUG] default - {
+  signature: '398a76ca7b7db089749497f8f61fb57c',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'i-080HsimMm8nZdcAABB'
+  }
+}
+[2022-07-14T17:01:54.450] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:01:54.450] [DEBUG] default - {
+  signature: 'a7c52a73e9f45cea7644f9ee4ac700e7',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'v7EI9KCwy1taxQwdAABC' }
+}
+[2022-07-14T17:01:54.596] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:01:54.597] [DEBUG] default - {
+  signature: '8e85316310dd8e6aecfcb9f0222aa6f3',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'v7EI9KCwy1taxQwdAABC'
+  }
+}
+[2022-07-14T17:01:54.676] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:01:54.676] [DEBUG] default - {
+  signature: 'b1fd9f45a1dbbbb5d758b2efcd1919bc',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '-cjtkQsHz7Vt9TQBAABD' }
+}
+[2022-07-14T17:01:54.725] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:01:54.725] [DEBUG] default - {
+  signature: '5bc0067e6f575d92a30937ce1ca281e3',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: '-cjtkQsHz7Vt9TQBAABD'
+  }
+}
+[2022-07-14T17:01:54.792] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:01:54.792] [DEBUG] default - {
+  signature: '8a1bf1fa9d6826c6de1db6d5cf6c89fd',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'oBosVQaaq-j7OUSOAABE' }
+}
+[2022-07-14T17:01:54.843] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:01:54.843] [DEBUG] default - {
+  signature: '83b516f4d997a45175f062310a647514',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'oBosVQaaq-j7OUSOAABE'
+  }
+}
+[2022-07-14T17:01:54.902] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:01:54.902] [DEBUG] default - {
+  signature: '79e7ed9fa8f873a5cb8557a24162e673',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'ttsNBjOsAqQSX3CnAABF' }
+}
+[2022-07-14T17:01:54.953] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:01:54.954] [DEBUG] default - {
+  signature: '216416aa04f917005f015241be1be283',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'ttsNBjOsAqQSX3CnAABF'
+  }
+}
+[2022-07-14T17:02:08.818] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:02:08.818] [DEBUG] default - {
+  signature: '21a79d00d482d160244792ca64748446',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '08C0CynY0YX6n1sTAABG' }
+}
+[2022-07-14T17:02:08.870] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:02:08.870] [DEBUG] default - {
+  signature: '8e8282784ea5a4406534695229805c33',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: '08C0CynY0YX6n1sTAABG'
+  }
+}
+[2022-07-14T17:02:08.945] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:02:08.945] [DEBUG] default - {
+  signature: '944df3a7d0e19a3a29b8f10bd73e8cd7',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'x1Qyu954RTA76twdAABH' }
+}
+[2022-07-14T17:02:08.994] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:02:08.995] [DEBUG] default - {
+  signature: '20bdbb572680b211826cc387eba6b8f0',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'x1Qyu954RTA76twdAABH'
+  }
+}
+[2022-07-14T17:02:09.058] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:02:09.058] [DEBUG] default - {
+  signature: '9cdd81dcea03285382324e24498a8471',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'VxUIokGUOVE2qahaAABI' }
+}
+[2022-07-14T17:02:09.109] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:02:09.109] [DEBUG] default - {
+  signature: '3c0b3f975f4b1f40a865679c44e2f758',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'VxUIokGUOVE2qahaAABI'
+  }
+}
+[2022-07-14T17:02:09.173] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:02:09.174] [DEBUG] default - {
+  signature: 'd4753524b19895105a3e685e1847933f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'tq6y9p3SQfL2-wAzAABJ' }
+}
+[2022-07-14T17:02:09.223] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:02:09.223] [DEBUG] default - {
+  signature: '19c86051ef11152bae2865ffea8c5d3e',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'tq6y9p3SQfL2-wAzAABJ'
+  }
+}
+[2022-07-14T17:04:50.300] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:04:50.300] [DEBUG] default - {
+  signature: '4fe2d04972eb1139bca4de90215d2afc',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'F3hpGTaGe9moovwrAABK' }
+}
+[2022-07-14T17:04:50.447] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:04:50.447] [DEBUG] default - {
+  signature: '0b8b87cd7159b98b90b383a10f83740c',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'F3hpGTaGe9moovwrAABK'
+  }
+}
+[2022-07-14T17:04:50.524] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:04:50.525] [DEBUG] default - {
+  signature: '6c0bbcd6545cf408b2d2a9fc3e596013',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'JozFCpzscBDiKGA2AABL' }
+}
+[2022-07-14T17:04:50.575] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:04:50.575] [DEBUG] default - {
+  signature: '78c82bd42a9dfc63e486445b8893667e',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'JozFCpzscBDiKGA2AABL'
+  }
+}
+[2022-07-14T17:04:50.641] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:04:50.641] [DEBUG] default - {
+  signature: '07dbb5feef1ad4005f1b4eb041dd7506',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'o2ain5u4TFV2Dc2dAABM' }
+}
+[2022-07-14T17:04:50.692] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:04:50.692] [DEBUG] default - {
+  signature: '021f246d017771c01811cb6f925fc929',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'o2ain5u4TFV2Dc2dAABM'
+  }
+}
+[2022-07-14T17:04:50.750] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:04:50.751] [DEBUG] default - {
+  signature: '912b1035f661f534d6db5c3bc427292b',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '7fFHhbPXxCuvZwhzAABN' }
+}
+[2022-07-14T17:04:50.799] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:04:50.800] [DEBUG] default - {
+  signature: '848197cd7237e04a6bb04baf35cb2e6b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: '7fFHhbPXxCuvZwhzAABN'
+  }
+}
+[2022-07-14T17:09:17.588] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:17.589] [DEBUG] default - {
+  signature: 'ad74b4a5fe9b714b612470b37c975187',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'yPxJ8kTlGq1g4yaDAABO' }
+}
+[2022-07-14T17:09:17.733] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:17.734] [DEBUG] default - {
+  signature: 'be2ea8d47bce529c586c43325ace954e',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'yPxJ8kTlGq1g4yaDAABO'
+  }
+}
+[2022-07-14T17:09:17.811] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:17.811] [DEBUG] default - {
+  signature: '83532c35653f0f5b22ce5593eb8c4a4c',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'BZ1qDJZNJxst6CrmAABP' }
+}
+[2022-07-14T17:09:17.868] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:17.868] [DEBUG] default - {
+  signature: 'f35c3d385c629694446471fff80450ff',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'BZ1qDJZNJxst6CrmAABP'
+  }
+}
+[2022-07-14T17:09:17.930] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:17.931] [DEBUG] default - {
+  signature: 'ddb7213a14d91f7d2fd561d1669a73ca',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'J8oO35YppcwYA4uuAABQ' }
+}
+[2022-07-14T17:09:17.980] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:17.980] [DEBUG] default - {
+  signature: '7b1b8142da306cbb6124a298dc11cbb3',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'J8oO35YppcwYA4uuAABQ'
+  }
+}
+[2022-07-14T17:09:18.042] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:18.042] [DEBUG] default - {
+  signature: 'f9e45fb6cf00fc41925b2299f1eefb4b',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'g9Yh396aaRAW-KCdAABR' }
+}
+[2022-07-14T17:09:18.089] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:18.089] [DEBUG] default - {
+  signature: '377eaf6e6f36e8a34538d098d35a68ad',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'g9Yh396aaRAW-KCdAABR'
+  }
+}
+[2022-07-14T17:09:18.145] [ERROR] default - Error: ER_VIEW_INVALID: View 'seal.iot.local.v_log_mqttclient' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+    at Query.Sequence._packetToError (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Protocol._enqueue (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\iot\seal.iot.local\src\service-backend\api-socket\node_modules\_mysql@2.18.1@mysql\lib\Connection.js:198:25)
+    at D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:47:17
+    at new Promise (<anonymous>)
+    at executeSqlWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:44:12)
+    at Object.executeObjWithCon (D:\iot\seal.iot.local\src\service-backend\api-socket\db\db.mysql.js:174:12)
+    at Object.execute (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:85:38)
+    at Socket.<anonymous> (D:\iot\seal.iot.local\src\service-backend\api-socket\index.js:156:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 'ER_VIEW_INVALID',
+  errno: 1356,
+  sqlMessage: "View 'seal.iot.local.v_log_mqttclient' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "select  *  from v_log_mqttClient where 1=1  and createTime >='1900-01-01 00:00:00' and tenantId ='supoin' limit 1000000"
+}
+[2022-07-14T17:09:41.617] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:41.617] [DEBUG] default - {
+  signature: '6d5d2d15ad9e12ad865f927e8a88bc6f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'ZRaN2au4TmWGIf8yAABS' }
+}
+[2022-07-14T17:09:41.669] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:41.669] [DEBUG] default - {
+  signature: '8cd6e12018c3598d20c35069869f7943',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'ZRaN2au4TmWGIf8yAABS'
+  }
+}
+[2022-07-14T17:09:41.743] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:41.743] [DEBUG] default - {
+  signature: '5110f9b6a55c15899ec267c2eb76331d',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '5TWxbBKr1AtTYhDpAABT' }
+}
+[2022-07-14T17:09:41.792] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:41.792] [DEBUG] default - {
+  signature: '6fe9f2def6117f58998ff4f5ac2ba09b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: '5TWxbBKr1AtTYhDpAABT'
+  }
+}
+[2022-07-14T17:09:41.853] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:41.853] [DEBUG] default - {
+  signature: 'a7adbf58e0743f941f7102bbe30aebda',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'p7_D7E_dV2qs7Y3zAABU' }
+}
+[2022-07-14T17:09:41.902] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:41.902] [DEBUG] default - {
+  signature: '45d1fb60ab3e343b2773170e09479209',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'p7_D7E_dV2qs7Y3zAABU'
+  }
+}
+[2022-07-14T17:09:41.963] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:09:41.963] [DEBUG] default - {
+  signature: '8836e071218752613d61db104f66ea5f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '7qJ5QorQA8saMMy4AABV' }
+}
+[2022-07-14T17:09:42.013] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:09:42.013] [DEBUG] default - {
+  signature: '64f6ccedac3c708bc46cce4c464c4d6e',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: '7qJ5QorQA8saMMy4AABV'
+  }
+}
+[2022-07-14T17:15:18.030] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:15:18.030] [DEBUG] default - {
+  signature: '4914c7ee3417d0866d13d08ed76f7333',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'Y4JzeMZVBr7gV6vJAABW' }
+}
+[2022-07-14T17:15:18.166] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:15:18.166] [DEBUG] default - {
+  signature: '54623cecfd5c8ba0406ebfb91699d1db',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    fields: {
+      serviceName: 1,
+      event: 1,
+      description: 1,
+      context: 1,
+      createTime: 1
+    },
+    dataContent: null,
+    id: 'Y4JzeMZVBr7gV6vJAABW'
+  }
+}
+[2022-07-14T17:16:11.291] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:16:11.291] [DEBUG] default - {
+  signature: '426f065688afa05d1fdeb47eb83a7732',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'DCWhA_HrXmcKREWRAABX' }
+}
+[2022-07-14T17:16:11.429] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:16:11.429] [DEBUG] default - {
+  signature: 'cf2c71173633852f85c162b5e53865a4',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'sys_log_service',
+    query: { createTime: [Object] },
+    dataContent: null,
+    id: 'DCWhA_HrXmcKREWRAABX'
+  }
+}
+[2022-07-14T17:19:05.137] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:19:05.137] [DEBUG] default - {
+  signature: 'a77292076fdb14490c1d9ed622f246a4',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'x7qmIExWMPxJQ9CuAABY' }
+}
+[2022-07-14T17:19:05.357] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:19:05.358] [DEBUG] default - {
+  signature: '760442ec809dc614bd25e96ecde9d58f',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'x7qmIExWMPxJQ9CuAABY'
+  }
+}
+[2022-07-14T17:23:30.274] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:23:30.275] [DEBUG] default - {
+  signature: '6d4c138c5554541b9f8270318b1c44d4',
+  access_token: '',
+  userId: 'admin',
+  body: { id: '9lHHEfq2_i5zW-gHAABZ' }
+}
+[2022-07-14T17:23:30.415] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:23:30.415] [DEBUG] default - {
+  signature: '253806b93521c2cc8fdcc31c57f8b06b',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: '9lHHEfq2_i5zW-gHAABZ'
+  }
+}
+[2022-07-14T17:23:30.480] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:23:30.480] [DEBUG] default - {
+  signature: '536232c39a38885388ee485d000b57e6',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'x1G72kYS6roCqLmAAABa' }
+}
+[2022-07-14T17:23:30.527] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:23:30.527] [DEBUG] default - {
+  signature: '906093ec01f44bd03575472902daa274',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'x1G72kYS6roCqLmAAABa'
+  }
+}
+[2022-07-14T17:27:19.094] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:27:19.095] [DEBUG] default - {
+  signature: '3616c96a8d2a357f44dcdd3bf85b89dc',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'h-cyuZVDkt3E7-fcAABb' }
+}
+[2022-07-14T17:27:19.240] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:27:19.240] [DEBUG] default - {
+  signature: 'dad1cf97a8c333f19507abb948896fef',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_system',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'h-cyuZVDkt3E7-fcAABb'
+  }
+}
+[2022-07-14T17:27:19.307] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:27:19.307] [DEBUG] default - {
+  signature: '49ab28ca042cf309c3484bc047cbde5f',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'NesNYCCV99F2LLc4AABc' }
+}
+[2022-07-14T17:27:19.355] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:27:19.355] [DEBUG] default - {
+  signature: 'e08cdc34b9840b621cb09d9d685ca3e0',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_httpClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'NesNYCCV99F2LLc4AABc'
+  }
+}
+[2022-07-14T17:27:19.414] [DEBUG] default - db/getConnection/request
+[2022-07-14T17:27:19.414] [DEBUG] default - {
+  signature: '21c3a6a6817ef084c9e4391a774af843',
+  access_token: '',
+  userId: 'admin',
+  body: { id: 'fp7NIqDoQOBSlNziAABd' }
+}
+[2022-07-14T17:27:19.462] [DEBUG] default - db/executeObjWithCon/request
+[2022-07-14T17:27:19.462] [DEBUG] default - {
+  signature: '0abe01c218cf2e5987f174fea9400acc',
+  access_token: '',
+  userId: 'admin',
+  body: {
+    operate: 'query',
+    tableName: 'v_log_mqttClient',
+    query: { createTime: [Object], tenantId: 'supoin' },
+    dataContent: null,
+    id: 'fp7NIqDoQOBSlNziAABd'
+  }
+}

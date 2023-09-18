@@ -1,0 +1,157 @@
+[2020-08-22T09:59:49.237] [DEBUG] default - db/getConnection/request
+[2020-08-22T09:59:49.239] [DEBUG] default - {"signature":"4458aeb36f94845894f244cb01de0f86","access_token":"dc1032bf2a72f692e74de84166cf12a1","userId":"admin","body":{"id":"ebEsupJGwEhwi5J5AAG_"}}
+[2020-08-22T09:59:49.248] [DEBUG] default - db/getConnection/request
+[2020-08-22T09:59:49.248] [DEBUG] default - {"signature":"197a2df63901a86a523e3fb631866b05","access_token":"dc1032bf2a72f692e74de84166cf12a1","userId":"admin","body":{"id":"Za5reCi8EVNdi0a5AAHA"}}
+[2020-08-22T09:59:49.250] [DEBUG] default - db/getConnection/request
+[2020-08-22T09:59:49.250] [DEBUG] default - {"signature":"c955a8223a11ef94b3917bf0cf1aa623","access_token":"dc1032bf2a72f692e74de84166cf12a1","userId":"admin","body":{"id":"wZb3K7B0sVwS01jMAAHB"}}
+[2020-08-22T09:59:49.251] [DEBUG] default - db/getConnection/request
+[2020-08-22T09:59:49.252] [DEBUG] default - {"signature":"ac2a3379064cb1aab2ef7df6a2d10795","access_token":"dc1032bf2a72f692e74de84166cf12a1","userId":"admin","body":{"id":"F8ObWr-SrVd01v7rAAHC"}}
+[2020-08-22T09:59:59.251] [ERROR] default - db/getConnection/response
+[2020-08-22T09:59:59.251] [ERROR] default - Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:160:17)
+    at Handshake.emit (events.js:314:20)
+    at Handshake._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:22:14
+    at new Promise (<anonymous>)
+    at Object.getConnection (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:21:12)
+    at Object.execute (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:54:38)
+    at Socket.<anonymous> (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:159:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000
+}
+[2020-08-22T09:59:59.262] [ERROR] default - db/getConnection/response
+[2020-08-22T09:59:59.262] [ERROR] default - Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:160:17)
+    at Handshake.emit (events.js:314:20)
+    at Handshake._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:22:14
+    at new Promise (<anonymous>)
+    at Object.getConnection (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:21:12)
+    at Object.execute (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:54:38)
+    at Socket.<anonymous> (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:159:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000
+}
+[2020-08-22T09:59:59.267] [ERROR] default - db/getConnection/response
+[2020-08-22T09:59:59.267] [ERROR] default - Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:160:17)
+    at Handshake.emit (events.js:314:20)
+    at Handshake._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:22:14
+    at new Promise (<anonymous>)
+    at Object.getConnection (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:21:12)
+    at Object.execute (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:54:38)
+    at Socket.<anonymous> (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:159:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000
+}
+[2020-08-22T09:59:59.276] [ERROR] default - db/getConnection/response
+[2020-08-22T09:59:59.276] [ERROR] default - Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:160:17)
+    at Handshake.emit (events.js:314:20)
+    at Handshake._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\sequences\Sequence.js:124:8)
+    at Timer._onTimeout (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Timer.js:32:23)
+    at listOnTimeout (internal/timers.js:551:17)
+    at processTimers (internal/timers.js:494:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Lenovo\Documents\GitHub\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:22:14
+    at new Promise (<anonymous>)
+    at Object.getConnection (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\db\db.mysql.js:21:12)
+    at Object.execute (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:54:38)
+    at Socket.<anonymous> (C:\Users\Lenovo\Documents\GitHub\iot.cmbc\src\service.api\api-iot\socket\server.db.socket.js:159:40)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) {
+  code: 'PROTOCOL_SEQUENCE_TIMEOUT',
+  fatal: true,
+  timeout: 10000
+}
+[2020-08-22T10:00:01.246] [DEBUG] default - api/pc/login/request
+[2020-08-22T10:00:01.246] [DEBUG] default - {"signature":"58a9d59028278d651b70de04a7fcc869","body":{"tenantId":"CMBC_GZ","userId":"admin","pwd":"123456"}}
+[2020-08-22T10:00:01.483] [DEBUG] default - api/pc/login/response
+[2020-08-22T10:00:01.503] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:01.504] [DEBUG] default - {"signature":"4f7b52dbbcbf296c69e981a71c23237c","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"VoIx91-K1tErT0boAAHE"}}
+[2020-08-22T10:00:01.526] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:01.532] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:01.532] [DEBUG] default - {"signature":"38388dc68984cdc58f6ceea2a5a7969b","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"tenant_page","query":{"tenantId":"CMBC_GZ"},"dataContent":null,"id":"VoIx91-K1tErT0boAAHE"}}
+[2020-08-22T10:00:01.585] [DEBUG] default - db/executeObjWithCon/response
+[2020-08-22T10:00:01.616] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:01.616] [DEBUG] default - {"signature":"ffe407bcf5ea01bccf9d5a6df674ad1c","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"xQ2gu-uM8uQ4Rf5tAAHF"}}
+[2020-08-22T10:00:01.637] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:01.644] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:01.645] [DEBUG] default - {"signature":"adeca9584154e964d1cf8475bb1c1fef","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"tenant_user","query":{"tenantId":"CMBC_GZ","userId":"admin"},"dataContent":null,"id":"xQ2gu-uM8uQ4Rf5tAAHF"}}
+[2020-08-22T10:00:01.680] [DEBUG] default - db/executeObjWithCon/response
+[2020-08-22T10:00:01.698] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:01.698] [DEBUG] default - {"signature":"9746558ae1c90d67e2f3423fd50290b1","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"Iu-yJWuvzW1LEPeeAAHG"}}
+[2020-08-22T10:00:01.718] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:01.722] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:01.722] [DEBUG] default - {"signature":"a05637cda48751e606e0f10cb2e06dfd","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"tenant_org","query":{"orgId":"CMBC_GZ01"},"fields":{"orgLevel":1},"dataContent":null,"id":"Iu-yJWuvzW1LEPeeAAHG"}}
+[2020-08-22T10:00:01.786] [DEBUG] default - db/executeObjWithCon/response
+[2020-08-22T10:00:01.799] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:01.799] [DEBUG] default - {"signature":"0ab2f057f79e904ef848c6dfe008377f","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"GAgAccs4BNwBvZupAAHH"}}
+[2020-08-22T10:00:01.888] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:01.894] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:01.894] [DEBUG] default - {"signature":"14dce9308954b56ef5e44638d43a759f","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"tenant_org_permission","query":{"tenantId":"CMBC_GZ"},"dataContent":null,"id":"GAgAccs4BNwBvZupAAHH"}}
+[2020-08-22T10:00:01.917] [DEBUG] default - db/executeObjWithCon/response
+[2020-08-22T10:00:02.172] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:02.172] [DEBUG] default - {"signature":"9980d921e4a4a153a34990fadffad867","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"79rPGPlMRSfk9q9lAAHI"}}
+[2020-08-22T10:00:02.173] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:02.174] [DEBUG] default - {"signature":"8a54fa4654224f4b5716552efc0d1591","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"YGWoYg7L6rsm8MwjAAHJ"}}
+[2020-08-22T10:00:02.175] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:02.175] [DEBUG] default - {"signature":"a5851b11c9dd62a413aea0cd0dc9aa21","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"Ap9WSolRCFmUPWitAAHK"}}
+[2020-08-22T10:00:02.176] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:02.176] [DEBUG] default - {"signature":"0dcae32ac894b56bfdc4483b83db2488","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"DEy1B5XILad-U-0EAAHL"}}
+[2020-08-22T10:00:02.194] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:02.200] [DEBUG] default - db/executeSqlWithCon/request
+[2020-08-22T10:00:02.200] [DEBUG] default - {"signature":"8d54af8af7e62eec4d07b9fd938e0f20","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"sql":"select * from v_billType_status_gather where tenantId=? and status=? or status=?","params":["CMBC_GZ",0,1],"id":"79rPGPlMRSfk9q9lAAHI"}}
+[2020-08-22T10:00:02.220] [DEBUG] default - db/executeSqlWithCon/response
+[2020-08-22T10:00:02.233] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:02.237] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:02.250] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:02.270] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:02.270] [DEBUG] default - {"signature":"d6a6c7ccfa8e8e59f52068d828aa8b63","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"inventory","query":{"tenantId":{"tenantId":"CMBC_GZ"}},"fields":{"status":1},"dataContent":null,"id":"DEy1B5XILad-U-0EAAHL"}}
+[2020-08-22T10:00:02.275] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:02.275] [DEBUG] default - {"signature":"75c804b077853f4148e320e0b6b61b5d","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"base_archive_status","query":{"tenantId":{"tenantId":"CMBC_GZ"}},"fields":{"archiveStatus":1,"archiveStatusDesc":1},"dataContent":null,"id":"Ap9WSolRCFmUPWitAAHK"}}
+[2020-08-22T10:00:02.279] [DEBUG] default - db/executeSqlWithCon/request
+[2020-08-22T10:00:02.279] [DEBUG] default - {"signature":"2471e36e29caed60f1c3b57113548bec","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"sql":"select * from v_billType_status_gather where tenantId=? and status=? and selectTime>? and selectTime<?","params":["CMBC_GZ",2,"2020-08-15 10:00:02","2020-08-22 10:00:02"],"id":"YGWoYg7L6rsm8MwjAAHJ"}}
+[2020-08-22T10:00:02.291] [DEBUG] default - db/executeObjWithCon/response
+[2020-08-22T10:00:02.299] [DEBUG] default - db/executeObjWithCon/response
+[2020-08-22T10:00:02.308] [DEBUG] default - db/executeSqlWithCon/response
+[2020-08-22T10:00:02.445] [DEBUG] default - db/getConnection/request
+[2020-08-22T10:00:02.445] [DEBUG] default - {"signature":"9328f0959d9d2a8ff85862e8203076e0","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"id":"OPsop_Qj2vyZWulMAAHM"}}
+[2020-08-22T10:00:02.465] [DEBUG] default - db/getConnection/response
+[2020-08-22T10:00:02.467] [DEBUG] default - db/executeObjWithCon/request
+[2020-08-22T10:00:02.467] [DEBUG] default - {"signature":"03a076a9b76eaed2ed1d2059cf1ec913","access_token":"f51dd788ba94ce0748be306acd955246","userId":"admin","body":{"operate":"query","tableName":"base_archive","query":{"tenantId":{"tenantId":"CMBC_GZ"}},"fields":{"archiveStatus":1},"dataContent":null,"id":"OPsop_Qj2vyZWulMAAHM"}}
+[2020-08-22T10:00:02.488] [DEBUG] default - db/executeObjWithCon/response
