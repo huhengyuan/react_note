@@ -34,9 +34,7 @@ module.exports = {
         // user: current_config.send_email_config.user,
         // pass: current_config.send_email_config.pass,
         "host": "smtp.qq.com",
-        "port": 465,
-        "user": "1992395918@qq.com",
-        "pass": "jjzdbvveizulegfb"
+        "port": 465
     },
     // 邮件推送计划：
     push_email_config: {

@@ -16,9 +16,8 @@
     },
     "send_email_config": {
         "host": "smtp.qq.com",
-        "port": 465,
-        "user": "2574650379@qq.com",
-        "pass": "voqndjaqhrmadihg"
+        "port": 465
+        
     },
     "upload_file_path": ""
 }

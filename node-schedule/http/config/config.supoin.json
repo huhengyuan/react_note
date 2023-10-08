@@ -16,9 +16,7 @@
     },
     "send_email_config": {
         "host": "smtphz.qiye.163.com",
-        "port": 994,
-        "user": "RFID@genuine-opto.com",
-        "pass": "Hgtech2022asset="
+        "port": 994
     },
     "upload_file_path": ""
 }
