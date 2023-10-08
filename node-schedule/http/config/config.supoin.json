@@ -1,0 +1,24 @@
+{
+    "isOpenConsoleLog": false,
+    "server_config": {
+        "port": 6205
+    },
+    "db_config": {
+        "host": "iot.supoin.com",
+        "port": 3306,
+        "dbbase": "iot.asset.hgtech",
+        "user": "supoin",
+        "password": "SupoinSz2020@"
+    },
+    "socket_client_config": {
+        "host":"iot.supoin.com",
+        "port": 6202
+    },
+    "send_email_config": {
+        "host": "smtphz.qiye.163.com",
+        "port": 994,
+        "user": "RFID@genuine-opto.com",
+        "pass": "Hgtech2022asset="
+    },
+    "upload_file_path": ""
+}

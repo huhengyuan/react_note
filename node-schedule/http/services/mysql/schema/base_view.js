@@ -1,0 +1,252 @@
+const { sequelize, DataTypes } = require('../connect')
+const dayjs = require('dayjs')
+const { defineView, } = require('./schema.common')
+
+module.exports = {
+    v_user_list: defineView('v_user_list', {
+        tenantName: DataTypes.STRING(50),
+        orgId: DataTypes.STRING(20),
+        orgName: DataTypes.STRING(50),
+        employeeId: DataTypes.STRING(20),
+        employeeName: DataTypes.STRING(50),
+        telNo: DataTypes.STRING(20),
+        email: DataTypes.STRING(50),
+        userId: DataTypes.STRING(20),
+        password: DataTypes.STRING(50),
+        roleId: DataTypes.STRING(50),
+        roleName: DataTypes.STRING(50),
+        type: DataTypes.STRING(50),
+        isOpenMsgBox: {
+            type: DataTypes.STRING(20), allowNull: false, defaultValue: 'false'
+        },
+        isAdmin: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 0 },
+        status: DataTypes.INTEGER,
+        latestLoginTime: {
+            type: DataTypes.DATE,
+            get() {
+                return this.getDataValue('latestLoginTime') ? dayjs(this.getDataValue('latestLoginTime')).format('YYYY-MM-DD HH:mm:ss') : ''
+            }
+        },
+        loginCount: DataTypes.INTEGER,
+    }),
+    v_role_page: defineView('v_role_page', {
+        roleId: DataTypes.STRING(20),
+        pageId: DataTypes.STRING(20),
+        pageName: DataTypes.STRING(50),
+        pageDesc: DataTypes.STRING(50),
+        parentId: DataTypes.STRING(20),
+        level: DataTypes.STRING(20),
+        order: DataTypes.STRING(20),
+        visible: DataTypes.INTEGER,
+        canAdd: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有新增权限" },
+        canDelete: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有删除权限" },
+        canUpdate: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有修改权限" },
+        canImport: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有导入权限" },
+        canExport: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有导出权限" },
+        canUpload: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有上传附件权限" },
+        canDeleteAttachment: { type: DataTypes.INTEGER, allowNull: false, comment: "是否有删除附件权限" },
+    }),
+    v_org_list: defineView('v_org_list', {
+        tenantName: DataTypes.STRING(50),
+        orgId: DataTypes.STRING(20),
+        orgName: DataTypes.STRING(50),
+        parentId: DataTypes.STRING(20),
+        level: DataTypes.STRING(20),
+    }),
+    v_employee_list: defineView('v_employee_list', {
+        orgId: DataTypes.STRING(20),
+        orgName: DataTypes.STRING(50),
+        employeeId: DataTypes.STRING(20),
+        employeeName: DataTypes.STRING(50),
+        telNo: DataTypes.STRING(50),
+        email: DataTypes.STRING(50),
+        status: DataTypes.STRING(10)
+    }),
+    v_role_table_fields: defineView('v_role_table_fields', {
+        roleId: { type: DataTypes.STRING(50), allowNull: false, },
+        tableId: { type: DataTypes.STRING(50), allowNull: false, },
+        tableName: { type: DataTypes.STRING(50), allowNull: false, },
+        fieldId: { type: DataTypes.STRING(50), allowNull: false, },
+        fieldName: { type: DataTypes.STRING(50), allowNull: false, },
+        order: { type: DataTypes.INTEGER, allowNull: false, },
+        isOpen: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 1, },
+        canVisible: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 1, },
+        width: { type: DataTypes.INTEGER, allowNull: false, defaultValue: 200, comment: '字段长度' },
+        required: { type: DataTypes.STRING(50), allowNull: false, default: 'true' },
+        isOnlyAdmin: { type: DataTypes.INTEGER, allowNull: false, default: 0 },
+    }),
+    v_factory_sensors: defineView('v_factory_sensors', {
+        factoryId: { type: DataTypes.STRING(50), allowNull: false, comment: '厂区编号' },
+        factoryName: { type: DataTypes.STRING(50), allowNull: false, comment: '厂区名称' },
+        sensorId: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机编号' },
+        sensorName: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机名称' },
+        sensorType: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机类型' },
+        status: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机在线状态' },
+    }),
+    v_pandian_detail: defineView('v_pandian_detail', {
+        billNo: { type: DataTypes.STRING(50), allowNull: false, comment: '盘点单据号' },
+        detailType: { type: DataTypes.STRING(50), allowNull: false, comment: '盘点类型' },
+        sensorId: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机编号' },
+        sensorName: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机名称' },
+        epc: { type: DataTypes.STRING(50), allowNull: false, comment: '标签号' },
+        pdTime: {
+            type: DataTypes.STRING(50), allowNull: false, comment: '盘点时间',
+            get() {
+                return this.getDataValue('latestLoginTime') ? dayjs(this.getDataValue('latestLoginTime')).format('YYYY-MM-DD HH:mm:ss') : ''
+            }
+        },
+
+        assetId: { type: DataTypes.STRING(50), allowNull: false, comment: '资产编号' },
+        assetName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产名称' },
+        epc: { type: DataTypes.STRING(50), allowNull: true, comment: 'epc' },
+        outFactoryNo: { type: DataTypes.STRING(50), allowNull: true, comment: '出厂编号' },
+        spec: { type: DataTypes.STRING(50), allowNull: false, comment: '规格型号' },
+        ownOrgName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产部门' },
+        responsible: { type: DataTypes.STRING(50), allowNull: false, comment: '责任人' },
+        factoryName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产位置，厂区' },
+        outFactoryNo: { type: DataTypes.STRING(100), allowNull: false, comment: '出厂编号' },
+    }),
+    v_alarm_log: defineView('v_alarm_log', {
+        alarmType: { type: DataTypes.STRING(50), allowNull: false, comment: '报警类型' },
+        alarmTime: {
+            type: DataTypes.DATE, allowNull: false, comment: '报警时间',
+            get() {
+                return this.getDataValue('alarmTime') ? dayjs(this.getDataValue('alarmTime')).format('YYYY-MM-DD HH:mm:ss') : ''
+            },
+        },
+        assetId: { type: DataTypes.STRING(50), allowNull: false, comment: '资产编号' },
+        assetName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产名称' },
+        epc: { type: DataTypes.STRING(50), allowNull: true, comment: 'epc' },
+        spec: { type: DataTypes.STRING(50), allowNull: false, comment: '规格型号' },
+        ownOrgName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产部门' },
+        responsible: { type: DataTypes.STRING(50), allowNull: false, comment: '责任人' },
+        factoryName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产所属厂区' },
+        sensorId: { type: DataTypes.STRING(100), allowNull: false, comment: '信息机编号' },
+        sensorName: { type: DataTypes.STRING(100), allowNull: true, comment: '信息机名称' },
+        curFactoryName: { type: DataTypes.STRING(100), allowNull: false, comment: '当前资产所在厂区' },
+    }),
+    v_sensor_factory_epc: defineView('v_sensor_factory_epc', {
+        sensorId: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机编号' },
+        sensorName: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机名称' },
+        status: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机在线状态' },
+        factoryId: { type: DataTypes.STRING(50), allowNull: false, comment: '所属厂区ID' },
+        factoryName: { type: DataTypes.STRING(50), allowNull: false, comment: '厂区名称' },
+        assetId: { type: DataTypes.STRING(50), allowNull: false, comment: '资产编号' },
+        assetName: { type: DataTypes.STRING(50), allowNull: false, comment: '资产名称' },
+        epc: { type: DataTypes.STRING(50), allowNull: true, comment: 'epc' },
+    }, { tableDesc: '资产报警明细' }),
+    v_asset_scrap: defineView('v_asset_scrap', {
+        billNo: { type: DataTypes.STRING(50), allowNull: true, comment: '单据编号' },
+        "assetId": { type: DataTypes.STRING(50), allowNull: false, comment: '资产编号' },
+        assetName: { type: DataTypes.STRING(50), allowNull: true, comment: '资产名称' },
+        ownOrgName: { type: DataTypes.STRING(50), allowNull: true, comment: '资产部门' },
+        responsible: { type: DataTypes.STRING(50), allowNull: true, comment: '责任人' },
+        warranty: { type: DataTypes.STRING(50), allowNull: true, comment: '保修期' },
+        inFactoryDate: {
+            type: DataTypes.DATE, allowNull: true, defaultValue: new Date(), comment: '进厂时间',
+            get() {
+                return this.getDataValue('inFactoryDate') ? dayjs(this.getDataValue('inFactoryDate')).format('YYYY-MM-DD HH:mm:ss') : ''
+            },
+        },
+        epc: { type: DataTypes.STRING(50), allowNull: true, comment: 'epc' },
+        outFactoryNo: { type: DataTypes.STRING(50), allowNull: true, comment: '出厂编号' },
+        spec: { type: DataTypes.STRING(50), allowNull: true, comment: '规格型号' },
+        status: { type: DataTypes.STRING(50), allowNull: true, comment: '资产状态' },
+        maintainType: { type: DataTypes.STRING(50), allowNull: true, comment: '分为A类和B类，新增默认为A类' },
+        measureType: { type: DataTypes.STRING(50), allowNull: true, comment: '分为非计量、计量A类、计量B类、计量C类，新增默认为非计量' },
+        attachAssetName: { type: DataTypes.STRING(50), allowNull: true, comment: '附属资产' },
+        attachAssetId: { type: DataTypes.STRING(50), allowNull: true, comment: '附属资产编号' },
+        factoryName: { type: DataTypes.STRING(50), allowNull: true, comment: '所属厂区，即资产位置' },
+        initialValue: { type: DataTypes.STRING(50), allowNull: true, comment: '资产原值' },
+        durableYears: { type: DataTypes.STRING(50), allowNull: true, comment: '折旧期数' },
+        oldNetValue: { type: DataTypes.STRING(50), allowNull: true, comment: '折旧净值' },
+        agent: { type: DataTypes.STRING(50), allowNull: true, comment: '代理商' },
+        manufacturers: { type: DataTypes.STRING(50), allowNull: true, comment: '制造厂家' },
+        purchaseNo: { type: DataTypes.STRING(50), allowNull: true, comment: '采购编号' },
+        materialNo: { type: DataTypes.STRING(50), allowNull: true, comment: '资料编号' },
+        originZYNo: { type: DataTypes.STRING(50), allowNull: true, comment: '原zy编号' },
+        className: { type: DataTypes.STRING(50), allowNull: true, comment: '资产类型' },
+        fangchaiAlert: { type: DataTypes.STRING(50), allowNull: true, comment: '资产防拆提醒' },
+        isBindMenjin: { type: DataTypes.INTEGER, allowNull: true, comment: '是否绑定门禁' },
+        lowVoltage: { type: DataTypes.STRING(50), allowNull: true, comment: '欠压告警，值为：欠压、正常' },
+        disposalMoney: { type: DataTypes.STRING(100), allowNull: false, comment: '处置金额' },
+        attachmentQty: { type: DataTypes.INTEGER, allowNull: true, comment: '附件数量', defaultValue: 0 },
+        suggestion: {
+            type: DataTypes.STRING(1000), allowNull: false, comment: '闲置处理意见'
+        },
+        "applyPerson": { type: DataTypes.STRING(100), allowNull: false, comment: '申请人,即处置责任人' },
+    }),
+    v_asset_bind_menjin: defineView('v_asset_bind_menjin', {
+        assetId: { type: DataTypes.STRING(50), allowNull: false, comment: '资产编号' },
+        assetName: { type: DataTypes.STRING(50), allowNull: true, comment: '资产名称' },
+        sensorId: { type: DataTypes.STRING(100), allowNull: false, comment: '标签读取器' },
+        sensorName: { type: DataTypes.STRING(50), allowNull: false, comment: '信息机名称' },
+        epc: { type: DataTypes.STRING(50), allowNull: true, comment: 'epc' },
+        expiredTime: {
+            type: DataTypes.DATE, allowNull: true, defaultValue: new Date(), comment: '门禁过期时间',
+            get() {
+                return this.getDataValue('expiredTime') ? dayjs(this.getDataValue('expiredTime')).format('YYYY-MM-DD HH:mm:ss') : ''
+            },
+        },
+    }),
+    v_bill_maintain_detail: defineView('v_bill_maintain_detail', {
+        "billNo": { type: DataTypes.STRING(100), allowNull: false, comment: '单据编号' },
+        "assetName": { type: DataTypes.STRING(100), allowNull: false, comment: '资产名称' },
+        "assetId": { type: DataTypes.STRING(100), allowNull: false, comment: '资产编号' },
+        spec: { type: DataTypes.STRING(100), allowNull: true, comment: '规格型号' },
+        "ownOrgName": { type: DataTypes.STRING(100), allowNull: false, comment: '所属部门' },
+        applyPerson: { type: DataTypes.STRING(100), allowNull: true, comment: '维护责任人' },
+        maintainTime: { type: DataTypes.STRING(50), allowNull: true, comment: '维护时间', },
+        nextMaintainTime: { type: DataTypes.STRING(50), allowNull: true, comment: '下次维护时间', },
+        period: { type: DataTypes.STRING(100), allowNull: true, },
+        maintainContent: { type: DataTypes.STRING(1000), allowNull: true, },
+        status: { type: DataTypes.STRING(50), allowNull: true, comment: '资产状态' },
+    }),
+    v_bill_measure_detail: defineView('v_bill_measure_detail', {
+        "billNo": { type: DataTypes.STRING(100), allowNull: false, comment: '单据编号' },
+        "assetName": { type: DataTypes.STRING(100), allowNull: false, comment: '资产名称' },
+        "assetId": { type: DataTypes.STRING(100), allowNull: false, comment: '资产编号' },
+        spec: { type: DataTypes.STRING(100), allowNull: true, comment: '规格型号' },
+        assetAttr: { type: DataTypes.STRING(100), allowNull: true, comment: '资产属性' },
+        "outFactoryNo": { type: DataTypes.STRING(50), allowNull: false, comment: '出厂编号' },
+        "responsible": { type: DataTypes.STRING(50), allowNull: false, comment: '责任人' },
+        "ownOrgName": { type: DataTypes.STRING(100), allowNull: false, comment: '所属部门' },
+        applyPerson: { type: DataTypes.STRING(100), allowNull: true, comment: '申请人' },
+
+        "measureType": { type: DataTypes.STRING(100), allowNull: false, comment: '计量类型' },
+        "correctTime": { type: DataTypes.STRING(50), allowNull: false, comment: '本次校正日期', },
+        correctResult: { type: DataTypes.STRING(1000), allowNull: true, comment: '校准结果' },
+        nextCorrectTime: { type: DataTypes.STRING(50), allowNull: true, comment: '下次校正日期', },
+        period: { type: DataTypes.STRING(100), allowNull: true, comment: '周期' },
+        correctBie: { type: DataTypes.STRING(100), allowNull: true, comment: '校正别' },
+        status: { type: DataTypes.STRING(50), allowNull: true, comment: '资产状态' },
+    }),
+    v_asset_maintain: defineView('v_asset_maintain', {
+        "assetId": { type: DataTypes.STRING(50), allowNull: false, comment: '资产编号' },
+        assetName: { type: DataTypes.STRING(50), allowNull: true, comment: '资产名称' },
+        ownOrgName: { type: DataTypes.STRING(50), allowNull: true, comment: '资产部门' },
+        status: { type: DataTypes.STRING(50), allowNull: true, comment: '资产状态' },
+        spec: { type: DataTypes.STRING(50), allowNull: true, comment: '规格型号' },
+    }),
+    v_asset_meta_data: defineView('v_asset_meta_data', {
+        "type": { type: DataTypes.STRING(50), allowNull: false, comment: '元数据类型' },
+        "tValue": { type: DataTypes.STRING(50), allowNull: true, comment: '元数据值' },
+    }),
+    // 统计台账资产数据的视图：
+    v_count_all_tenant_asset: defineView('v_count_all_tenant_asset', {
+        "tenantId": { type: DataTypes.STRING(50), allowNull: false, comment: '租户编号' },
+        "dimension": { type: DataTypes.STRING(50), allowNull: true, comment: '统计维度，例如部门、生成厂家、购买年限' },
+        "dValue": { type: DataTypes.STRING(50), allowNull: true, comment: '具体的维度值' },
+        "qty": { type: DataTypes.STRING(50), allowNull: true, comment: '数量' },
+        "oldNetValue": { type: DataTypes.STRING(50), allowNull: true, comment: '折旧净值' },
+    }),
+    // 按设备厂商统计故障率：
+    v_count_manufacturers_fault_rate: defineView('v_count_manufacturers_fault_rate',{
+        "tenantId": { type: DataTypes.STRING(50), allowNull: false, comment: '租户编号' },
+        "year": { type: DataTypes.STRING(50), allowNull: false, comment: '年' },
+        "manufacturers": { type: DataTypes.STRING(50), allowNull: false, comment: '供应商' },
+        "source": { type: DataTypes.STRING(50), allowNull: false, comment: '数据来源' },
+        "faultType": { type: DataTypes.STRING(50), allowNull: false, comment: '故障类别' },
+        "qty": { type: DataTypes.STRING(50), allowNull: false, comment: '数量' },
+    }),
+}
