@@ -9,8 +9,9 @@ const dataContent = {
 }
 
 let obj = Object.keys(dataContent).reduce((acc, key, index, array) => {
-    if(dataContent[key] === 0){
-        delete dataContent[key]
-    }
+    // if(dataContent[key] === 0){
+    //     delete dataContent[key]
+    // }
+    console.log(acc, key, index, array)
     return acc;
 }, {})
